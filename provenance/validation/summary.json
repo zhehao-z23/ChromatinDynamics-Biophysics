@@ -1,0 +1,15 @@
+{
+  "scientific_tests_passed": 159,
+  "cli_help_passed": 21,
+  "python_files_parsed": 81,
+  "unchanged_scientific_modules": 30,
+  "active_config_matches_source": true,
+  "author_document_links_broken": [],
+  "rouse_table_shape": [
+    31,
+    25,
+    501
+  ],
+  "source_records": 223,
+  "workflow_path_isolation_tests_passed": 6
+}

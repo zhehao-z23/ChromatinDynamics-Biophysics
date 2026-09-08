@@ -1,0 +1,52 @@
+time_resolved_physics:
+  # Frozen from the user's 2026-08-23 confirmation.  This is a pooling
+  # assumption, not a claim that acquisition cadence or movie length is equal.
+  same_experimental_batch: true
+  batch_effect_model: none
+  acquisition_role: provenance_and_support_diagnostic_only
+  macro_time_group: hour_post_delivery
+  within_hour_weighting: equal_trajectory_or_bundle
+  coordinate_interpolation: prohibited
+  min_pairs_per_unit_lag: 8
+  max_lag_frames_cap: 50
+  max_lag_nominal_fraction: 0.25
+  physical_lag_bin_centers_s: [1, 1.5, 2, 3, 5, 7.5, 10, 15, 20, 30, 40, 50, 75, 100, 150, 200, 300, 500]
+  common_descriptive_fit_window_s: [10, 50]
+  minimum_fit_lag_points: 5
+  minimum_fit_time_span_fold: 4.0
+  primary_velocity_delta_target_s: 10.0
+  primary_velocity_delta_allowed_s: [7.5, 12.5]
+  oligo_livefish_delta_frames: [1, 2, 4, 8]
+  bootstrap_iterations: 500
+  bootstrap_seed: 20260823
+
+oligo_vac:
+  target_delta_s: [10, 20, 40]
+  delta_relative_tolerance: 0.25
+  maximum_scaled_lag: 2.5
+  minimum_velocity_pairs: 8
+  minimum_hour_bin_units_for_display: 8
+  raw_lag_bin_centers_s: [0, 5, 10, 15, 20, 30, 40, 50, 60, 80, 100]
+  scaled_lag_bin_centers: [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5]
+  alpha_bounds: [0.25, 1.0]
+  bootstrap_iterations: 300
+  bootstrap_seed: 20260824
+  raw_lag_plot_limit_s: 100
+
+oligo_vcc:
+  target_delta_s: [10, 20, 40]
+  delta_relative_tolerance: 0.25
+  maximum_scaled_lag: 2.5
+  minimum_velocity_pairs: 8
+  minimum_hour_bin_units_for_fit: 8
+  scaled_lag_bin_centers: [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5]
+  # The supplied corrected WLS reference fixes the viscoelastic Rouse exponent
+  # at 0.9.  Keeping it fixed makes communication-time comparisons across
+  # folder-hours interpretable; other alpha values are sensitivity analyses.
+  rouse_alpha_fixed: 0.9
+  rouse_alpha_sensitivity: [0.7, 0.8, 0.9, 1.0]
+  communication_time_bounds_s: [1, 1000]
+  bootstrap_iterations: 200
+  bootstrap_seed: 20260824
+
+

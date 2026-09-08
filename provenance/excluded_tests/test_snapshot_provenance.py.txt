@@ -1,0 +1,31 @@
+def test_run_provenance_binds_archive_manifest_and_snapshot_controls(tmp_path: Path) -> None:
+    config, root, layout = _immutable_snapshot_fixture(tmp_path)
+    source_payload = json.loads((root / "source_hashes.json").read_text(encoding="utf-8"))
+    reconciliation = json.loads((root / "snapshot_reconciliation.json").read_text(encoding="utf-8"))
+    snapshot_result = SimpleNamespace(
+        root=root,
+        source_hashes_path=root / "source_hashes.json",
+        summary={
+            **reconciliation,
+            "snapshot_access": "verified_reuse",
+            "snapshot_identity": source_payload["snapshot_identity"],
+            "archive_manifest": next(
+                record
+                for record in source_payload["source_indexes"]
+                if record["role"] == "archive_manifest"
+            ),
+        },
+    )
+    run_root = Path(config["_project_root"]) / "results" / "run_1"
+    run_root.mkdir(parents=True)
+    table = _write(run_root / "tables" / "synthetic.parquet", b"table\n")
+
+    payload = run._snapshot_data_hashes(snapshot_result, {"synthetic": table}, run_root)
+
+    archive_record = next(
+        record for record in payload["source_indexes"] if record["role"] == "archive_manifest"
+    )
+    assert archive_record["bytes"] == layout.archive_manifest.stat().st_size
+    assert archive_record["sha256"] == sha256_file(layout.archive_manifest)
+    assert payload["snapshot_artifacts"] == snapshot.snapshot_control_artifact_hashes(root)
+    assert payload["snapshot_identity"] == source_payload["snapshot_identity"]

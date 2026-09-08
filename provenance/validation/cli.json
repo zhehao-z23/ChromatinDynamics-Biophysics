@@ -1,0 +1,110 @@
+{
+  "parsed": 80,
+  "cli": [
+    {
+      "file": "20_build_v521_intake.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "21_build_v521_unfiltered_cache.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "22_build_v521_pair_galleries.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "23_build_v521_time_resolved_physics.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "24_build_v521_shared_frame_separation_500nm.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "25_select_v521_complete_pair_cases.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "26_select_v521_complete_pair_cases_without_t5_t10.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "28_build_v521_case_study_multichannel_review.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "29_rank_v521_t4_msd_extremes.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "37_build_v521_final_msd_visualization.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "38_build_v521_oligo_vac.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "39_build_v521_oligo_vcc.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "40_build_v521_vac_vcc_visual_candidates.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "41_archive_v521_trajectory_csvs.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "42_build_v521_separation_final_ppt.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "43_build_v521_msd_3h_alpha_top_cases.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "44_build_v521_msd_3h_alpha_bottom_cases_and_clean_hour_plot.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "45_build_v521_mscd10_top4_cases.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "46_build_v521_mscd10_macro_time_clean.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "47_build_v521_vac_fbm_best_worst_panel.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "run_pipeline.py",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "population_input": "frozen v5.2.1 unfiltered time-resolved physics v2 tables",
+  "population_unit": "trajectory; time-average first, then equal-trajectory hour mean",
+  "representative_hours": [
+    1.5,
+    3.0,
+    10.0
+  ],
+  "fit_model": "raw MSD(tau)=A*tau^alpha without localization or motion-blur correction",
+  "fit_window_s": [
+    10.0,
+    50.0
+  ],
+  "uncertainty": {
+    "raw_curve": "between-trajectory sample SD",
+    "whole_window_trend": "crop-cluster bootstrap 95% CI"
+  },
+  "whole_window_endpoint": "mean of the fitted MSD curve over d(log lag) from 10 to 50 s; units remain um^2",
+  "case_scope": "previously frozen 100%-coverage Site1/Site2 paired cohort after exclusion of acquisitions with only 5 or 10 movie frames",
+  "case_fit_support": {
+    "primary_hour": 3.0,
+    "minimum_pairs_per_lag": 8,
+    "minimum_fit_lags": 5,
+    "minimum_span_fold": 4.0,
+    "minimum_r2": 0.9,
+    "targets": [
+      {
+        "case_id": "alpha1",
+        "target_alpha": 1.0
+      },
+      {
+        "case_id": "alpha05",
+        "target_alpha": 0.5
+      }
+    ]
+  },
+  "case_selection_role": "visual case study only; not a new population endpoint",
+  "coordinate_interpolation": false,
+  "excluded_case_filters": [
+    "motion",
+    "separation",
+    "53BP1",
+    "manual appearance"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\42_build_v521_separation_final_ppt.py",
+      "bytes": 2439,
+      "sha256": "34d76d2fcb706d5b070c3315a60161bfdfdcd950fc6930caa69c8941f412060d"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_separation_final_ppt.py",
+      "bytes": 20099,
+      "sha256": "4a283a51e62a2ce89a51decff0c725004339fedeb89fc41d4acf702200445d4e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_shared_frame_separation.py",
+      "bytes": 41955,
+      "sha256": "94e3689876af9d5326f5faebf7a95bcff96021e95f5b844162bbd9d100c398d0"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\plots.py",
+      "bytes": 33509,
+      "sha256": "def3005bab2db39068c4e02870faeb9741d3edc5c9e0d7ef6b491d0589020e23"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "figures/fig_site1_site2_separation_final_ppt.pdf",
+      "bytes": 58784,
+      "sha256": "0f7d0c39fa56eb7a2dd30b3f413b0d0e4ea5d03d10d5b4e62468b6e8b88dfee2"
+    },
+    {
+      "path": "figures/fig_site1_site2_separation_final_ppt.png",
+      "bytes": 463573,
+      "sha256": "cb92fced2458dbbae9f353eb3e7b24ec8792a40153a3a904c045f59f04558ea1"
+    },
+    {
+      "path": "figures/fig_site1_site2_separation_final_ppt.svg",
+      "bytes": 60289,
+      "sha256": "b8946fd8eb315aaf61db642928f07ef2f776a6037f2d3b64c8c0f2a0890c19e2"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 1783,
+      "sha256": "8c879b9c525aa6a0908f7eeb2d2ea76d93bdeeabd25259b2418aa2431beb2ecd"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 1051,
+      "sha256": "d2ee11585dc312558393fbac72b8f1a4d2bfedbb0e60ac5a833ae996a7e0daa4"
+    },
+    {
+      "path": "tables/hour_mean_sd_significance_vs_1p5h.csv",
+      "bytes": 1468,
+      "sha256": "223a49d4f841d9a264a6c5f635f1e19f79775abf021ed997584744714219757f"
+    },
+    {
+      "path": "tables/hour_threshold_summary.csv",
+      "bytes": 1189,
+      "sha256": "6adb604e5c6cb992ef4bbe07e5a756054b2dce4a4721d0406f443984895630db"
+    }
+  ]
+}

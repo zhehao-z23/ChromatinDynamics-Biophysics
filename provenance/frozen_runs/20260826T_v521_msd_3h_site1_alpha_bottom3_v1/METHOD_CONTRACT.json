@@ -1,0 +1,25 @@
+{
+  "case_selection": {
+    "cohort": "frozen 100%-coverage cohort after excluding 5/10-frame acquisitions",
+    "hour_post_delivery": 3.0,
+    "ranking_site": "site1",
+    "ranking": "ascending raw-MSD alpha",
+    "bottom_n": 3,
+    "minimum_r2": 0.9,
+    "excluded_variables": [
+      "appearance",
+      "distance",
+      "motion amplitude",
+      "53BP1"
+    ]
+  },
+  "alpha_hour_figure": {
+    "source": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\fits.csv",
+    "excluded_display_hour": 5.0,
+    "removed_elements": [
+      "title",
+      "lower-right explanatory annotation"
+    ],
+    "fit_values_or_intervals_recomputed": false
+  }
+}

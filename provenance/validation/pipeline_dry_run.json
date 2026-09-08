@@ -1,0 +1,144 @@
+[
+  {
+    "stage": "qc",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\22_build_v521_pair_galleries.py",
+      "--cache",
+      "X:\\data\\cache",
+      "--output-dir",
+      "X:\\results\\new_run\\qc"
+    ]
+  },
+  {
+    "stage": "physics",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\23_build_v521_time_resolved_physics.py",
+      "--cache",
+      "X:\\data\\cache",
+      "--config",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\config\\physics.yaml",
+      "--output-dir",
+      "X:\\results\\new_run\\physics"
+    ]
+  },
+  {
+    "stage": "selection",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\26_select_v521_complete_pair_cases_without_t5_t10.py",
+      "--cache",
+      "X:\\data\\cache",
+      "--output-dir",
+      "X:\\results\\new_run\\selection"
+    ]
+  },
+  {
+    "stage": "msd",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\37_build_v521_final_msd_visualization.py",
+      "--physics-run",
+      "X:\\results\\new_run\\physics",
+      "--complete-pair-csv",
+      "X:\\results\\new_run\\selection\\tables\\eligible_complete_pair_trajectory_summary.csv",
+      "--config",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\config\\v521_final_msd_visualization.json",
+      "--output-dir",
+      "X:\\results\\new_run\\msd"
+    ]
+  },
+  {
+    "stage": "vac",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\38_build_v521_oligo_vac.py",
+      "--cache",
+      "X:\\data\\cache",
+      "--config",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\config\\physics.yaml",
+      "--msd-fits",
+      "X:\\results\\new_run\\physics\\tables\\fits.csv",
+      "--reference-vvcf-dir",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\references\\rouse",
+      "--reference-readme-pdf",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\references\\Read_Me.pdf",
+      "--output-dir",
+      "X:\\results\\new_run\\vac"
+    ]
+  },
+  {
+    "stage": "vcc",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\39_build_v521_oligo_vcc.py",
+      "--cache",
+      "X:\\data\\cache",
+      "--config",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\config\\physics.yaml",
+      "--empirical-reference-dir",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\references\\empirical",
+      "--vvcf-reference-dir",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\references\\rouse",
+      "--reference-readme-pdf",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\references\\Read_Me.pdf",
+      "--output-dir",
+      "X:\\results\\new_run\\vcc"
+    ]
+  },
+  {
+    "stage": "display",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\40_build_v521_vac_vcc_visual_candidates.py",
+      "--vac-result",
+      "X:\\results\\new_run\\vac",
+      "--vcc-result",
+      "X:\\results\\new_run\\vcc",
+      "--msd-fits",
+      "X:\\results\\new_run\\physics\\tables\\fits.csv",
+      "--output-dir",
+      "X:\\results\\new_run\\display"
+    ]
+  },
+  {
+    "stage": "separation",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\42_build_v521_separation_final_ppt.py",
+      "--cache",
+      "X:\\data\\cache",
+      "--threshold-nm",
+      "500",
+      "--multiple-testing",
+      "bonferroni",
+      "--output-dir",
+      "X:\\results\\new_run\\separation"
+    ]
+  },
+  {
+    "stage": "mscd-clean",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\46_build_v521_mscd10_macro_time_clean.py",
+      "--fits-table",
+      "X:\\results\\new_run\\physics\\tables\\fits.csv",
+      "--output-dir",
+      "X:\\results\\new_run\\mscd-clean"
+    ]
+  },
+  {
+    "stage": "vac-best-worst",
+    "command": [
+      "C:\\Users\\ZZH\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-08\\github-dsb-dynamics-analysis-core-brain\\outputs\\repositories\\ChromatinDynamics-Biophysics\\scripts\\47_build_v521_vac_fbm_best_worst_panel.py",
+      "--dense-vac-table",
+      "X:\\results\\new_run\\display\\tables\\vac_fine_display_means.csv",
+      "--consistency-table",
+      "X:\\results\\new_run\\vac\\tables\\vac_msd_consistency.csv",
+      "--output-dir",
+      "X:\\results\\new_run\\vac-best-worst"
+    ]
+  }
+]

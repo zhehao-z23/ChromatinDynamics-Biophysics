@@ -1,0 +1,256 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_index.parquet",
+      "bytes": 78140,
+      "sha256": "254bc650a4d1f92c39de316574365de8cb3bdf656a10bae16a99e33233b42460"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\analysis.yaml",
+      "bytes": 7494,
+      "sha256": "a403ba94461bb03200dcb972e438097dab073a71c47b591a2397743557d58f3f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v1\\tables\\unit_curves.parquet",
+      "bytes": 24617339,
+      "sha256": "649cb7f0f334225bddd2b91899d14a3ee1ffd58b8215ec5100275325af14b46f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v1\\tables\\vcc_unit_matrices.parquet",
+      "bytes": 18916793,
+      "sha256": "4c6245f51cf575cf08a9471263f57ac589e1b177602811b4fb1a510e4a5c39be"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v1\\tables\\metric_support_census.parquet",
+      "bytes": 210526,
+      "sha256": "5824664c74171391fc83fb647af788c6e3e501d42139b4a66615f016d2d87a2c"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "FIGURE_INDEX.md",
+      "bytes": 1139,
+      "sha256": "c1ce533312dc59aa0ec914df170ee715589abc233a6f9b1a2551badc54567e6e"
+    },
+    {
+      "path": "figures/fig_mscd_beta_by_hour.pdf",
+      "bytes": 43403,
+      "sha256": "4a71bd58d394aec270c1b27def0f73184056b383ae368c92fea59f0aab681f22"
+    },
+    {
+      "path": "figures/fig_mscd_beta_by_hour.png",
+      "bytes": 80897,
+      "sha256": "88482dd866579b88abf0a92112a08377b68d0e279f36368c7fc41a24df2e1580"
+    },
+    {
+      "path": "figures/fig_mscd_beta_by_hour.svg",
+      "bytes": 50561,
+      "sha256": "a4d973a46f40f30d60c09ee204155a3db903f18326aeb8f664295f455dabecfb"
+    },
+    {
+      "path": "figures/fig_mscd_curves_by_hour.pdf",
+      "bytes": 76345,
+      "sha256": "663d36889cec76701b15ec74958ff5a0f035e13ae051fde3460acfd92b7eb075"
+    },
+    {
+      "path": "figures/fig_mscd_curves_by_hour.png",
+      "bytes": 404146,
+      "sha256": "3393c59af82d95e07a3b63f2dcb84df881035fa39ce601741c2c2da0c5f14aa1"
+    },
+    {
+      "path": "figures/fig_mscd_curves_by_hour.svg",
+      "bytes": 231166,
+      "sha256": "713c7e5b1b3ecd83eb413313ea5045bd50b5d11a76a3e15651138d73f42c434e"
+    },
+    {
+      "path": "figures/fig_msd_alpha_by_hour.pdf",
+      "bytes": 43105,
+      "sha256": "461d054b0f34035165674fa8f7ceed0551bc747bf0d9193642424affaf7606f6"
+    },
+    {
+      "path": "figures/fig_msd_alpha_by_hour.png",
+      "bytes": 121498,
+      "sha256": "7cf72e0c0a4137d69b78c64033ab06259252cb861aeb8dbd7b55e66974cceb4b"
+    },
+    {
+      "path": "figures/fig_msd_alpha_by_hour.svg",
+      "bytes": 54672,
+      "sha256": "73bb4263fb61bc3b087e5deff94f7bb3a425dcde9a410bc89e0c707502d77da1"
+    },
+    {
+      "path": "figures/fig_msd_curves_by_hour.pdf",
+      "bytes": 92974,
+      "sha256": "9040e158286a7edc31052b15f7ad617c8ea92163b555d9c6ad1081c43a14d9cd"
+    },
+    {
+      "path": "figures/fig_msd_curves_by_hour.png",
+      "bytes": 527326,
+      "sha256": "bd83d601ff9b0168ab257505de20e320125924e9cd5ae81035b2ed63d2ef9f4b"
+    },
+    {
+      "path": "figures/fig_msd_curves_by_hour.svg",
+      "bytes": 292349,
+      "sha256": "344df5e4c9a9fc6effd0da0f5ba2d4d5ab2c6fe8a88fa77eea23b37d3537afbe"
+    },
+    {
+      "path": "figures/fig_vac_alpha_by_hour.pdf",
+      "bytes": 45203,
+      "sha256": "aadbe27623913e59a25738ba66465889a8bd62ae51d27ecbcbb262ef749c7325"
+    },
+    {
+      "path": "figures/fig_vac_alpha_by_hour.png",
+      "bytes": 130254,
+      "sha256": "337a89757ce42c9022c68dddd17f4b696d701bda2be2fcfebcc21a4f218e5515"
+    },
+    {
+      "path": "figures/fig_vac_alpha_by_hour.svg",
+      "bytes": 57574,
+      "sha256": "d4a633dc706da953e4db749a01517a78ccd429d19113a849869565f06bb6d611"
+    },
+    {
+      "path": "figures/fig_vcc_curves_by_hour.pdf",
+      "bytes": 64768,
+      "sha256": "912736dcc9090da53f91ce8785e02c336cb247c638892b5b5664040120072397"
+    },
+    {
+      "path": "figures/fig_vcc_curves_by_hour.png",
+      "bytes": 520716,
+      "sha256": "2834b81d3f40a60b4c41c3fb0a70db017b837eae07797253d0914d0c51cbd60e"
+    },
+    {
+      "path": "figures/fig_vcc_curves_by_hour.svg",
+      "bytes": 193823,
+      "sha256": "913bd4d20cf322cc517afd18f932afb4dd2a25b8c624ca932a2608d354f2c004"
+    },
+    {
+      "path": "figures/fig_vcc_descriptive_endpoints_by_hour.pdf",
+      "bytes": 50760,
+      "sha256": "48a786ca8ecf53cad2c194d6b4def568e9f9fa0441ad89d20d8dc5f12f7336ea"
+    },
+    {
+      "path": "figures/fig_vcc_descriptive_endpoints_by_hour.png",
+      "bytes": 245229,
+      "sha256": "a3158a1ce8d2717895b52dd8fe503ce4f3d70fa2764ced7fda33440e3ed01031"
+    },
+    {
+      "path": "figures/fig_vcc_descriptive_endpoints_by_hour.svg",
+      "bytes": 108384,
+      "sha256": "04db6ca446c59c2ada4ad827af182ac79ad7285d9dadc02f3c28dadf0f5e556d"
+    },
+    {
+      "path": "figures/vac_site1_matched_10s.pdf",
+      "bytes": 67438,
+      "sha256": "8f4443f023f305d77e1c58a730ff5914a227aa2f83ebfa02b44f4d964b3abc66"
+    },
+    {
+      "path": "figures/vac_site1_matched_10s.png",
+      "bytes": 548090,
+      "sha256": "5c11b79e605a3b862481807dd5cda53501f5d9d5ac3c8112259e8999a13603ee"
+    },
+    {
+      "path": "figures/vac_site1_matched_10s.svg",
+      "bytes": 197554,
+      "sha256": "d9396a44319211ee8d0774e17408232ec902f282a5d3230f657a27b39a563027"
+    },
+    {
+      "path": "figures/vac_site2_matched_10s.pdf",
+      "bytes": 67520,
+      "sha256": "91854bfb975a436ce3ba2ec858c550025b9a782c938316393008202689019b41"
+    },
+    {
+      "path": "figures/vac_site2_matched_10s.png",
+      "bytes": 550573,
+      "sha256": "64be04d27763dcbfa082b04427531ac5b21108c8b3981e082b0e402f3e1d4f61"
+    },
+    {
+      "path": "figures/vac_site2_matched_10s.svg",
+      "bytes": 198810,
+      "sha256": "2be4251630e167c3bf3583c092527eea19135f22033a1c975bff40a883c819c2"
+    },
+    {
+      "path": "FORMULAS_AND_METHODS.md",
+      "bytes": 3492,
+      "sha256": "8e93dee99ff9e1e921c0fd92b827fecc4d72992e6a6f5fd4136645c1c8ed1d05"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 2738,
+      "sha256": "4eacc76e4393ee861bdaec1d1fe5a462df3b23277749480e55af7ff38e7db186"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 2520,
+      "sha256": "57fa65f7b7121b273e4d46fdaf8db326e5f52b005933a7729a4eaec7be8025eb"
+    },
+    {
+      "path": "tables/fit_parameter_time_trends.csv",
+      "bytes": 2739,
+      "sha256": "b0af4baa5cbccee4493228d41654bb410858f356221804e16cf6862545f3f009"
+    },
+    {
+      "path": "tables/fits.csv",
+      "bytes": 39582,
+      "sha256": "0a3ad1612f4033e11567285b6f6051908b344dfab4f49f41319e1d010bf3694f"
+    },
+    {
+      "path": "tables/hour_curves.csv",
+      "bytes": 190962,
+      "sha256": "3a665aa0f04dc0f1247314e5b4069fa1774face14ca2a07a1a113a724f061682"
+    },
+    {
+      "path": "tables/hour_curves.parquet",
+      "bytes": 74342,
+      "sha256": "dd0a890f22c15478de115d56c3279cdeb3404012c8639af8a1d5eea75275ebed"
+    },
+    {
+      "path": "tables/metric_support_census.parquet",
+      "bytes": 210526,
+      "sha256": "5824664c74171391fc83fb647af788c6e3e501d42139b4a66615f016d2d87a2c"
+    },
+    {
+      "path": "tables/predicted_curves.parquet",
+      "bytes": 100249,
+      "sha256": "6d5c5ae14c209c6011dfc52ccc0cdf42c7db0f3e619596649c3c3cb685083ee8"
+    },
+    {
+      "path": "tables/primary_unit_lag_bins.parquet",
+      "bytes": 3647497,
+      "sha256": "5e611a9696530e271ad9c6235f03a7a6dee8969e2676a5d00c1a84985426b71d"
+    },
+    {
+      "path": "tables/support_by_hour.csv",
+      "bytes": 1336,
+      "sha256": "51cab0e84d5f038f4ef81c5d6a3a05bf6cdaebf5e447d7b652601bb5b7121f16"
+    },
+    {
+      "path": "tables/support_census_by_hour.csv",
+      "bytes": 4934,
+      "sha256": "b1d0e299229630428d7eacbf39ac34cede20b400216e669cbfbd2c9da600b2e5"
+    },
+    {
+      "path": "tables/unit_curves.parquet",
+      "bytes": 24617339,
+      "sha256": "649cb7f0f334225bddd2b91899d14a3ee1ffd58b8215ec5100275325af14b46f"
+    },
+    {
+      "path": "tables/vcc_matrix_hour_summary.parquet",
+      "bytes": 29679,
+      "sha256": "a5cfa2a1cef5086044efe81b0c0f4b90151b1d5cc5f90f887b65839c4c186d64"
+    },
+    {
+      "path": "tables/vcc_unit_matrices.parquet",
+      "bytes": 18916793,
+      "sha256": "4c6245f51cf575cf08a9471263f57ac589e1b177602811b4fb1a510e4a5c39be"
+    }
+  ]
+}

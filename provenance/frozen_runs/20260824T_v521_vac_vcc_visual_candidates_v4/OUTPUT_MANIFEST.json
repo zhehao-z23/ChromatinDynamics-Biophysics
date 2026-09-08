@@ -1,0 +1,169 @@
+{
+  "sources": [
+    {
+      "role": "vac_unit_curves",
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\tables\\unit_vac_curves.parquet",
+      "bytes": 8795100,
+      "sha256": "3b88ea897f2bc5856b941481df3ca26e95bac9ee18603a82c565c968aff46854"
+    },
+    {
+      "role": "vcc_unit_curves",
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\tables\\symmetric_unit_curves.parquet",
+      "bytes": 1996665,
+      "sha256": "1528d7d50045823a930e09ca189f0c8338a627878486f23df694eec15fabbccc"
+    },
+    {
+      "role": "vcc_predictions",
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\tables\\fit_predictions.csv",
+      "bytes": 27076,
+      "sha256": "fec2ca7ed2fa1a3c5b30622e08ac105aa25c627561b2b59fc0e66fb7b33b3772"
+    },
+    {
+      "role": "vcc_fits",
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\tables\\communication_time_fits.csv",
+      "bytes": 1691,
+      "sha256": "273f91d5bffa94d9c7f0b6c8ffe081f10406839dbaaad0f300387c579087448f"
+    },
+    {
+      "role": "msd_fits",
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\fits.csv",
+      "bytes": 39582,
+      "sha256": "0a3ad1612f4033e11567285b6f6051908b344dfab4f49f41319e1d010bf3694f"
+    },
+    {
+      "role": "script",
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\40_build_v521_vac_vcc_visual_candidates.py",
+      "bytes": 21464,
+      "sha256": "f0f5489a4a2d49845594edebacb0f88364cb67f0f21120bd26a844b7e676f271"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "FIGURE_INDEX.md",
+      "bytes": 1112,
+      "sha256": "e2a9ef05b7d4e2f08f35c21a8a41ba5ccd3419dd334c39639bf902149f405771"
+    },
+    {
+      "path": "figures/option_a_vcc_selected_hours_matlab_clean.pdf",
+      "bytes": 63915,
+      "sha256": "a1b3ae83c48d3dae52faad5a6fc09a4de42336ced8e6c27a2be92abd72b9b051"
+    },
+    {
+      "path": "figures/option_a_vcc_selected_hours_matlab_clean.png",
+      "bytes": 506384,
+      "sha256": "9463f0406f788c96d7946b31b91c07c254f7ff04d763e65ff42914b1668da18a"
+    },
+    {
+      "path": "figures/option_a_vcc_selected_hours_matlab_clean.svg",
+      "bytes": 138436,
+      "sha256": "6a4ae8e858cba8b720feb365bc20724008f08ffd78bf8e11d6b9722d2e755b08"
+    },
+    {
+      "path": "figures/option_b_vcc_selected_hours_matlab_cloud.pdf",
+      "bytes": 589664,
+      "sha256": "14d7a2582c6cb7f272f247e333dece739c1c9b9aca014d0164b342102439e3f9"
+    },
+    {
+      "path": "figures/option_b_vcc_selected_hours_matlab_cloud.png",
+      "bytes": 2861558,
+      "sha256": "92a21d0c5163390588395eaed0dc92ad211d533aee1c54554f9a37c62dfccfd7"
+    },
+    {
+      "path": "figures/option_b_vcc_selected_hours_matlab_cloud.svg",
+      "bytes": 879662,
+      "sha256": "8b54a90eb316ab384779418b885632ff0ad90bc7361c19100dd4a85394d695e3"
+    },
+    {
+      "path": "figures/option_c_vcc_all_hours_matlab_clean.pdf",
+      "bytes": 81552,
+      "sha256": "008d45cdf5ee73c8d2be896d4fd062b6ce9fe7be8028920000c432c44923c4cd"
+    },
+    {
+      "path": "figures/option_c_vcc_all_hours_matlab_clean.png",
+      "bytes": 959991,
+      "sha256": "99ae2e480412e7c8fc8514dade3a54931c8baa726dafe9840c94f2048b3e2e7f"
+    },
+    {
+      "path": "figures/option_c_vcc_all_hours_matlab_clean.svg",
+      "bytes": 240955,
+      "sha256": "01a300f7a48c574cdb8d7f045f0a7e6773ff16123c7af4110ef9470f088152ec"
+    },
+    {
+      "path": "figures/option_d_vac_selected_hours_matlab_clean.pdf",
+      "bytes": 78173,
+      "sha256": "248a5d3d11b50ede053e20fc8e69380a545e2f78ef3f03e36ab45fafb425d0ae"
+    },
+    {
+      "path": "figures/option_d_vac_selected_hours_matlab_clean.png",
+      "bytes": 726913,
+      "sha256": "7e2de8784f790309cb42dc78fac1293bba4ea2c80f7930abb5146e8eb600680c"
+    },
+    {
+      "path": "figures/option_d_vac_selected_hours_matlab_clean.svg",
+      "bytes": 228975,
+      "sha256": "5a39119fec0c4373d553c7baac39afe17e377483e1ab0cd3be42567d87143bae"
+    },
+    {
+      "path": "figures/option_e_vac_selected_hours_matlab_cloud.pdf",
+      "bytes": 1164718,
+      "sha256": "ec426a607f1de2f5d99bbdfea9a885a511344affb05442cda1fc195a7b964bd6"
+    },
+    {
+      "path": "figures/option_e_vac_selected_hours_matlab_cloud.png",
+      "bytes": 6545355,
+      "sha256": "117205bf2605c68b1688aafc7d185b28ecfe924c98b7bda786dba43a0f906cd9"
+    },
+    {
+      "path": "figures/option_e_vac_selected_hours_matlab_cloud.svg",
+      "bytes": 1739639,
+      "sha256": "5ee2d11d8922160fbec7531898a07d9d0982285af82ad69089d9ae33d1c2ff5a"
+    },
+    {
+      "path": "METHOD_NOTES.json",
+      "bytes": 601,
+      "sha256": "f56c349aa85a781871af2026f58c1edf813967bf5711e802ce05a6fb91b037fd"
+    },
+    {
+      "path": "tables/msd_alpha_reference.csv",
+      "bytes": 4286,
+      "sha256": "a5cf27d5790a5ba15ae8a7c7e8bec0b22752d58d5c909df55c1c6cf84f584a55"
+    },
+    {
+      "path": "tables/vac_fine_display_means.csv",
+      "bytes": 209465,
+      "sha256": "09d0bd7e86495051e973d0f830ae4b7a0ed2b2aa59518fd9f985b1da517c6e63"
+    },
+    {
+      "path": "tables/vcc_fine_display_means.csv",
+      "bytes": 81717,
+      "sha256": "7a17adf594c2bb517eefef012c76dc5c2df5ec609762045e1691233015d5a70b"
+    }
+  ],
+  "figure_sets": {
+    "A_vcc_selected_clean": [
+      "figures\\option_a_vcc_selected_hours_matlab_clean.png",
+      "figures\\option_a_vcc_selected_hours_matlab_clean.pdf",
+      "figures\\option_a_vcc_selected_hours_matlab_clean.svg"
+    ],
+    "B_vcc_selected_cloud": [
+      "figures\\option_b_vcc_selected_hours_matlab_cloud.png",
+      "figures\\option_b_vcc_selected_hours_matlab_cloud.pdf",
+      "figures\\option_b_vcc_selected_hours_matlab_cloud.svg"
+    ],
+    "C_vcc_all_hours_clean": [
+      "figures\\option_c_vcc_all_hours_matlab_clean.png",
+      "figures\\option_c_vcc_all_hours_matlab_clean.pdf",
+      "figures\\option_c_vcc_all_hours_matlab_clean.svg"
+    ],
+    "D_vac_selected_clean": [
+      "figures\\option_d_vac_selected_hours_matlab_clean.png",
+      "figures\\option_d_vac_selected_hours_matlab_clean.pdf",
+      "figures\\option_d_vac_selected_hours_matlab_clean.svg"
+    ],
+    "E_vac_selected_cloud": [
+      "figures\\option_e_vac_selected_hours_matlab_cloud.png",
+      "figures\\option_e_vac_selected_hours_matlab_cloud.pdf",
+      "figures\\option_e_vac_selected_hours_matlab_cloud.svg"
+    ]
+  }
+}

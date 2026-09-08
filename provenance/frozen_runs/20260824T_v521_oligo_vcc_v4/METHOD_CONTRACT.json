@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "metric": "two-locus finite-window velocity cross-correlation",
+  "primary_object": "delta x tau x 2 x 2 bidirectional VCC tensor",
+  "equations": {
+    "velocity": "v_delta(t)=[r(t+delta)-r(t)]/delta",
+    "directional_matrix": "C12_delta(tau)=<v1(t+tau) v2(t)^T>",
+    "normalization": "sqrt(<|v1|^2><|v2|^2>) fixed across lag",
+    "symmetrization": "0.5*(C12(tau)+transpose(C21(tau)))",
+    "fit_readout": "trace of the symmetrized normalized matrix",
+    "rouse": "corrected calc_vel_corr_new numerical tables; alpha0 fixed; tau_Delta_n grid WLS"
+  },
+  "target_delta_s": [
+    10,
+    20,
+    40
+  ],
+  "integer_frame_matching_relative_tolerance": 0.25,
+  "maximum_scaled_lag": 2.5,
+  "minimum_velocity_pairs_per_direction_per_unit_lag": 8,
+  "minimum_hour_bin_units_for_fit": 8,
+  "rouse_alpha_fixed": 0.9,
+  "rouse_alpha_sensitivity": [
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "communication_time_bounds_s": [
+    1,
+    1000
+  ],
+  "pooling": "time-average within bundle and direction; transpose reverse direction; equal direction mean; equal bundle mean within folder-hour",
+  "uncertainty": "between-bundle sample SD; crop-cluster bootstrap 95% interval for communication time",
+  "coordinate_interpolation": false,
+  "excluded_filters": [
+    "T3/T4 global pair QC",
+    "motion magnitude",
+    "Site1/Site2 separation",
+    "53BP1 detection or recruitment",
+    "hour or acquisition identity",
+    "learned state"
+  ],
+  "macro_time_warning": "folder-hour after Cas9 delivery is not observed time since cutting"
+}

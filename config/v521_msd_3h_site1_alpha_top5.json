@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "selection": {
+    "hour_post_delivery": 3.0,
+    "site": "site1",
+    "top_n": 5,
+    "minimum_r2": 0.9,
+    "fit_window_s": [10.0, 50.0]
+  },
+  "cases": [
+    {
+      "case_id": "alpha_top01",
+      "display_label": "Site1 alpha top 1",
+      "bundle_id": "LiveFISH DSB014|LiveFISH DSB014_candidate_45|a001"
+    },
+    {
+      "case_id": "alpha_top02",
+      "display_label": "Site1 alpha top 2",
+      "bundle_id": "LiveFISH DSB013|LiveFISH DSB013_candidate_12|a002"
+    },
+    {
+      "case_id": "alpha_top03",
+      "display_label": "Site1 alpha top 3",
+      "bundle_id": "LiveFISH 3h_DSB016|LiveFISH 3h_DSB016_candidate_16|a001"
+    },
+    {
+      "case_id": "alpha_top04",
+      "display_label": "Site1 alpha top 4",
+      "bundle_id": "LiveFISH DSB013|LiveFISH DSB013_candidate_13|a002"
+    },
+    {
+      "case_id": "alpha_top05",
+      "display_label": "Site1 alpha top 5",
+      "bundle_id": "LiveFISH DSB013|LiveFISH DSB013_candidate_7|a001"
+    }
+  ],
+  "display": {
+    "raw_minimum_crop_px": 72,
+    "raw_padding_px": 12,
+    "site1_color": "#F4B400",
+    "site2_color": "#7A3DB8",
+    "bp1_color": "#00B050",
+    "nucleus_outline_color": "#66D9EF",
+    "nucleus_outline_linewidth": 1.8,
+    "nucleus_outline_alpha": 0.95,
+    "site1_weight": 0.85,
+    "site2_weight": 0.85,
+    "bp1_weight": 0.60,
+    "site_gamma": 0.85,
+    "bp1_gamma": 0.85,
+    "site_percentiles": [50.0, 99.75],
+    "bp1_percentiles": [5.0, 99.5],
+    "track_linewidth": 2.4,
+    "track_halo_linewidth": 4.8,
+    "pixel_scale_bar_linewidth": 5.0,
+    "pixel_scale_bar_halo_linewidth": 8.5,
+    "pixel_scale_bar_fontsize": 18.0,
+    "pixel_label_halo_linewidth": 3.2,
+    "full_cell_time_fontsize": 18.0,
+    "time_colormap": "jet",
+    "playback_fps": 8.0,
+    "video_crf": 20,
+    "figure_size_inches": [15.8, 7.6],
+    "png_dpi": 220
+  }
+}

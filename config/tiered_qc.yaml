@@ -1,0 +1,52 @@
+schema_version: 1
+
+# These tiers are analysis views with different units, not four claims of
+# increasing biological quality. T3 and T4 are nested bundle cohorts; T1 and T2
+# intentionally retain observations that do not belong to those bundle cohorts.
+tiers:
+  frame_shared:
+    tier_id: T1
+    rule: site1_valid AND site2_valid on the same recorded frame
+    minimum_bundle_length: null
+    interpolation: prohibited
+
+  site_independent:
+    tier_id: T2
+    sites: [site1, site2]
+    rule: retain every recorded valid localization for each site independently
+    minimum_valid_frames: 1
+    paired_site_required: false
+    interpolation: prohibited
+
+  trajectory_relaxed:
+    tier_id: T3
+    min_site1_valid_frames: 10
+    min_site2_valid_frames: 10
+    min_paired_valid_frames: 10
+    min_longest_paired_run: 5
+    # Deliberately absent: movies have very different nominal lengths. Coverage
+    # remains a reported technical variable rather than a relaxed-tier filter.
+    min_paired_coverage: null
+    interpolation: prohibited
+
+  primary_strict:
+    tier_id: T4
+    threshold_source: analysis_config.qc
+    preserve_existing_primary_qc: true
+    interpolation: prohibited
+
+source_contract:
+  require_formal_usable_only: true
+  require_review_excluded: true
+  require_exact_timestamps: true
+  timing_axis_value: exact_relative_time_s
+  allowed_trajectory_usability_classes:
+    - PIPELINE_COMPLETE
+    - POST_BASELINE_FAILURE_TABLES_USABLE
+
+interpretation:
+  acquisition_is_technical_group: true
+  acquisition_is_biological_replicate: false
+  frame_is_independent_sample: false
+  metric_specific_pair_support_is_downstream_gate: true
+  biological_speed_endpoint: prohibited

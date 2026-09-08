@@ -1,0 +1,30 @@
+schema_version: v5.2.1-analysis-intake-v1
+
+source:
+  root: E:/DSB_v51/dsb_v521_fullrun_20260819T084304Z
+  expected_version: 5.2.1
+  expected_commit: 9f4e28a7bdaa6847e876fa9e3de059de197d0441
+
+output:
+  parent: data_snapshot
+  prefix: v5_2_1_formal
+  compression: zstd
+
+metadata:
+  existing_m0_path: config/m0_acquisition_metadata_v521.csv
+  new_10h_hour_post_delivery: 10.0
+  new_10h_hour_evidence: laboratory_record:user_confirmation_2026-08-22_new_10h_cohort
+  macro_time_semantics: hours_after_cas9_delivery_not_cut_onset
+  acquisition_role: technical_acquisition_not_biological_replicate
+
+validation:
+  minimum_trajectory_points: 4
+  require_exact_frame_times: true
+  require_bp1_sidecar_schema: v5.2.1-bp1-locus-sidecar-v1
+
+materialize:
+  trajectory_points: true
+  bp1_allele_frames: true
+  bp1_allele_summary: true
+  bp1_frame_segmentation: true
+  bp1_focus_objects: true

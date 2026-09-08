@@ -1,0 +1,60 @@
+schema_version: "2.0"
+status: verified_user_and_sequence_anchored_mapping
+coordinate_system: hg38_1based_closed_for_probe_spans
+
+site1:
+  production_site_id: site1
+  oligo_livefish_label: Oligo Site2 / ACAP2-rep
+  genomic_side_of_cut: left
+  genomic_coordinates: chr3:195478317-195506985
+  probe_interval_midpoint_1based: 195492651
+  probe_to_cut_distance_bp: 50243
+  probe_to_cut_distance_definition: probe_interval_midpoint_to_cut
+  nearest_to_farthest_probe_edge_distance_bp: [35909, 64577]
+  evidence_source: probe_design_record:zhu_cell_2025_table_s1_oligo_site2_acap2_rep_hg38
+
+site2:
+  production_site_id: site2
+  oligo_livefish_label: Oligo Site3
+  genomic_side_of_cut: right
+  genomic_coordinates: chr3:195775389-195777939
+  probe_interval_midpoint_1based: 195776664
+  probe_to_cut_distance_bp: 233770
+  probe_to_cut_distance_definition: probe_interval_midpoint_to_cut
+  nearest_to_farthest_probe_edge_distance_bp: [232495, 235045]
+  evidence_source: probe_design_record:zhu_cell_2025_table_s1_oligo_site3_hg38
+
+cut_site:
+  genome_build: hg38
+  # Represent the cut boundary by the first base to its right so the existing
+  # scalar-coordinate validator remains deterministic.  The more exact boundary
+  # semantics are recorded immediately below.
+  genomic_coordinate: chr3:195542894
+  cleavage_boundary_1based: chr3:195542893^195542894
+  cleavage_boundary_0based: 195542893
+  guide_sequence_5to3: AGCTGAGGTGAGCGCTGGGA
+  pam_5to3: GGG
+  guide_strand: minus
+  ucsc_guide_plus_reference_interval_0based_halfopen: chr3:195542890-195542910
+  ucsc_guide_plus_pam_interval_0based_halfopen: chr3:195542887-195542910
+  user_extended_sequence_5to3: AACAGCCCCGCGGGAATGTCGACGAGGAGCTGAGGTGAGCGCTGGGAGGGACGGCCTGGGAGCCCCTCCTTCCCGC
+  user_extended_sequence_plus_reference_interval_0based_halfopen: chr3:195542861-195542937
+  evidence_source: genomic_annotation:ucsc_hg38_crisprAllTargets_chr3_195542887_195542910
+  sequence_api_url: https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr3;start=195542850;end=195542950
+  crispr_track_api_url: https://api.genome.ucsc.edu/getData/track?genome=hg38;track=crisprAllTargets;chrom=chr3;start=195542850;end=195542950
+
+pair_geometry:
+  site1_to_site2_midpoint_distance_bp: 284013
+  definition: difference_between_probe_interval_midpoints
+
+language_gate:
+  allow_left_right_names: true
+  allow_broken_end_distance: false
+  allow_probe_to_nominal_cut_distance: true
+
+interpretation_limits:
+  - Probe coordinates are tiling spans; midpoint distances are quantitative nominal genomic offsets, not single-base probe positions.
+  - The cut is a sequence-anchored SpCas9 nominal cleavage boundary, not a tracked image object.
+  - Dynamic analysis remains on Site1 and Site2; no cut-site trajectory is constructed.
+  - Probe-to-cut distance is usable as a two-level quantitative annotation, but distance, site identity, channel, and local chromatin context remain inseparable with only two sites.
+  - allow_broken_end_distance remains false; imaging separation is not called broken-end distance.

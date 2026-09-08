@@ -1,0 +1,32 @@
+schema_version: "2.0"
+status: sequence_anchored_two_level_annotation
+assembly_context: hg38
+reference_region:
+  label: nominal_spcas9_cleavage_boundary
+  genomic_coordinate_1based_right_base: 195542894
+  cleavage_boundary_1based: chr3:195542893^195542894
+  guide_sequence_5to3: AGCTGAGGTGAGCGCTGGGA
+  evidence: user_sequence_2026-08-15_and_ucsc_hg38_crispr_track
+sites:
+  site1:
+    oligo_livefish_label: Oligo Site2 / ACAP2-rep
+    genomic_span_1based_closed: chr3:195478317-195506985
+    interval_midpoint_1based: 195492651
+    approximate_coordinate_mb: 195.492651
+    approximate_offset_from_reference_kb: 50.243
+    nominal_offset_from_reference_kb: 50.243
+    edge_offset_range_kb: [35.909, 64.577]
+  site2:
+    oligo_livefish_label: Oligo Site3
+    genomic_span_1based_closed: chr3:195775389-195777939
+    interval_midpoint_1based: 195776664
+    approximate_coordinate_mb: 195.776664
+    approximate_offset_from_reference_kb: 233.770
+    nominal_offset_from_reference_kb: 233.770
+    edge_offset_range_kb: [232.495, 235.045]
+interpretation_limits:
+  - The offsets use tiling-interval midpoints and a sequence-anchored nominal cleavage boundary.
+  - There are only two fixed offset levels; any regression slope is algebraically a Site1-versus-Site2 contrast, not an identified continuous distance gradient.
+  - Site identity, imaging channel, local chromatin context, localization quality, and nominal offset are inseparable in this dataset.
+  - No time-varying cut coordinate or cut-site trajectory is constructed or analyzed.
+  - Results are exploratory technical-acquisition summaries, not biological-replicate inference.

@@ -1,0 +1,575 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_index.parquet",
+      "bytes": 78140,
+      "sha256": "254bc650a4d1f92c39de316574365de8cb3bdf656a10bae16a99e33233b42460"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\analysis.yaml",
+      "bytes": 8559,
+      "sha256": "61c9354f2a833decae3e74b58ba6bea57e71a3fe53bee62ef06856dca858b1b6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_autocorrelation.m",
+      "bytes": 6736,
+      "sha256": "458832d929b2df686df93f380555416eee6e1c07b6fe17da4353d1c3063de856"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_correlation.m",
+      "bytes": 9368,
+      "sha256": "9349d8f7740cb9073b2f8afec5506d36ffc68181fc9036ccc780666250da0264"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_correlation_GPR.m",
+      "bytes": 10211,
+      "sha256": "fd922633eeddd33724ccd86c847e18d012f550a8d5db32644e630a3b8f70a2c2"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\calc_vel_corr_new.m",
+      "bytes": 4887,
+      "sha256": "7f1c0fbf0a005eabb4fa3b9056ac3016e0ebe9b868f7d51a6621bcb27621fe82"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\WLS_vel_corr_new.m",
+      "bytes": 1544,
+      "sha256": "20c0a090654431cde05226e2e6b1eaa6f14dadc1f8927fb6513ffc7573dee85b"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\plot_vel_corr.m",
+      "bytes": 2667,
+      "sha256": "34d433c9ed22ecfdc96dd37d1fafb8b653f2bed6d66f06893dac6c02d92e897f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\exp_corr.m",
+      "bytes": 676,
+      "sha256": "ce87a4b8af2781234b4469e05e384dde7a89984696cfa1aee50da6ddc402a76c"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\Read_Me.pdf",
+      "bytes": 95985,
+      "sha256": "35f832feea5368c106afdc6c51e82c794ef11bf563e853d1957f0f8a8573f918"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0250.mat",
+      "bytes": 94396,
+      "sha256": "a4b6e8b589bdc2689b8336dee37e55481d4aee017bd42cabdbff246aa23ff4eb"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0275.mat",
+      "bytes": 94469,
+      "sha256": "16185a25862533e1a82a78989f6b9d891f9226e3bfcd8df54f462f7b45e12836"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0300.mat",
+      "bytes": 94549,
+      "sha256": "719308c09a919240bbe84e72fa5a4de1d2a3e58debe3f3e1a0152ec2ad7db1df"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0325.mat",
+      "bytes": 94522,
+      "sha256": "92d4f9ffab55919cb4f979752a41232c7c6cb8493ec11c75e9e5c97a241d50d9"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0350.mat",
+      "bytes": 94570,
+      "sha256": "9db502a415a39fa5698e21c3094d33d8fe06557f4147149e64056e7f5fa74ee2"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0375.mat",
+      "bytes": 94585,
+      "sha256": "6ac577b569344fe1f3f23f00113d5aab6faedcd10519040d65469a599898b2d8"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0400.mat",
+      "bytes": 94576,
+      "sha256": "c65b694c82c4b07de1494c2abb5641dff1f1e934b163d31d946bfcc08d7712ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0425.mat",
+      "bytes": 94634,
+      "sha256": "6f58063a797e767ccad77ccc7167c10348038047af004ab431211fccdc66ffe6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0450.mat",
+      "bytes": 94604,
+      "sha256": "2b787b825c704e0601699e96a9178f92857d1a4145b38225cccb082c74ea24e0"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0475.mat",
+      "bytes": 94663,
+      "sha256": "4929cad20406ce691187d7c777e45af3daa8a060648a9cf41a2eac364f75b803"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0500.mat",
+      "bytes": 94676,
+      "sha256": "c91f190010686590155580cbc36e650eb3e085eb53306a2f2de57a64ae6a6ce6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0525.mat",
+      "bytes": 94738,
+      "sha256": "66e0a01a866f2161217f6a3dbf6669948fd677a751c298790f2ea18ae6a4f41e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0550.mat",
+      "bytes": 94881,
+      "sha256": "f11b6deb149ea17666b28c3f8bd87b115ff4df1ec983d39239a5a894a04ba505"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0575.mat",
+      "bytes": 94988,
+      "sha256": "1633699f4f00059717377e1d318a44e9c06ad71bd0428d8ea711fd6b57ff2df4"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0600.mat",
+      "bytes": 95106,
+      "sha256": "1dc2e904cba4f2d10617065f905fa1cf5c6e576f130635670da9458addb46d17"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0625.mat",
+      "bytes": 95196,
+      "sha256": "b59038f4500234e17d8b879d8ae75b654a79d1a6bf48ec13f5631457fc1fbec1"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0650.mat",
+      "bytes": 95262,
+      "sha256": "6e5582eaf19dda9b5ac51b0c595321869dd60a6fc9d11d0b2c1e2c710d96ccde"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0675.mat",
+      "bytes": 95295,
+      "sha256": "6a704afb12850cb2caa4c37a4c6730bdd21af3374bfc69dfb72b747c5f11b19e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0700.mat",
+      "bytes": 95340,
+      "sha256": "7ac03ac5925b761b397f6674f0470458b269b9d8901bf3836bb73b08ef8f3058"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0725.mat",
+      "bytes": 95391,
+      "sha256": "f6326061c2e599e645491eade0943951822eabcbb6bc331a0deed589fab83469"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0750.mat",
+      "bytes": 95463,
+      "sha256": "0ded3d43d82164545927ddefa964c69b99aa04c368339e040fa91dedb296851f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0775.mat",
+      "bytes": 95581,
+      "sha256": "10c9813cb259211bff2da247bcb8c11b3bd0af9dbd30ab49babb71a9576dd4b8"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0800.mat",
+      "bytes": 95718,
+      "sha256": "5604491f5983fe439298f62e4beca11b1cc280c3b17e1439d52f714c1c277cb6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0825.mat",
+      "bytes": 95764,
+      "sha256": "55ebc85492320670dea2c82b65bda228adc59989cfaa3e39d66d82b2b11f50b3"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0850.mat",
+      "bytes": 95746,
+      "sha256": "4812ca7a8b47849fcb91fc53462a8018db0441eebed6183efcddfede272d3f21"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0875.mat",
+      "bytes": 95771,
+      "sha256": "ceca5d8bb5b4aea2268b4d6def310b304ce93d1c858cd7be59f64ff3aac158d3"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0900.mat",
+      "bytes": 95610,
+      "sha256": "deea25b1b1084c282b0077d911f882fa4324831a154a62e4c07c9c715e5d7b1f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0925.mat",
+      "bytes": 95779,
+      "sha256": "500e3d2d96599be076c04f869e5fbd4bb618381555e4b4e662c36af2c184419f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0950.mat",
+      "bytes": 95589,
+      "sha256": "e82c9616e98525b88f8053a89ce4cd6665f72b4deb876721becce3c2e41eeca6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0975.mat",
+      "bytes": 95744,
+      "sha256": "f30ac8b70bafaff7b076d6539fcb844416b690c6e1218cf79c56e05b62321936"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table1000.mat",
+      "bytes": 95341,
+      "sha256": "17c7216f046f2ca87febc6593812ca3c7c3140aebbbafd33b0d4c68ab8407150"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\39_build_v521_oligo_vcc.py",
+      "bytes": 19035,
+      "sha256": "bc1ea5917d1c5293d9923acb57e30577f93100cf4505bbc614c8c147142abb1e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\oligo_vcc.py",
+      "bytes": 40295,
+      "sha256": "227ca846a411510fb55bdfea5768f7a68da0ddf0f3cdc91aca1ce6df8a0a6747"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\physical_metrics.py",
+      "bytes": 78440,
+      "sha256": "0bc4924e26eb267d9cfb2ca6cef5d1764a46758697764d7012cd2d0b4905754e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\time_resolved_physics.py",
+      "bytes": 27821,
+      "sha256": "6762db7ab9747885f902f51f752f6f3c9b0502dce8a02fd6e5c59a3ed32d2c9b"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "FIGURE_INDEX.md",
+      "bytes": 1248,
+      "sha256": "950913184a9cb7b35816463c2964da4519cdec4cb90f45b69c3aebe8655b3919"
+    },
+    {
+      "path": "figures/fig_vcc_communication_time_by_hour.pdf",
+      "bytes": 32881,
+      "sha256": "62adf1897fedfa96a219f1ee678f4826c727927640d4c552c96c8fef5d3d7872"
+    },
+    {
+      "path": "figures/fig_vcc_communication_time_by_hour.png",
+      "bytes": 118298,
+      "sha256": "e666a24c5afbd15d32eacec96703d317e3944ae130308c3f92718acc567cd107"
+    },
+    {
+      "path": "figures/fig_vcc_communication_time_by_hour.svg",
+      "bytes": 37356,
+      "sha256": "7da3a39e9998df42f4766d39f063592498ee8a3a4e89fdcbc597c967353556ab"
+    },
+    {
+      "path": "figures/fig_vcc_matrix_components_by_hour.pdf",
+      "bytes": 47348,
+      "sha256": "184c104c9ed7dbdf26c36e838e682637cb41b602d6766703705c70426d9bc29e"
+    },
+    {
+      "path": "figures/fig_vcc_matrix_components_by_hour.png",
+      "bytes": 772955,
+      "sha256": "b75d76a7f63fb435ea306b8b8a204533829d3a48782d6eedd693e33772ecc3b6"
+    },
+    {
+      "path": "figures/fig_vcc_matrix_components_by_hour.svg",
+      "bytes": 105816,
+      "sha256": "c3147eb4df2cdd7795645ffef9f1655f7615a7c2be4b6f2fff098f2faef1be82"
+    },
+    {
+      "path": "figures/fig_vcc_rouse_fits_by_hour.pdf",
+      "bytes": 55599,
+      "sha256": "3807a99d3b55a2f998affce4a975845579a4023faebc6a43b3ccf5b12aac45cc"
+    },
+    {
+      "path": "figures/fig_vcc_rouse_fits_by_hour.png",
+      "bytes": 878825,
+      "sha256": "db487e0a2cb4496c11b3577f542e0f2dc19a6dfb7859e7b8d2534ce37cb99664"
+    },
+    {
+      "path": "figures/fig_vcc_rouse_fits_by_hour.svg",
+      "bytes": 141804,
+      "sha256": "2857e76f411d7e6e0f7a00b6ddcfb674f11c6f087ee34bc3726a3bf597e385ab"
+    },
+    {
+      "path": "figures/vcc_1.5h_rouse_fit.pdf",
+      "bytes": 36874,
+      "sha256": "240481083ccfb5e2343a76f4d2df45d218b6e95b9749e253a16fcc4e5752c605"
+    },
+    {
+      "path": "figures/vcc_1.5h_rouse_fit.png",
+      "bytes": 196305,
+      "sha256": "d38f9e627a1260baedbe67fbf4fe61d47f873efd69583d0f312f077912139ae6"
+    },
+    {
+      "path": "figures/vcc_1.5h_rouse_fit.svg",
+      "bytes": 46704,
+      "sha256": "4cad1413df06f4e9e8a50ea1d8c058e4a1c2d5e62c6e57a55108a8aaa5455c5a"
+    },
+    {
+      "path": "figures/vcc_10h_rouse_fit.pdf",
+      "bytes": 37791,
+      "sha256": "6639da262050c41db6e5f7690c30019269bbed704f373fc739aa0821e8c6cfac"
+    },
+    {
+      "path": "figures/vcc_10h_rouse_fit.png",
+      "bytes": 189880,
+      "sha256": "b890508c7a35789bcb857c8c02d4dd8af42176cacbb9b57d75f57eef4f916782"
+    },
+    {
+      "path": "figures/vcc_10h_rouse_fit.svg",
+      "bytes": 47787,
+      "sha256": "0b5686563b5a4d3ba2b5031b95c0f87cf5ce110bf349258e2be5de0e10a15083"
+    },
+    {
+      "path": "figures/vcc_2.5h_rouse_fit.pdf",
+      "bytes": 37685,
+      "sha256": "482e15e40208f1dbd683720706784fc7d3129ce2be39c0a16a457d067e8e538b"
+    },
+    {
+      "path": "figures/vcc_2.5h_rouse_fit.png",
+      "bytes": 187666,
+      "sha256": "bbb583eeaee55fa352f1ad9ca50cfafa0e1ae4aecbdc41e4105f21b4c8817741"
+    },
+    {
+      "path": "figures/vcc_2.5h_rouse_fit.svg",
+      "bytes": 47550,
+      "sha256": "fb1330728aa90f5d72f5c07af19817f29591c37ffe8d0f8ffc8bdb6eebf8638f"
+    },
+    {
+      "path": "figures/vcc_2h_rouse_fit.pdf",
+      "bytes": 37578,
+      "sha256": "d9c2d80448db5f6249a088b180390c89e9c633aab668c1cb0194667cbefce315"
+    },
+    {
+      "path": "figures/vcc_2h_rouse_fit.png",
+      "bytes": 196342,
+      "sha256": "e9b100632361635a7aa6e2d644bd8210f4bf8f0c48b5878755179c4ebb4d6fab"
+    },
+    {
+      "path": "figures/vcc_2h_rouse_fit.svg",
+      "bytes": 47430,
+      "sha256": "680a71a419f4174803699cf706ba33afaa2ab19f541df33c8bea691cf692e509"
+    },
+    {
+      "path": "figures/vcc_3.5h_rouse_fit.pdf",
+      "bytes": 38322,
+      "sha256": "08354d8465357186247524caff713b1b99e2165e14426efe7983b96c2215baed"
+    },
+    {
+      "path": "figures/vcc_3.5h_rouse_fit.png",
+      "bytes": 186775,
+      "sha256": "4804ec6e7774d71f63aa363682e5957d300d5392ffa6735ad60adee288ffbff6"
+    },
+    {
+      "path": "figures/vcc_3.5h_rouse_fit.svg",
+      "bytes": 48511,
+      "sha256": "02bf0d18b87a024a00a0ac057d137a9fb6a750971daafe15079e769765c31340"
+    },
+    {
+      "path": "figures/vcc_3h_rouse_fit.pdf",
+      "bytes": 37112,
+      "sha256": "77977d737e4519bed4861815cef0f81bceb2704551ea9bd4c0803e07adc83fdd"
+    },
+    {
+      "path": "figures/vcc_3h_rouse_fit.png",
+      "bytes": 196058,
+      "sha256": "d7d0b1bad1a0d3d6008d6b2d6793f5dc1f3f34e0bac9656dc66f84c16ef13b98"
+    },
+    {
+      "path": "figures/vcc_3h_rouse_fit.svg",
+      "bytes": 46837,
+      "sha256": "ad9c6e6dd66e0c137b46fa6725a8b26fecf24625569dba397d9e53a9c28f824e"
+    },
+    {
+      "path": "figures/vcc_4.5h_rouse_fit.pdf",
+      "bytes": 37475,
+      "sha256": "52d2576ee15431b174735d98d22aacbd1f90d8fd73a631c297bb05f480575655"
+    },
+    {
+      "path": "figures/vcc_4.5h_rouse_fit.png",
+      "bytes": 182238,
+      "sha256": "8f1a7669be52227ec28741438fd09e5567df5410b5482ace070417c3440c3c84"
+    },
+    {
+      "path": "figures/vcc_4.5h_rouse_fit.svg",
+      "bytes": 47482,
+      "sha256": "a7c92ab79d53f32ff420210f8ed7c70a5c004b08ea5dbfa4ba36ff55230bd7a6"
+    },
+    {
+      "path": "figures/vcc_4h_rouse_fit.pdf",
+      "bytes": 37110,
+      "sha256": "a65c778ad986c4078d8c40f66156411f5eb54d71c4b7d3c1264a8f50e3f2658f"
+    },
+    {
+      "path": "figures/vcc_4h_rouse_fit.png",
+      "bytes": 188357,
+      "sha256": "c0f5b6bb86aa5e540114afea641ce6a647c3202f8e293b82cb2334c347e59782"
+    },
+    {
+      "path": "figures/vcc_4h_rouse_fit.svg",
+      "bytes": 46868,
+      "sha256": "b7dc5c45ba3db1a81fdaef80c1e23f5e93016776d3b29ed95ab07d92504ef41f"
+    },
+    {
+      "path": "figures/vcc_5h_rouse_fit.pdf",
+      "bytes": 37525,
+      "sha256": "cdac849c87938dc8b4b21a5eb10840314989557a8e4d6a7a67e2971ae40a3773"
+    },
+    {
+      "path": "figures/vcc_5h_rouse_fit.png",
+      "bytes": 178210,
+      "sha256": "74d6d4a2799c8e00183df7bf9ff7de7632982a99fb59303e9facbdb9b7be0ef3"
+    },
+    {
+      "path": "figures/vcc_5h_rouse_fit.svg",
+      "bytes": 46961,
+      "sha256": "017ee82d7d15db4b93f5e0f8417ebce0e6ec603017c4ef4241383b24732b8868"
+    },
+    {
+      "path": "IMPLEMENTATION_AUDIT.md",
+      "bytes": 2670,
+      "sha256": "f514dde519c7e9f0d566749d3505ccda17171faed5da6ad5488722ad47c581da"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 1601,
+      "sha256": "7cba34f219ffcd2eb360fcd8c41ce63d21ea813f7ab724e3daa41d0d9d949535"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 2706,
+      "sha256": "5e9453d566c834e96b4b5c5b3aadf609c8c2affaa3f048baa02b5e777a8bd7e7"
+    },
+    {
+      "path": "tables/binned_unit_curves.parquet",
+      "bytes": 996213,
+      "sha256": "d7c59a820fe1bf226e4f2403fef455f02105d43031f1cb8f1d4808a25d6b07da"
+    },
+    {
+      "path": "tables/communication_time_fits.csv",
+      "bytes": 1691,
+      "sha256": "273f91d5bffa94d9c7f0b6c8ffe081f10406839dbaaad0f300387c579087448f"
+    },
+    {
+      "path": "tables/directional_unit_curves.parquet",
+      "bytes": 4229244,
+      "sha256": "dd589a660924d38b7808329c0108761dbff1a796c9366a0708bf128a775c1f07"
+    },
+    {
+      "path": "tables/directional_unit_matrices.parquet",
+      "bytes": 10552365,
+      "sha256": "1e828f950157a992243ae48a580fd4f456c66a4dddac93237449ee07c398b001"
+    },
+    {
+      "path": "tables/fit_predictions.csv",
+      "bytes": 27076,
+      "sha256": "fec2ca7ed2fa1a3c5b30622e08ac105aa25c627561b2b59fc0e66fb7b33b3772"
+    },
+    {
+      "path": "tables/hour_curves.csv",
+      "bytes": 44554,
+      "sha256": "bbb38b49c8153b42be04ae23baefdbdeeee96349f35c8547d6832e2b25b5e7e1"
+    },
+    {
+      "path": "tables/hour_curves.parquet",
+      "bytes": 24569,
+      "sha256": "4e341567841eba44fb847a7d08bbf01e5d5fb3da623c9e66b822f72d4b96580d"
+    },
+    {
+      "path": "tables/hour_matrix_curves.csv",
+      "bytes": 74116,
+      "sha256": "1b4d0332b83b4d510d144128dfc89f8a8f3123a40db153192f8e75a23683b1f1"
+    },
+    {
+      "path": "tables/hour_matrix_curves.parquet",
+      "bytes": 29089,
+      "sha256": "bef3bc322a960c75058c6601a07e175405e3aba8dddcc740a1c0b124937e0783"
+    },
+    {
+      "path": "tables/rouse_alpha_sensitivity.csv",
+      "bytes": 2210,
+      "sha256": "72dcd9d6ae5905a54da116d3bda3aea13ef8656e627762fa471b43eb0cda522f"
+    },
+    {
+      "path": "tables/support_census.parquet",
+      "bytes": 195986,
+      "sha256": "9ca4aaeb55ffc24d2e6682b69292ea34e52966bdc438a1ff35e28e2af81c46d7"
+    },
+    {
+      "path": "tables/support_summary.csv",
+      "bytes": 4278,
+      "sha256": "2859d0119eb0bcdc46ab15a6ff5dcded0b9256c363e4dfd45b5b25c6f36d5ae1"
+    },
+    {
+      "path": "tables/symmetric_unit_curves.parquet",
+      "bytes": 1996665,
+      "sha256": "1528d7d50045823a930e09ca189f0c8338a627878486f23df694eec15fabbccc"
+    },
+    {
+      "path": "tables/symmetric_unit_matrices.parquet",
+      "bytes": 5014239,
+      "sha256": "a90fbf0f1d83f3b5ac2668160fac217d2f738f4a164ee4ff499974a026072b49"
+    }
+  ],
+  "figure_sets": {
+    "atlas": [
+      "figures\\fig_vcc_rouse_fits_by_hour.png",
+      "figures\\fig_vcc_rouse_fits_by_hour.pdf",
+      "figures\\fig_vcc_rouse_fits_by_hour.svg"
+    ],
+    "trend": [
+      "figures\\fig_vcc_communication_time_by_hour.png",
+      "figures\\fig_vcc_communication_time_by_hour.pdf",
+      "figures\\fig_vcc_communication_time_by_hour.svg"
+    ],
+    "matrix": [
+      "figures\\fig_vcc_matrix_components_by_hour.png",
+      "figures\\fig_vcc_matrix_components_by_hour.pdf",
+      "figures\\fig_vcc_matrix_components_by_hour.svg"
+    ],
+    "per_hour": {
+      "1.5": [
+        "figures\\vcc_1.5h_rouse_fit.png",
+        "figures\\vcc_1.5h_rouse_fit.pdf",
+        "figures\\vcc_1.5h_rouse_fit.svg"
+      ],
+      "2": [
+        "figures\\vcc_2h_rouse_fit.png",
+        "figures\\vcc_2h_rouse_fit.pdf",
+        "figures\\vcc_2h_rouse_fit.svg"
+      ],
+      "2.5": [
+        "figures\\vcc_2.5h_rouse_fit.png",
+        "figures\\vcc_2.5h_rouse_fit.pdf",
+        "figures\\vcc_2.5h_rouse_fit.svg"
+      ],
+      "3": [
+        "figures\\vcc_3h_rouse_fit.png",
+        "figures\\vcc_3h_rouse_fit.pdf",
+        "figures\\vcc_3h_rouse_fit.svg"
+      ],
+      "3.5": [
+        "figures\\vcc_3.5h_rouse_fit.png",
+        "figures\\vcc_3.5h_rouse_fit.pdf",
+        "figures\\vcc_3.5h_rouse_fit.svg"
+      ],
+      "4": [
+        "figures\\vcc_4h_rouse_fit.png",
+        "figures\\vcc_4h_rouse_fit.pdf",
+        "figures\\vcc_4h_rouse_fit.svg"
+      ],
+      "4.5": [
+        "figures\\vcc_4.5h_rouse_fit.png",
+        "figures\\vcc_4.5h_rouse_fit.pdf",
+        "figures\\vcc_4.5h_rouse_fit.svg"
+      ],
+      "5": [
+        "figures\\vcc_5h_rouse_fit.png",
+        "figures\\vcc_5h_rouse_fit.pdf",
+        "figures\\vcc_5h_rouse_fit.svg"
+      ],
+      "10": [
+        "figures\\vcc_10h_rouse_fit.png",
+        "figures\\vcc_10h_rouse_fit.pdf",
+        "figures\\vcc_10h_rouse_fit.svg"
+      ]
+    }
+  }
+}

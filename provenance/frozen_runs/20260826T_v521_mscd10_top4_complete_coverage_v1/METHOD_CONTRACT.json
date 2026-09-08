@@ -1,0 +1,24 @@
+{
+  "analysis_unit": "one complete-coverage Site1/Site2 bundle",
+  "source_cohort": "previously frozen 100%-coverage paired cohort after excluding acquisitions with only 5 or 10 movie frames",
+  "eligible_bundle_count": 119,
+  "rankable_near_10s_bundle_count": 100,
+  "ranking": "descending directly observed paired relative-vector MSCD at the supported lag nearest 10 s",
+  "target_lag_s": 10.0,
+  "accepted_lag_window_s": [
+    7.5,
+    12.5
+  ],
+  "minimum_endpoint_pairs": 8,
+  "top_n": 4,
+  "excluded_selection_variables": [
+    "appearance",
+    "separation",
+    "53BP1",
+    "folder-hour",
+    "acquisition identity",
+    "learned state"
+  ],
+  "important_boundary": "The rank uses a directly observed acquisition-supported lag, not an interpolated or fitted exact-10-s value. Exact observed lag is retained per case.",
+  "physical_interpretation": "descriptive high-relative-motion case screen, not a state label"
+}

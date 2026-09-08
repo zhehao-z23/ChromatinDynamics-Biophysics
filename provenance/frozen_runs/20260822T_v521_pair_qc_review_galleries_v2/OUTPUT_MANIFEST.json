@@ -1,0 +1,189 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_index.parquet",
+      "bytes": 78140,
+      "sha256": "254bc650a4d1f92c39de316574365de8cb3bdf656a10bae16a99e33233b42460"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "census",
+      "path": "tables/census_by_hour.csv",
+      "bytes": 571,
+      "sha256": "87195ea1d24484f22648172ee449281bca8ab011b4996225588cc0648a6dc346"
+    },
+    {
+      "role": "contract",
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 987,
+      "sha256": "25f11b36a4548a910632ff3b5fe4149efc6924b952fb635182a70c242e7cb625"
+    },
+    {
+      "role": "membership",
+      "path": "tables/qc_membership.parquet",
+      "bytes": 105249,
+      "sha256": "bcc82da926d634e68407b935341b3fbdf37e8d1e5c50c6cf698d68d6917a9f2e"
+    },
+    {
+      "role": "report",
+      "path": "REPORT.md",
+      "bytes": 709,
+      "sha256": "a4cf171436835054317d1f2eb7dc2899efcdabd3dd4fd91347bdc05e924c7411"
+    },
+    {
+      "role": "t3_aligned",
+      "path": "tables/t3_aligned_shared_frames.parquet",
+      "bytes": 2127176,
+      "sha256": "daa97cfb62926494b2bbe73199aea021824b68dee4c8be338260c2446fce2123"
+    },
+    {
+      "role": "t3_gallery_10h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_10h.pdf",
+      "bytes": 100118,
+      "sha256": "0366b1c79dcd543824559ef110658f041e90e2a824f1289404f92c562efabafc"
+    },
+    {
+      "role": "t3_gallery_10h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_10h.png",
+      "bytes": 555971,
+      "sha256": "2fc5a5ffcaa691dd1627ec059cfd3d720ecd159f1975e5645080a2cf390c8e06"
+    },
+    {
+      "role": "t3_gallery_1p5h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_1p5h.pdf",
+      "bytes": 59216,
+      "sha256": "0d721cf1a1b0ab68c6954f39bfdf0b9e279d34b050c90cdebc78c9b5cef081cc"
+    },
+    {
+      "role": "t3_gallery_1p5h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_1p5h.png",
+      "bytes": 276148,
+      "sha256": "1b6b70f6c4ce89ee508468faab9c3840a2053f30b9a367ffec040fc51bc985df"
+    },
+    {
+      "role": "t3_gallery_2h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_2h.pdf",
+      "bytes": 89201,
+      "sha256": "8220103dcb34284a0196011a7fac5adb0299500b4056e99dece7454b9b9bade0"
+    },
+    {
+      "role": "t3_gallery_2h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_2h.png",
+      "bytes": 476936,
+      "sha256": "ab632df1a1a25a90f3abfa2ddfa41fa04718502a9c31513ae674cd1f974ee3d3"
+    },
+    {
+      "role": "t3_gallery_2p5h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_2p5h.pdf",
+      "bytes": 118130,
+      "sha256": "e8cf15467dab1833dc70dbf8ffffac4ea710ff2f34ad710565c4d63a24a894a4"
+    },
+    {
+      "role": "t3_gallery_2p5h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_2p5h.png",
+      "bytes": 671735,
+      "sha256": "8f6391214142bd60e905c6832621085a3db4ea145b3fcf5fba73b31c1ae8cc1b"
+    },
+    {
+      "role": "t3_gallery_3h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_3h.pdf",
+      "bytes": 71553,
+      "sha256": "133a335c2a6b1b8d66913530551efec4e381538aa961c6ff97a5310326a40b12"
+    },
+    {
+      "role": "t3_gallery_3h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_3h.png",
+      "bytes": 351186,
+      "sha256": "0df248c5052a9f492c8206bd9016c0c7b269be6af0e22e4862d79eaac38a4b6e"
+    },
+    {
+      "role": "t3_gallery_3p5h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_3p5h.pdf",
+      "bytes": 54018,
+      "sha256": "7d5413e49bf6758690e1d39936462529495b5d5feec18c14c914db5697feee11"
+    },
+    {
+      "role": "t3_gallery_3p5h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_3p5h.png",
+      "bytes": 258512,
+      "sha256": "52db4eefa3e98081f0d370b520130251a5076f3bb0ab29cc2cbeb15a0ba56345"
+    },
+    {
+      "role": "t3_gallery_4h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_4h.pdf",
+      "bytes": 57218,
+      "sha256": "88875e5ef85733fd90e2785670112003d9a2c445e3b6801766e52b99765e7cd1"
+    },
+    {
+      "role": "t3_gallery_4h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_4h.png",
+      "bytes": 277478,
+      "sha256": "9482e96ccc13c35286c2b7a7d55b24601f6db1b5b986b82d963d12f74191e9bb"
+    },
+    {
+      "role": "t3_gallery_4p5h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_4p5h.pdf",
+      "bytes": 72714,
+      "sha256": "2020d785906fe738a52d0921a591b47cc707fbf6861529a6f8aa6400a604a70e"
+    },
+    {
+      "role": "t3_gallery_4p5h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_4p5h.png",
+      "bytes": 394573,
+      "sha256": "43df0cd6325852dc4403dcd87d22b81ffc2f43cbf8d5e21074560f5de919de35"
+    },
+    {
+      "role": "t3_gallery_5h_pdf",
+      "path": "figures/fig_qc_t3_pair_gallery_5h.pdf",
+      "bytes": 27792,
+      "sha256": "a8d91706ddb508548a8ae73ca93c5c2a9c36f5c611cd3da9d56e5699fabef762"
+    },
+    {
+      "role": "t3_gallery_5h_png",
+      "path": "figures/fig_qc_t3_pair_gallery_5h.png",
+      "bytes": 83451,
+      "sha256": "2d81951e96e2a97fed7a03e3d4c4b3ddf9403e3703dcdfcb44e05f85120c0169"
+    },
+    {
+      "role": "t3_order",
+      "path": "tables/t3_hour_gallery_order.csv",
+      "bytes": 249381,
+      "sha256": "32c341e63071f142f4d1044046676c309aa9d0f334945cd6a69e075f7d6c1930"
+    },
+    {
+      "role": "t4_aligned",
+      "path": "tables/t4_aligned_shared_frames.parquet",
+      "bytes": 1205498,
+      "sha256": "9526d515399cdcbb51ef4a2704b4cfc46aad12f3c13fde952c71a7b9dbccc56d"
+    },
+    {
+      "role": "t4_gallery_pdf",
+      "path": "figures/fig_qc_t4_strict_pair_gallery.pdf",
+      "bytes": 169461,
+      "sha256": "d4bd4e3eb70fe94bc0555a4d219aac8b2a07b95da9ed8c4e2d07f0c91021d39e"
+    },
+    {
+      "role": "t4_gallery_png",
+      "path": "figures/fig_qc_t4_strict_pair_gallery.png",
+      "bytes": 989385,
+      "sha256": "bbe0638ec3751c8b196b52240205e69f663ccfeb5123d6ea4a30af0fee14c601"
+    },
+    {
+      "role": "t4_order",
+      "path": "tables/t4_gallery_order.csv",
+      "bytes": 103627,
+      "sha256": "bd45a427e4d79a83983312e135d9f3eb5514f944b8dc1b71c515f419c8ad66ec"
+    }
+  ]
+}

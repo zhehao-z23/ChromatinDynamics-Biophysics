@@ -1,0 +1,25 @@
+{
+  "analysis": "v5.2.1_pair_trajectory_manual_review_galleries",
+  "source": "v5.2.1 unfiltered bundle-frame cache",
+  "t3_rule": {
+    "site1_frames": 10,
+    "site2_frames": 10,
+    "paired_frames": 10,
+    "longest_paired_run": 5
+  },
+  "t4_rule": {
+    "site1_frames": 20,
+    "site2_frames": 20,
+    "paired_frames": 20,
+    "longest_paired_run": 10,
+    "paired_coverage": 0.5
+  },
+  "53bp1_filter": "none",
+  "pairing": "same bundle and same recorded frame; both Site1 and Site2 observed",
+  "alignment": "subtract pooled Site1/Site2 centroid per bundle; preserve native orientation",
+  "gap_display": "connect recorded paired positions in frame order across gaps; no interpolation",
+  "gallery_order": "ascending sqrt((Rg_site1^2 + Rg_site2^2)/2)",
+  "scale": "all galleries use fixed +/-2.50 um tile coordinates",
+  "time_semantics": "cross-sectional hour after Cas9 delivery; not time since cutting",
+  "inference": "manual descriptive review only"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "selection": {
+    "top_n": 4,
+    "target_lag_s": 10.0,
+    "accepted_lag_window_s": [7.5, 12.5],
+    "minimum_endpoint_pairs": 8,
+    "ranking": "descending directly observed paired relative-vector MSCD at the supported lag nearest 10 s"
+  },
+  "cases": [
+    {
+      "case_id": "mscd10_top01",
+      "display_label": "MSCD top 1",
+      "bundle_id": "LiveFISH DSB009|LiveFISH DSB009_candidate_46|a001"
+    },
+    {
+      "case_id": "mscd10_top02",
+      "display_label": "MSCD top 2",
+      "bundle_id": "LiveFISH DSB023|LiveFISH DSB023_candidate_44|a003"
+    },
+    {
+      "case_id": "mscd10_top03",
+      "display_label": "MSCD top 3",
+      "bundle_id": "LiveFISH DSB028|LiveFISH DSB028_candidate_55|a002"
+    },
+    {
+      "case_id": "mscd10_top04",
+      "display_label": "MSCD top 4",
+      "bundle_id": "LiveFISH DSB008|LiveFISH DSB008_candidate_3|a001"
+    }
+  ],
+  "display": {
+    "raw_minimum_crop_px": 72,
+    "raw_padding_px": 12,
+    "site1_color": "#F4B400",
+    "site2_color": "#7A3DB8",
+    "bp1_color": "#00B050",
+    "nucleus_outline_color": "#66D9EF",
+    "nucleus_outline_linewidth": 1.8,
+    "nucleus_outline_alpha": 0.95,
+    "site1_weight": 0.85,
+    "site2_weight": 0.85,
+    "bp1_weight": 0.60,
+    "site_gamma": 0.85,
+    "bp1_gamma": 0.85,
+    "site_percentiles": [50.0, 99.75],
+    "bp1_percentiles": [5.0, 99.5],
+    "track_linewidth": 2.4,
+    "track_halo_linewidth": 4.8,
+    "pixel_scale_bar_linewidth": 5.0,
+    "pixel_scale_bar_halo_linewidth": 8.5,
+    "pixel_scale_bar_fontsize": 18.0,
+    "pixel_label_halo_linewidth": 3.2,
+    "full_cell_time_fontsize": 18.0,
+    "time_colormap": "jet",
+    "playback_fps": 8.0,
+    "video_crf": 20,
+    "figure_size_inches": [15.8, 7.6],
+    "png_dpi": 220
+  }
+}

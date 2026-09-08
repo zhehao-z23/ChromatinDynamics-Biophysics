@@ -1,0 +1,383 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_index.parquet",
+      "bytes": 78140,
+      "sha256": "254bc650a4d1f92c39de316574365de8cb3bdf656a10bae16a99e33233b42460"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\analysis.yaml",
+      "bytes": 7913,
+      "sha256": "842fb81bf5ac9a677ddd3247ed2d32b4854982a822733be5702e8776c6e24a94"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\fits.csv",
+      "bytes": 39582,
+      "sha256": "0a3ad1612f4033e11567285b6f6051908b344dfab4f49f41319e1d010bf3694f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\exp_corr.m",
+      "bytes": 676,
+      "sha256": "ce87a4b8af2781234b4469e05e384dde7a89984696cfa1aee50da6ddc402a76c"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\calc_vel_corr_new.m",
+      "bytes": 4887,
+      "sha256": "7f1c0fbf0a005eabb4fa3b9056ac3016e0ebe9b868f7d51a6621bcb27621fe82"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\WLS_vel_corr_new.m",
+      "bytes": 1544,
+      "sha256": "20c0a090654431cde05226e2e6b1eaa6f14dadc1f8927fb6513ffc7573dee85b"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\plot_vel_corr.m",
+      "bytes": 2667,
+      "sha256": "34d433c9ed22ecfdc96dd37d1fafb8b653f2bed6d66f06893dac6c02d92e897f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\site_1and2_canonical_group_280kb_vcctheory.eps",
+      "bytes": 19060,
+      "sha256": "ec504816b3e17bb3a0cf74aa7b67ba8d76c721061864c8a4ecc515e77769fd85"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\Read_Me.pdf",
+      "bytes": 95985,
+      "sha256": "35f832feea5368c106afdc6c51e82c794ef11bf563e853d1957f0f8a8573f918"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\38_build_v521_oligo_vac.py",
+      "bytes": 21210,
+      "sha256": "84a7824a636e67831dd4a2cd7a958ccff1c8f49992d2a3bd0e241c29c198326f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\oligo_vac.py",
+      "bytes": 30976,
+      "sha256": "208851b5ae259fb7ed5b718855e17da661634cd49a66cdd54cf050ce3c36bea3"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\physical_metrics.py",
+      "bytes": 78440,
+      "sha256": "0bc4924e26eb267d9cfb2ca6cef5d1764a46758697764d7012cd2d0b4905754e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\time_resolved_physics_summary.py",
+      "bytes": 35874,
+      "sha256": "d4031b74824cc843a6843f9ee075ef2859eb1f2650782675df2adce8359fdf1e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "FIGURE_INDEX.md",
+      "bytes": 1475,
+      "sha256": "85f772fde0c27f9f34d02d4796534ca94d7daa99d7f71ac1056f2b40637da50e"
+    },
+    {
+      "path": "figures/vac_1.5h_oligo_style.pdf",
+      "bytes": 62674,
+      "sha256": "805acd2f24513a5b330233aaa05a7070d57b2ed5d90a58701f59890348af63ff"
+    },
+    {
+      "path": "figures/vac_1.5h_oligo_style.png",
+      "bytes": 556144,
+      "sha256": "3c13a27d2255a39622a2089eb407da6088558b3a958bc64e83887af081cc91af"
+    },
+    {
+      "path": "figures/vac_1.5h_oligo_style.svg",
+      "bytes": 102276,
+      "sha256": "16c4564d683f6ee762f7fc64733819edc9da825201a750ef95f2000813bdfca5"
+    },
+    {
+      "path": "figures/vac_10h_oligo_style.pdf",
+      "bytes": 64401,
+      "sha256": "2ff6141d0e185bee5f5252f1e0d3ddd343273d135e23d1c74b24373c946c8f9d"
+    },
+    {
+      "path": "figures/vac_10h_oligo_style.png",
+      "bytes": 543587,
+      "sha256": "3a1c80c9dcd08e5c8646689471db1ea1cca47d376732348acbfbff7de05b1bda"
+    },
+    {
+      "path": "figures/vac_10h_oligo_style.svg",
+      "bytes": 107180,
+      "sha256": "c3ffbdfcfbbb2f4a43725d3b33c16ccfa9c3936002d47022bc2d8e004a687d18"
+    },
+    {
+      "path": "figures/vac_2.5h_oligo_style.pdf",
+      "bytes": 63757,
+      "sha256": "a475536a66497afa9b0d9e988c7d2321f30433cdb13eaaf66d549862a4926c99"
+    },
+    {
+      "path": "figures/vac_2.5h_oligo_style.png",
+      "bytes": 545397,
+      "sha256": "1356679b45e04f2239cc9dd3be8575eb63d15dea5075ce4c6bc831907e47afa7"
+    },
+    {
+      "path": "figures/vac_2.5h_oligo_style.svg",
+      "bytes": 105738,
+      "sha256": "825983e65ad9d6eccd063f45ede4cd0c437fd05ead79f164be98b34e91553ef3"
+    },
+    {
+      "path": "figures/vac_2h_oligo_style.pdf",
+      "bytes": 64221,
+      "sha256": "6c5fa0f93834523187c605c92810be4b67b5f5a5902347cff0c0baef0f6fcea8"
+    },
+    {
+      "path": "figures/vac_2h_oligo_style.png",
+      "bytes": 561186,
+      "sha256": "fb6d23d8a725e1645c4e29f1279a7c92fb975aec12fbc78c2ac7b755843cdd8b"
+    },
+    {
+      "path": "figures/vac_2h_oligo_style.svg",
+      "bytes": 106907,
+      "sha256": "3682c15a753af0bd15bd327ac658873dadc91a0b16f7c3fd2129e961b7a061db"
+    },
+    {
+      "path": "figures/vac_3.5h_oligo_style.pdf",
+      "bytes": 64521,
+      "sha256": "cd3038548c705c2c8a7806c77fa74958e9ebaae55309d69593c9fb97256a1876"
+    },
+    {
+      "path": "figures/vac_3.5h_oligo_style.png",
+      "bytes": 553699,
+      "sha256": "9eb3c4a8f7da4bfa0bd71dea740638dd577d91f8047f9241d9df5247e04011c0"
+    },
+    {
+      "path": "figures/vac_3.5h_oligo_style.svg",
+      "bytes": 107264,
+      "sha256": "72867dd7a9f9fd448d068452463f272b09762ef4a134a4e38e36b288fc8f7c90"
+    },
+    {
+      "path": "figures/vac_3h_oligo_style.pdf",
+      "bytes": 63716,
+      "sha256": "7ed86609de920fa175f1df0db60f279309ea544cbad5aa69977dae929c4bde6f"
+    },
+    {
+      "path": "figures/vac_3h_oligo_style.png",
+      "bytes": 546855,
+      "sha256": "064f04a369aefb02b336b89b585fc15683abc0cd4f02ab3d2c24a4713ae3fd11"
+    },
+    {
+      "path": "figures/vac_3h_oligo_style.svg",
+      "bytes": 105833,
+      "sha256": "9a8534d0a5a2a6010233f1b2d4e2649834a6d3a72ccaa9649d9098d5ed205dd5"
+    },
+    {
+      "path": "figures/vac_4.5h_oligo_style.pdf",
+      "bytes": 64363,
+      "sha256": "41e09bb2472d997dca754e907091d612784f868e11e187e6b83d0ed5f7ad70ee"
+    },
+    {
+      "path": "figures/vac_4.5h_oligo_style.png",
+      "bytes": 541514,
+      "sha256": "ff1523ed2808a16fc3bfdd512c4dc69e2d7f685faca539a6648b64e9cd792a8a"
+    },
+    {
+      "path": "figures/vac_4.5h_oligo_style.svg",
+      "bytes": 106839,
+      "sha256": "f8e19488fdca61a9c8efcea1e0248455a018a57b524af8a500c7689db94288dd"
+    },
+    {
+      "path": "figures/vac_4h_oligo_style.pdf",
+      "bytes": 63899,
+      "sha256": "03da046b055f159d02c28eb83699246b8cd3d1b2c4aa46c606f78440f452ef16"
+    },
+    {
+      "path": "figures/vac_4h_oligo_style.png",
+      "bytes": 545804,
+      "sha256": "0727e80b13fdd3e033a0251b08d0d70055e6e44122703c42ebecd41863c3a0ea"
+    },
+    {
+      "path": "figures/vac_4h_oligo_style.svg",
+      "bytes": 106185,
+      "sha256": "6d44d13ac2c66284bfa66aef421f07c9c7fc4b4dc435f25bf4eaf16ad6dd26f3"
+    },
+    {
+      "path": "figures/vac_5h_oligo_style.pdf",
+      "bytes": 64822,
+      "sha256": "646253d2e7c78cb6bcb50ba6be0cbef969f5e3ddcb98559520de3b6f071bb323"
+    },
+    {
+      "path": "figures/vac_5h_oligo_style.png",
+      "bytes": 552342,
+      "sha256": "b94b6dc8487e25af81dbfdce1efb019b944a82da269a97a811287b22dc5af442"
+    },
+    {
+      "path": "figures/vac_5h_oligo_style.svg",
+      "bytes": 107603,
+      "sha256": "bf09788a9d1ee6a26fffcd3c0891bb92b0ff413d8fa3eea46061a9f432caf454"
+    },
+    {
+      "path": "figures/vac_alpha_multi_delta_by_hour.pdf",
+      "bytes": 29560,
+      "sha256": "774536838efb647a411c7bfbd5aeda60a828438564597c127c7675cd666170c6"
+    },
+    {
+      "path": "figures/vac_alpha_multi_delta_by_hour.png",
+      "bytes": 173080,
+      "sha256": "478d14a0ca30da1fe9904df125c8e328cd46d044c39df9bb5f0d976354d96a28"
+    },
+    {
+      "path": "figures/vac_alpha_multi_delta_by_hour.svg",
+      "bytes": 46260,
+      "sha256": "b24fa24efce8ddad305ec4d7b0d7bc47ba3b79fb69078944c4bd34c17cd66f4b"
+    },
+    {
+      "path": "figures/vac_msd_alpha_consistency_by_hour.pdf",
+      "bytes": 47131,
+      "sha256": "4b84279a88b986eae89836f96a5746f04c8215bdf71e9f8ebea8dc8ebeb2a98e"
+    },
+    {
+      "path": "figures/vac_msd_alpha_consistency_by_hour.png",
+      "bytes": 226072,
+      "sha256": "c1909d50e1d24ea04e61756db62419fe16de82758103b5765fcb84897cc9ae50"
+    },
+    {
+      "path": "figures/vac_msd_alpha_consistency_by_hour.svg",
+      "bytes": 75752,
+      "sha256": "14274865aa5f035c5cffb344bde39dc4eed28154d7934f4dea6f74a8bf640540"
+    },
+    {
+      "path": "IMPLEMENTATION_AUDIT.md",
+      "bytes": 3197,
+      "sha256": "1c815fc7946db548fbc7643a4ac365b7a59f3ebde33ff23634a7fdcefa4cfa43"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 1667,
+      "sha256": "a1a95f7b2ec3e510ab9eef80d3933c834da9b244538b7d739c9f0ff9d1451b9e"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 2681,
+      "sha256": "9b103decf20cab7fd9c01449cdbe776c1482e02a565d5a473666fc1a881e1245"
+    },
+    {
+      "path": "tables/collapsed_hour_curves.csv",
+      "bytes": 15411,
+      "sha256": "31efa228d81be08fa3b516cad3a3ded2ac97f9321543fb020b3183dfe895d844"
+    },
+    {
+      "path": "tables/collapsed_hour_curves.parquet",
+      "bytes": 12688,
+      "sha256": "513bde40313ebd771693d92207bca10afd0c139c9f0c65f6596390aed34b0794"
+    },
+    {
+      "path": "tables/collapsed_unit_curves.parquet",
+      "bytes": 500213,
+      "sha256": "d63aa7f6ffad6c1a24d8e037ef41285334a877ab62d3308811c1b38dc4d31f46"
+    },
+    {
+      "path": "tables/raw_hour_curves.csv",
+      "bytes": 70135,
+      "sha256": "8b70843bb080df6ddf9bec458579a218a93d8e029153d266b6737edbcdc293a5"
+    },
+    {
+      "path": "tables/raw_hour_curves.parquet",
+      "bytes": 33537,
+      "sha256": "5a9f5f3a8265c2c61dbb7f7c97cf6d4695f8e235ed851cb212cbdfbee40a3a2c"
+    },
+    {
+      "path": "tables/scaled_delta_hour_curves.csv",
+      "bytes": 74299,
+      "sha256": "e0358cb5b6c665e120538781a6d7c667291bc26c92eaac9db14acb25bbde3ae7"
+    },
+    {
+      "path": "tables/scaled_delta_hour_curves.parquet",
+      "bytes": 34388,
+      "sha256": "2691c63fcefce5ff62c3bcee2277895994c02ea0c85d59051fe95eb0faffa6a0"
+    },
+    {
+      "path": "tables/support_census.parquet",
+      "bytes": 237531,
+      "sha256": "27cd462159b641203bfd1d540b35376691def28ca0e862dfcfa64e32afc8d95c"
+    },
+    {
+      "path": "tables/support_summary.csv",
+      "bytes": 5823,
+      "sha256": "809b909e330b14a74d3d86002ec1c3abb5a28c21e6c2e2bfb3504d02788f0714"
+    },
+    {
+      "path": "tables/unit_vac_curves.parquet",
+      "bytes": 8795100,
+      "sha256": "3b88ea897f2bc5856b941481df3ca26e95bac9ee18603a82c565c968aff46854"
+    },
+    {
+      "path": "tables/vac_msd_consistency.csv",
+      "bytes": 3627,
+      "sha256": "c8d3ced8207aa4a3536e2470b1592e0e26ddd79598e8995f2c66591e2b806f45"
+    },
+    {
+      "path": "tables/vac_only_alpha_fits.csv",
+      "bytes": 3562,
+      "sha256": "a70c3cf9de9e4bfd6cf17fcb37e05967be73c0a93854b0d28cf60e08a908197c"
+    }
+  ],
+  "hour_figures": {
+    "1.5": [
+      "figures\\vac_1.5h_oligo_style.png",
+      "figures\\vac_1.5h_oligo_style.pdf",
+      "figures\\vac_1.5h_oligo_style.svg"
+    ],
+    "2": [
+      "figures\\vac_2h_oligo_style.png",
+      "figures\\vac_2h_oligo_style.pdf",
+      "figures\\vac_2h_oligo_style.svg"
+    ],
+    "2.5": [
+      "figures\\vac_2.5h_oligo_style.png",
+      "figures\\vac_2.5h_oligo_style.pdf",
+      "figures\\vac_2.5h_oligo_style.svg"
+    ],
+    "3": [
+      "figures\\vac_3h_oligo_style.png",
+      "figures\\vac_3h_oligo_style.pdf",
+      "figures\\vac_3h_oligo_style.svg"
+    ],
+    "3.5": [
+      "figures\\vac_3.5h_oligo_style.png",
+      "figures\\vac_3.5h_oligo_style.pdf",
+      "figures\\vac_3.5h_oligo_style.svg"
+    ],
+    "4": [
+      "figures\\vac_4h_oligo_style.png",
+      "figures\\vac_4h_oligo_style.pdf",
+      "figures\\vac_4h_oligo_style.svg"
+    ],
+    "4.5": [
+      "figures\\vac_4.5h_oligo_style.png",
+      "figures\\vac_4.5h_oligo_style.pdf",
+      "figures\\vac_4.5h_oligo_style.svg"
+    ],
+    "5": [
+      "figures\\vac_5h_oligo_style.png",
+      "figures\\vac_5h_oligo_style.pdf",
+      "figures\\vac_5h_oligo_style.svg"
+    ],
+    "10": [
+      "figures\\vac_10h_oligo_style.png",
+      "figures\\vac_10h_oligo_style.pdf",
+      "figures\\vac_10h_oligo_style.svg"
+    ]
+  },
+  "alpha_figure": [
+    "figures\\vac_alpha_multi_delta_by_hour.png",
+    "figures\\vac_alpha_multi_delta_by_hour.pdf",
+    "figures\\vac_alpha_multi_delta_by_hour.svg"
+  ],
+  "consistency_figure": [
+    "figures\\vac_msd_alpha_consistency_by_hour.png",
+    "figures\\vac_msd_alpha_consistency_by_hour.pdf",
+    "figures\\vac_msd_alpha_consistency_by_hour.svg"
+  ]
+}

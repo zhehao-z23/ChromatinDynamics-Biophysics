@@ -1,0 +1,307 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_case_study_multichannel_review.json",
+      "bytes": 944,
+      "sha256": "09f65da39b7b17371afbc7319e53748505cfcefd0e742de668d4562420e72f13"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_without_t5_t10_v2\\tables\\eligible_complete_pair_trajectory_summary.csv",
+      "bytes": 37953,
+      "sha256": "8f6985ee9f5fff9a828337bf627698c634e9d77a845b891a193b23d8d15347c6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\28_build_v521_case_study_multichannel_review.py",
+      "bytes": 2318,
+      "sha256": "f1e0ee6b2e8a4ae3364947fbdf84f8fb8ebf579e202cfc09d4f6c4105263fa1d"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_study_multichannel_review.py",
+      "bytes": 69404,
+      "sha256": "bf01a8643fc3a506bce8f82d4f9ef17ac65d9c9f6bb379c45ce8cb0767edfc04"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\README.md",
+      "bytes": 2670,
+      "sha256": "69106bab947986613ecb40ef10b7451183bf77e258566c685e80cfee22bae672"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\animation_core.py",
+      "bytes": 13658,
+      "sha256": "87ac73de3fd342106348191d447eaae736c9438ea6ef403705cba140f646b0fa"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\build_demo_videos.py",
+      "bytes": 26627,
+      "sha256": "82ccc2aad64d5b7db62afdd9a55b7e7eb23f108e2a7d9ae5bf531bd38e501428"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\2026-08-23_OligoLiveFISH_v521_published_validation\\source_v521\\trajectory_extraction\\pipeline\\plot_longest_trajectories.m",
+      "bytes": 5462,
+      "sha256": "399b51e739350e1e7f48a9dc9269d23bd16711732c5ebe5f3e2ca9cdc12127ff"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\LiveFISH DSB006_candidate_5_composite.tif",
+      "bytes": 12525782,
+      "sha256": "cb9c143ea4bd522aa7e72aef100ea34d90bce67483721f086e28c86f555ad747"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\LiveFISH DSB006_candidate_5_correct.tif",
+      "bytes": 12525778,
+      "sha256": "b8c514e8aa33e8993ad6d5f7983743c62da84b9895b90b7b30a3c0b168779168"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\LiveFISH DSB006_candidate_5_green.tif",
+      "bytes": 4176781,
+      "sha256": "04b415f34db7971979f9df28da6ecbf830aac1d9794d5e77a3ee886559b90c10"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\LiveFISH DSB006_candidate_5_purple.tif",
+      "bytes": 4176685,
+      "sha256": "138a449ce16eab5da8fe8df3892ad9f85308685b065e53f840233fc9814552cd"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\LiveFISH DSB006_candidate_5_red.tif",
+      "bytes": 4176777,
+      "sha256": "e92b9f90406e2c09b0293ec7c456f7b69456a309d9f1923a6873f3c993f4e39a"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\LiveFISH DSB006_candidate_5_Nucleus.tif",
+      "bytes": 2090434,
+      "sha256": "9052eecd24dd1e2252036ba9cba7c387b3e6a7d7509707a6046e3abd0c485404"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\mask_alignment\\microsam_mask_aligned_raw.tif",
+      "bytes": 2090386,
+      "sha256": "b7a8fcdef65fe1f5610edca7983ed183d6b55654525e03dea6903b5c8b52680b"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5_metadata.json",
+      "bytes": 4448,
+      "sha256": "af5a8859d935891d6cc57a2b8af9a0fd31dc2857c050f56532654845121f1ea9"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\run_manifest.json",
+      "bytes": 5548,
+      "sha256": "66cf3bb513f1a83adef30975c99f364ecb1520bd347211153ee32b45704e727d"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\baseline_longest\\allele_002_site1_longest_spt_cleaned.csv",
+      "bytes": 1058,
+      "sha256": "d652fbcaab1e2ca6db6feb38ffc981c2cd0eac05b1e36d6989695c859d836e46"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\04_crops\\old\\LiveFISH DSB006\\LiveFISH DSB006_candidate_5\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\baseline_longest\\allele_002_site2_longest_spt_cleaned.csv",
+      "bytes": 1058,
+      "sha256": "a75dc30efe9b3a3f560136f19c7c2811d6f3a3110704fa818491463f7532727c"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\LiveFISH DSB091_candidate_43_composite.tif",
+      "bytes": 66417005,
+      "sha256": "6deae1e23327c384f079ae8d0d93cac3e8e4b8c2c65ff44a8a29c0ddd280099f"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\LiveFISH DSB091_candidate_43_correct.tif",
+      "bytes": 66417001,
+      "sha256": "17a40f99d186f58249f881206a98abb2a8ea8ab87058c67d76b70c0a8f03c578"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\LiveFISH DSB091_candidate_43_green.tif",
+      "bytes": 7379887,
+      "sha256": "7fe1d65b69c3e3f0a8e0e643c88cf5b81b2a0757243769c0974424a9bcb657f7"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\LiveFISH DSB091_candidate_43_purple.tif",
+      "bytes": 7379891,
+      "sha256": "eee21a84b27034d5cb34cc5d5dd9609bfeb9ebd41e29155653045a979029fa76"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\LiveFISH DSB091_candidate_43_red.tif",
+      "bytes": 7379883,
+      "sha256": "4b1832a54207568b529f57d5637367314b23030698e120fa828b91d9efde23ba"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\LiveFISH DSB091_candidate_43_Nucleus.tif",
+      "bytes": 3692934,
+      "sha256": "cb3f8c774547d4bbf558d05cb3ca4c8a2af2d524b82004c01e889908110bc974"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\mask_alignment\\microsam_mask_aligned_raw.tif",
+      "bytes": 3692886,
+      "sha256": "03e00b87d3d494675f7e5b30dd109c85dca1f83b71a888808f79262e1e262a40"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43_metadata.json",
+      "bytes": 4437,
+      "sha256": "a43c22b017853e04e5c6737eaa963585d21a433c3484e914f6878f0dea681dfa"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\run_manifest.json",
+      "bytes": 5659,
+      "sha256": "56acb42f3bd385b2bea890be4887461ab38a7e69f5276ff1da4d2a6ae3df0cc4"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\baseline_longest\\allele_002_site1_longest_spt_cleaned.csv",
+      "bytes": 1108,
+      "sha256": "ee8ede7ca9e29c9071405ccb232caa7bd621128e5d93afe2bd18acb3ba8cd852"
+    },
+    {
+      "path": "E:\\DSB_v51\\dsb_v521_fullrun_20260819T084304Z\\03_new_all_candidates\\LiveFISH DSB091\\LiveFISH DSB091_candidate_43\\anchor_roi_v4_dsb_53bp1_site1_site2_independent_r_autonomous_validated_segment_convex_hull\\baseline_longest\\allele_002_site2_longest_spt_cleaned.csv",
+      "bytes": 1108,
+      "sha256": "3b6f5a2723d29a860a56d1d0f19c7db2267c92bacbe693f07cd5892130742ef0"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "figures\\compact_no_xy\\10h_longest_03_DSB091_candidate43_allele2_compact_no_xy.pdf",
+      "bytes": 304756,
+      "sha256": "467d4670dcdfdd7a9eabccce53e7c85d19497d2511f7b571941438fa8f5b8e53"
+    },
+    {
+      "path": "figures\\compact_no_xy\\10h_longest_03_DSB091_candidate43_allele2_compact_no_xy.png",
+      "bytes": 557067,
+      "sha256": "cd4f3fe0ce8be38a975132193bcd1e7102af488ab108d234da84c5256787b931"
+    },
+    {
+      "path": "figures\\compact_no_xy\\2h_shortest_06_DSB006_candidate5_allele2_compact_no_xy.pdf",
+      "bytes": 198246,
+      "sha256": "359509ffd47cf8ed78e1ff6f15f8def07e8f3e952e854cc4d18b95d0d0448166"
+    },
+    {
+      "path": "figures\\compact_no_xy\\2h_shortest_06_DSB006_candidate5_allele2_compact_no_xy.png",
+      "bytes": 425054,
+      "sha256": "bcfc71f074105f8584289734c3bdf21ffe3e19f43fe73e28c925f0309492dd33"
+    },
+    {
+      "path": "figures\\shared_joint_origin_xy\\10h_longest_03_DSB091_candidate43_allele2_shared_joint_origin_xy.pdf",
+      "bytes": 312718,
+      "sha256": "4a94b097beda47d881390869fd7aa406cbe2cb7f687aa30bafd7960763daa54b"
+    },
+    {
+      "path": "figures\\shared_joint_origin_xy\\10h_longest_03_DSB091_candidate43_allele2_shared_joint_origin_xy.png",
+      "bytes": 642527,
+      "sha256": "abf85fc6bcba634ec2cd2f5c0f8d4a8c37e98e911df3a8e232d0b347f74759ad"
+    },
+    {
+      "path": "figures\\shared_joint_origin_xy\\2h_shortest_06_DSB006_candidate5_allele2_shared_joint_origin_xy.pdf",
+      "bytes": 200299,
+      "sha256": "b18d7a7ab7a795edf8b12732959afabd4f50f0b4f8ea3029403c7836f5930441"
+    },
+    {
+      "path": "figures\\shared_joint_origin_xy\\2h_shortest_06_DSB006_candidate5_allele2_shared_joint_origin_xy.png",
+      "bytes": 395842,
+      "sha256": "e9a94e7328094927a63c65eaa0e9cdcb5e20cde3d495618091343281928264f4"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 2405,
+      "sha256": "17c5d2470d88ba19509fc20e0df92ab2c5d6effcb3106eef7081cc137f1a461b"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 518,
+      "sha256": "2e85ff4abcb91a8c83a7a9a919f31779ac305bb310f1b3d4cc37753a7b293a8a"
+    },
+    {
+      "path": "tables\\distance_demo_summary.csv",
+      "bytes": 606,
+      "sha256": "d46475cff70ce11028abf67df7ee2156108a5a4b088cf3abe02b5bc83ecc2fbf"
+    },
+    {
+      "path": "tables\\selected_case_variant_source_and_output_paths.csv",
+      "bytes": 7164,
+      "sha256": "027464a52d32d97d9bfee8f299af63e90aadd48094374a1783c45b4e2ecb3b24"
+    },
+    {
+      "path": "videos\\compact_no_xy\\10h_longest_03_DSB091_candidate43_allele2_compact_no_xy.mp4",
+      "bytes": 6021163,
+      "sha256": "e13faf8b774eed9bffa84917b5d833881484a363fdaab48d764b78efbbb6b857"
+    },
+    {
+      "path": "videos\\compact_no_xy\\2h_shortest_06_DSB006_candidate5_allele2_compact_no_xy.mp4",
+      "bytes": 3612713,
+      "sha256": "3aa44f2836dcd502b6d21d2bc2d2d8e2d5493c78862098923bc6d481089d8fa6"
+    },
+    {
+      "path": "videos\\shared_joint_origin_xy\\10h_longest_03_DSB091_candidate43_allele2_shared_joint_origin_xy.mp4",
+      "bytes": 6451616,
+      "sha256": "5e094e9a56b9c505ed526cf2c2f08d3190f19e48bec9e011d74d09f92b9f6a2a"
+    },
+    {
+      "path": "videos\\shared_joint_origin_xy\\2h_shortest_06_DSB006_candidate5_allele2_shared_joint_origin_xy.mp4",
+      "bytes": 3436853,
+      "sha256": "1a4b8dedc41d7ce0599d5d2a443a8d5211d73c2a1a3c8f311d42a4c9854f5fa7"
+    }
+  ],
+  "products": [
+    {
+      "case_id": "shortest_06",
+      "variant": "compact_no_xy",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\compact_no_xy\\2h_shortest_06_DSB006_candidate5_allele2_compact_no_xy.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\compact_no_xy\\2h_shortest_06_DSB006_candidate5_allele2_compact_no_xy.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\videos\\compact_no_xy\\2h_shortest_06_DSB006_candidate5_allele2_compact_no_xy.mp4",
+        "frames": 50,
+        "playback_fps": 8.0,
+        "playback_duration_s": 6.25,
+        "width": 1380,
+        "height": 640,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    },
+    {
+      "case_id": "shortest_06",
+      "variant": "shared_joint_origin_xy",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\shared_joint_origin_xy\\2h_shortest_06_DSB006_candidate5_allele2_shared_joint_origin_xy.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\shared_joint_origin_xy\\2h_shortest_06_DSB006_candidate5_allele2_shared_joint_origin_xy.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\videos\\shared_joint_origin_xy\\2h_shortest_06_DSB006_candidate5_allele2_shared_joint_origin_xy.mp4",
+        "frames": 50,
+        "playback_fps": 8.0,
+        "playback_duration_s": 6.25,
+        "width": 1580,
+        "height": 760,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    },
+    {
+      "case_id": "longest_03",
+      "variant": "compact_no_xy",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\compact_no_xy\\10h_longest_03_DSB091_candidate43_allele2_compact_no_xy.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\compact_no_xy\\10h_longest_03_DSB091_candidate43_allele2_compact_no_xy.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\videos\\compact_no_xy\\10h_longest_03_DSB091_candidate43_allele2_compact_no_xy.mp4",
+        "frames": 50,
+        "playback_fps": 8.0,
+        "playback_duration_s": 6.25,
+        "width": 1380,
+        "height": 640,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    },
+    {
+      "case_id": "longest_03",
+      "variant": "shared_joint_origin_xy",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\shared_joint_origin_xy\\10h_longest_03_DSB091_candidate43_allele2_shared_joint_origin_xy.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\figures\\shared_joint_origin_xy\\10h_longest_03_DSB091_candidate43_allele2_shared_joint_origin_xy.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\videos\\shared_joint_origin_xy\\10h_longest_03_DSB091_candidate43_allele2_shared_joint_origin_xy.mp4",
+        "frames": 50,
+        "playback_fps": 8.0,
+        "playback_duration_s": 6.25,
+        "width": 1580,
+        "height": 760,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    }
+  ],
+  "shared_axis_limit_nm": 2400.0
+}

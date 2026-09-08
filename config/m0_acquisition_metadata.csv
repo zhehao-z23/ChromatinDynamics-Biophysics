@@ -1,0 +1,29 @@
+nd2_id,fov_id,hour_post_delivery,hour_mapping_evidence,hour_mapping_confirmed,biological_experiment_id,biological_experiment_evidence,biological_experiment_confirmed
+LiveFISH DSB001.nd2,fov2_1.5h,1.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB002.nd2,fov3_1.5h,1.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB003.nd2,fov4 2h,2.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB004.nd2,fov5 2h,2.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB005.nd2,fov6 2h,2.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB006.nd2,fov7_testforZH,2.0,laboratory_record:user_confirmation_2026-08-15_DSB006_fov7_2h,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB007.nd2,fov8_2h,2.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB008.nd2,fov9_2h,2.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB009.nd2,fov10_2.5h,2.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB010.nd2,fov11_2.5h,2.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB011.nd2,fov12_2.5h,2.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB012.nd2,fov13_2.5h,2.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB013.nd2,fov14_3h,3.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB014.nd2,fov15 3h_1s,3.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB015.nd2,fov16 3h,3.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH 3h_DSB016.nd2,fov17_3h_forZH,3.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB017.nd2,fov18_3.5h,3.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB018.nd2,fov19_3.5h,3.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB020.nd2,fov20_3.5h,3.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB021.nd2,fov21_3.5h,3.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB022.nd2,fov22_4h,4.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB023.nd2,fov23_4h,4.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB024.nd2,fov24_4h,4.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB025.nd2,fov25_4h,4.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB027.nd2,fov27_samefovas26_4.5h,4.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB028.nd2,fov28_4.5h_5s,4.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB029.nd2,fov29_4.5h,4.5,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true
+LiveFISH DSB030.nd2,fov30_5h,5.0,validated_manifest:nd2_inventory_folder_label_2026-08-11,true,,laboratory_record:user_confirmation_2026-08-15_no_formal_biological_experiment_ids,true

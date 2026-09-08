@@ -1,0 +1,212 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\unit_curves.parquet",
+      "bytes": 24617339,
+      "sha256": "649cb7f0f334225bddd2b91899d14a3ee1ffd58b8215ec5100275325af14b46f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_without_t5_t10_v2\\tables\\eligible_complete_pair_trajectory_summary.csv",
+      "bytes": 37953,
+      "sha256": "8f6985ee9f5fff9a828337bf627698c634e9d77a845b891a193b23d8d15347c6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_mscd10_top4_complete_coverage.json",
+      "bytes": 1769,
+      "sha256": "a09f66efb4d8aa4a190f7cf6a02e1083716fca1e76a6566e9971348e1b8092ae"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\45_build_v521_mscd10_top4_cases.py",
+      "bytes": 9989,
+      "sha256": "fea6e9303849676babaede222202b90895ced0af03a8869d9a1fe747ea34ed7d"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_study_multichannel_review.py",
+      "bytes": 71893,
+      "sha256": "d915f66c3011b8c77e08e249dfa6cb47a3ee7e77a223ebfa579a9f34fa9c7b8d"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\README.md",
+      "bytes": 2670,
+      "sha256": "69106bab947986613ecb40ef10b7451183bf77e258566c685e80cfee22bae672"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\animation_core.py",
+      "bytes": 13658,
+      "sha256": "87ac73de3fd342106348191d447eaae736c9438ea6ef403705cba140f646b0fa"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\build_demo_videos.py",
+      "bytes": 26627,
+      "sha256": "82ccc2aad64d5b7db62afdd9a55b7e7eb23f108e2a7d9ae5bf531bd38e501428"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\2026-08-23_OligoLiveFISH_v521_published_validation\\source_v521\\trajectory_extraction\\pipeline\\plot_longest_trajectories.m",
+      "bytes": 5462,
+      "sha256": "399b51e739350e1e7f48a9dc9269d23bd16711732c5ebe5f3e2ca9cdc12127ff"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "case_studies/figures/2h_mscd10_top04_DSB008_candidate3_allele1_multichannel_case_review.pdf",
+      "bytes": 250138,
+      "sha256": "8bb994ac6753a11054748c4e5687fe853234a0873284c3e35a94daaa850fd50a"
+    },
+    {
+      "path": "case_studies/figures/2h_mscd10_top04_DSB008_candidate3_allele1_multichannel_case_review.png",
+      "bytes": 638862,
+      "sha256": "2d28ff9b3fa197cfc15ccd530fadbf30963b2fedcceabbbf283102e6e04bec06"
+    },
+    {
+      "path": "case_studies/figures/2p5h_mscd10_top01_DSB009_candidate46_allele1_multichannel_case_review.pdf",
+      "bytes": 293785,
+      "sha256": "268bb8b080f5e52c4de626a044b5d156cc4a814c985fc87d6c5a12132b286bd8"
+    },
+    {
+      "path": "case_studies/figures/2p5h_mscd10_top01_DSB009_candidate46_allele1_multichannel_case_review.png",
+      "bytes": 668066,
+      "sha256": "ebe12a7085115d14719777a098a9e73c1cc92e5c6f80326659a07de7c075835f"
+    },
+    {
+      "path": "case_studies/figures/4h_mscd10_top02_DSB023_candidate44_allele3_multichannel_case_review.pdf",
+      "bytes": 270347,
+      "sha256": "cd4b416a5a3365aa1368603f5c940ed8fde74fbe77790b652ce242bccd73ef38"
+    },
+    {
+      "path": "case_studies/figures/4h_mscd10_top02_DSB023_candidate44_allele3_multichannel_case_review.png",
+      "bytes": 724714,
+      "sha256": "f511784178545dca2ea6435f6a4ea4d161396a20044dc9d557eabf8284e3865d"
+    },
+    {
+      "path": "case_studies/figures/4p5h_mscd10_top03_DSB028_candidate55_allele2_multichannel_case_review.pdf",
+      "bytes": 287098,
+      "sha256": "acbf0dad11303e026796b80fd565ff2584c5431c20ca82092254d10d23eed306"
+    },
+    {
+      "path": "case_studies/figures/4p5h_mscd10_top03_DSB028_candidate55_allele2_multichannel_case_review.png",
+      "bytes": 653902,
+      "sha256": "0ea7ec7e9562a91b388d20b44b49fb36c88b60f5d665e9703e22e538da24e07e"
+    },
+    {
+      "path": "case_studies/METHOD_CONTRACT.json",
+      "bytes": 3908,
+      "sha256": "0cb87ed7d30d68059907a88ecfbb176d5528ae3101e21b871fd31237fb272588"
+    },
+    {
+      "path": "case_studies/REPORT.md",
+      "bytes": 893,
+      "sha256": "5da0e5ce82ab92de1fa8393ecafdeda4359c761bbc6970241e978f9c22dfc81a"
+    },
+    {
+      "path": "case_studies/tables/distance_demo_summary.csv",
+      "bytes": 960,
+      "sha256": "4862a587469aef0457f643b486bd208b37de6ab310fb3a6b403a22760a9f2a40"
+    },
+    {
+      "path": "case_studies/tables/selected_case_source_and_output_paths.csv",
+      "bytes": 9689,
+      "sha256": "a8fd1247eb80c623439245cc1c5ca71c281f37f8103c0d98a62b322a3836cfd4"
+    },
+    {
+      "path": "case_studies/videos/2h_mscd10_top04_DSB008_candidate3_allele1_multichannel_case_review.mp4",
+      "bytes": 3390266,
+      "sha256": "f434d6cb2215cab1cf690b26cb6f7a87bcc2e6cafa00b80d64ae8d56baeeb0e0"
+    },
+    {
+      "path": "case_studies/videos/2p5h_mscd10_top01_DSB009_candidate46_allele1_multichannel_case_review.mp4",
+      "bytes": 4751446,
+      "sha256": "15c9d026c1c16773e3ad5ee424717cdb55f5e1f6233e49c9448cccf04d9a1bf9"
+    },
+    {
+      "path": "case_studies/videos/4h_mscd10_top02_DSB023_candidate44_allele3_multichannel_case_review.mp4",
+      "bytes": 5482494,
+      "sha256": "05bd9cb5947ed56bd9976380e78d908b55bc0110e252fc1362d693f5b1b986d3"
+    },
+    {
+      "path": "case_studies/videos/4p5h_mscd10_top03_DSB028_candidate55_allele2_multichannel_case_review.mp4",
+      "bytes": 6571675,
+      "sha256": "cc63272e1f76d73049929772960c17c4624642c463e3ac10bf07321984321aaf"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 949,
+      "sha256": "08ec30c62710e8d593f2c3f22e8ddeffcf4fe7570f5405f72b7254edc98c1523"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 985,
+      "sha256": "9a08527b5012ca5f4fbe8c07401cf710f95025704e371392932902a8d33d0f04"
+    },
+    {
+      "path": "tables/complete_coverage_mscd10_top4.csv",
+      "bytes": 3747,
+      "sha256": "262c256b1410f816cd13aa805c8e6576c2ce9b427da1f9731a559a010e75c931"
+    }
+  ],
+  "products": [
+    {
+      "case_id": "mscd10_top01",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\2p5h_mscd10_top01_DSB009_candidate46_allele1_multichannel_case_review.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\2p5h_mscd10_top01_DSB009_candidate46_allele1_multichannel_case_review.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\videos\\2p5h_mscd10_top01_DSB009_candidate46_allele1_multichannel_case_review.mp4",
+        "frames": 40,
+        "playback_fps": 8.0,
+        "playback_duration_s": 5.0,
+        "width": 1580,
+        "height": 760,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    },
+    {
+      "case_id": "mscd10_top02",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\4h_mscd10_top02_DSB023_candidate44_allele3_multichannel_case_review.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\4h_mscd10_top02_DSB023_candidate44_allele3_multichannel_case_review.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\videos\\4h_mscd10_top02_DSB023_candidate44_allele3_multichannel_case_review.mp4",
+        "frames": 50,
+        "playback_fps": 8.0,
+        "playback_duration_s": 6.25,
+        "width": 1580,
+        "height": 760,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    },
+    {
+      "case_id": "mscd10_top03",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\4p5h_mscd10_top03_DSB028_candidate55_allele2_multichannel_case_review.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\4p5h_mscd10_top03_DSB028_candidate55_allele2_multichannel_case_review.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\videos\\4p5h_mscd10_top03_DSB028_candidate55_allele2_multichannel_case_review.mp4",
+        "frames": 50,
+        "playback_fps": 8.0,
+        "playback_duration_s": 6.25,
+        "width": 1580,
+        "height": 760,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    },
+    {
+      "case_id": "mscd10_top04",
+      "png": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\2h_mscd10_top04_DSB008_candidate3_allele1_multichannel_case_review.png",
+      "pdf": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\figures\\2h_mscd10_top04_DSB008_candidate3_allele1_multichannel_case_review.pdf",
+      "video": {
+        "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\case_studies\\videos\\2h_mscd10_top04_DSB008_candidate3_allele1_multichannel_case_review.mp4",
+        "frames": 40,
+        "playback_fps": 8.0,
+        "playback_duration_s": 5.0,
+        "width": 1580,
+        "height": 760,
+        "codec": "H.264/libx264",
+        "pixel_format": "yuv420p",
+        "ffmpeg_executable": "C:\\Users\\ZZH\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      }
+    }
+  ]
+}

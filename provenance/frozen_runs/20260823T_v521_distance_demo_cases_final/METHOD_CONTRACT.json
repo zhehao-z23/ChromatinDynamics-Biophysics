@@ -1,0 +1,98 @@
+{
+  "schema_version": 4,
+  "analysis_unit": "one user-selected complete Site1/Site2 bundle trajectory",
+  "layout": {
+    "left": "large complete-cell Site1/Site2/53BP1 pseudocolor with both tracks",
+    "upper_middle": "separate Site1 and Site2 pixel panels with identical crop bounds",
+    "lower_middle": "median-centered X and Y traces in Site1 yellow and Site2 purple",
+    "right": "joint physical trajectory; site-color halo plus shared jet acquisition-time color"
+  },
+  "channel_mapping": {
+    "red": {
+      "identity": "Site1",
+      "display_color": "#F4B400"
+    },
+    "purple": {
+      "identity": "Site2",
+      "display_color": "#7A3DB8"
+    },
+    "green": {
+      "identity": "53BP1 context only",
+      "display_color": "#00B050"
+    }
+  },
+  "green_channel_role": "visual nuclear context only; never selection, filter or outcome",
+  "background_frame": "middle acquisition frame",
+  "site_pixel_coordinate_contract": "same production pixel frame, same CropBounds and same scale",
+  "track_coordinate_formula": "image_px = automatic_nm/pixel_size_nm - 1",
+  "physical_trajectory": {
+    "units": "nm",
+    "origin": "joint Site1/Site2 minimum x/y shifted to 50 nm, matching source MATLAB",
+    "y_direction": "production y_nm direction, matching source MATLAB",
+    "aspect": "equal",
+    "axis_limits_nm_by_case": {
+      "shortest_06": [
+        0.0,
+        600.0
+      ],
+      "longest_03": [
+        0.0,
+        2400.0
+      ]
+    },
+    "axis_scale_scope": "equal x/y aspect within each case; case-specific range",
+    "time_encoding": "jet",
+    "site_identity": "yellow/purple halo and circle/square endpoint symbols",
+    "colorbar": "exact relative acquisition time in seconds at five MATLAB-style ticks"
+  },
+  "xy_traces": {
+    "centering": "each site median-centered independently",
+    "time": "exact acquisition time",
+    "y_direction": "positive upward",
+    "shared_y_limits_nm": [
+      -1000.0,
+      1000.0
+    ],
+    "shared_scale_scope": "identical for X and Y panels across both poster demo cases"
+  },
+  "interpolation_or_refit": "none",
+  "video": {
+    "dynamic_panels": "all five panels update synchronously",
+    "track_history": "revealed through the current frame",
+    "future_coordinates": "not shown",
+    "playback_fps": 8.0,
+    "playback_time_is_not_acquisition_time": true
+  },
+  "filename_hour": "folder-hour after Cas9 delivery",
+  "display": {
+    "raw_minimum_crop_px": 72,
+    "raw_padding_px": 12,
+    "site1_color": "#F4B400",
+    "site2_color": "#7A3DB8",
+    "bp1_color": "#00B050",
+    "site1_weight": 0.85,
+    "site2_weight": 0.85,
+    "bp1_weight": 0.6,
+    "site_gamma": 0.85,
+    "bp1_gamma": 0.85,
+    "site_percentiles": [
+      50.0,
+      99.75
+    ],
+    "bp1_percentiles": [
+      5.0,
+      99.5
+    ],
+    "track_linewidth": 2.4,
+    "track_halo_linewidth": 4.8,
+    "time_colormap": "jet",
+    "playback_fps": 8.0,
+    "video_crf": 20,
+    "figure_size_inches": [
+      15.8,
+      7.6
+    ],
+    "png_dpi": 220,
+    "shared_trace_axis_limit_nm": 1000.0
+  }
+}

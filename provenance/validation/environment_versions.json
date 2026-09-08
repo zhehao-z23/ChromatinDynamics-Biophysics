@@ -1,0 +1,15 @@
+{
+  "python": "3.13.14 | packaged by conda-forge | (main, Jun 12 2026, 09:44:26) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "pyarrow": "24.0.0",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.0",
+    "statsmodels": "0.15.0",
+    "PyYAML": "6.0.3",
+    "pydantic": "2.13.4",
+    "tifffile": "2026.6.1",
+    "pytest": "9.1.1"
+  }
+}

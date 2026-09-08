@@ -1,0 +1,3 @@
+# Final paired-distance visualization variants
+
+Both frozen trajectories are shown in two static and dynamic layouts. The compact layout omits X/Y time traces and enlarges the full-cell, channel and joint-trajectory panels. The common-scale layout retains X/Y time traces without independent median centering: one joint translation is applied to both sites, preserving their separation. Its X, Y and joint-trajectory axes are all fixed to 0--2400 nm across both cases. No localization is interpolated or re-fitted.

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "metric": "single-locus normalized velocity autocorrelation",
+  "equations": {
+    "velocity": "v_delta(t)=[r(t+delta)-r(t)]/delta",
+    "vac": "C_v_delta(tau)=<v_delta(t+tau) dot v_delta(t)>",
+    "normalization": "each trajectory/delta divided by its own C_v_delta(0)",
+    "primary_theory_overlay": "Oligo-LiveFISH Eq.9 with alpha fixed to the independently fitted MSD exponent",
+    "diagnostic_fit": "Oligo-LiveFISH Eq.9 fit to the joint multi-delta tau/delta collapse"
+  },
+  "targets_delta_s": [
+    10.0,
+    20.0,
+    40.0
+  ],
+  "integer_frame_matching_relative_tolerance": 0.25,
+  "maximum_scaled_lag": 2.5,
+  "minimum_velocity_pairs_per_unit_lag": 8,
+  "minimum_hour_bin_units_for_display_only": 8,
+  "alpha_bounds": [
+    0.25,
+    1.0
+  ],
+  "pooling": "time-average within trajectory; average supported deltas within trajectory; equal trajectory mean within folder-hour",
+  "uncertainty": "between-trajectory sample SD in tables; crop-cluster bootstrap 95% CI for alpha",
+  "coordinate_interpolation": false,
+  "excluded_filters": [
+    "paired bundle requirement",
+    "T3/T4 QC",
+    "motion magnitude",
+    "Site1/Site2 separation",
+    "53BP1 detection or recruitment",
+    "hour or acquisition identity",
+    "learned state"
+  ],
+  "reference_code_interpretation": {
+    "adopted": "exp_corr.m multi-delta display and Oligo-LiveFISH VAC Eq.7-9",
+    "not_applied_to_vac": "Rouse numerical-table WLS in calc_vel_corr_new/WLS_vel_corr_new; this is VCC communication-time modeling"
+  },
+  "macro_time_warning": "folder-hour after Cas9 delivery is not observed time since cutting"
+}

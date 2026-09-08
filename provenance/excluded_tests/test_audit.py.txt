@@ -1,0 +1,11 @@
+def test_active_config_m0_contracts_are_consistent() -> None:
+    config = load_config("config/analysis.yaml")
+    report = audit_m0(config)
+    contracts = {item["contract"]: item["status"] for item in report["contracts"]}
+    assert report["archive_status"] == "pass"
+    assert report["scientific_status"] == "go"
+    assert contracts["coordinate_units"] == "resolved"
+    assert contracts["bp1_dna_coordinate_system"] == "resolved"
+    assert not report["blocking_contracts"]
+    by_contract = {item["contract"]: item for item in report["contracts"]}
+    assert by_contract["biological_experiment_id"]["evidence"]["unavailable_by_design"]

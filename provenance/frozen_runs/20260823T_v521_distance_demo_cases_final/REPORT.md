@@ -1,0 +1,3 @@
+# Final paired-distance poster demos
+
+The two frozen cases are rendered with one large full-cell three-channel pseudocolor panel, separate Site1 and Site2 raw-pixel panels on identical bounds, one joint MATLAB-style time-colored physical trajectory with a Time (s) color bar, and yellow/purple X/Y traces. The physical XY panels use case-specific equal x/y ranges (the previous display mode). All lower X/Y position panels use the same -1000 to 1000 nm vertical limits. The 53BP1 channel provides visual nuclear context only and is not a filter or outcome. All five panels update synchronously in the companion MP4. No localization is interpolated or re-fitted, and playback time is not acquisition time.

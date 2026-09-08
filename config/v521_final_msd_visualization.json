@@ -1,0 +1,42 @@
+{
+  "representative_hours": [1.5, 3.0, 10.0],
+  "fit_window_s": [10.0, 50.0],
+  "bootstrap_iterations": 500,
+  "bootstrap_seed": 20260823,
+  "case_selection": {
+    "primary_hour": 3.0,
+    "minimum_pairs_per_lag": 8,
+    "minimum_fit_lags": 5,
+    "minimum_span_fold": 4.0,
+    "minimum_r2": 0.9,
+    "targets": [
+      {"case_id": "alpha1", "target_alpha": 1.0},
+      {"case_id": "alpha05", "target_alpha": 0.5}
+    ]
+  },
+  "case_display": {
+    "raw_minimum_crop_px": 72,
+    "raw_padding_px": 12,
+    "site1_color": "#F4B400",
+    "site2_color": "#7A3DB8",
+    "bp1_color": "#00B050",
+    "nucleus_outline_color": "#66D9EF",
+    "nucleus_outline_linewidth": 1.8,
+    "nucleus_outline_alpha": 0.95,
+    "site1_weight": 0.85,
+    "site2_weight": 0.85,
+    "bp1_weight": 0.60,
+    "site_gamma": 0.85,
+    "bp1_gamma": 0.85,
+    "site_percentiles": [50.0, 99.75],
+    "bp1_percentiles": [5.0, 99.5],
+    "track_linewidth": 2.4,
+    "track_halo_linewidth": 4.8,
+    "time_colormap": "jet",
+    "playback_fps": 8.0,
+    "video_crf": 20,
+    "figure_size_inches": [15.8, 7.6],
+    "png_dpi": 220,
+    "shared_trace_axis_limit_nm": 1000.0
+  }
+}

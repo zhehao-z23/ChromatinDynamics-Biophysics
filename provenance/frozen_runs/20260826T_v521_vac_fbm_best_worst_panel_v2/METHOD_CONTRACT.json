@@ -1,0 +1,13 @@
+{
+  "fit_quality_metric": "RMSE of normalized VAC against fBM Equation 9 fixed by independent MSD alpha",
+  "hour_selection": "lowest/highest equal-weight mean RMSE across Site1 and Site2",
+  "excluded_hour": 5.0,
+  "best_hour": 4.0,
+  "worst_hour": 2.0,
+  "alpha_refitted_to_vac": false,
+  "displayed_site": "Site1 only",
+  "panel_titles": "panel letters only; hour is an in-panel label",
+  "alpha_annotation_displayed": false,
+  "display_points": "frozen equal-trajectory means in 0.05-wide rescaled-lag bins; at most one real observation per trajectory/delta/bin; minimum eight trajectories; no interpolation",
+  "interpretation": "model-consistency comparison, not proof or disproof of a motion mechanism"
+}

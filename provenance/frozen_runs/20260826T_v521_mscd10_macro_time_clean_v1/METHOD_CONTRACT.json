@@ -1,0 +1,9 @@
+{
+  "metric": "paired relative-vector MSCD",
+  "display_estimate": "frozen equal-bundle fitted value at 10 s",
+  "source_fit_model": "MSCD(tau)=A*tau^beta over the frozen common 10--50 s window",
+  "uncertainty": "supplied crop-cluster bootstrap 95% confidence interval",
+  "excluded_display_hour": 5.0,
+  "fit_values_or_intervals_recomputed": false,
+  "biological_boundary": "folder-hour is time after Cas9 delivery; acquisitions are technical units and no biological-replicate population inference is made"
+}

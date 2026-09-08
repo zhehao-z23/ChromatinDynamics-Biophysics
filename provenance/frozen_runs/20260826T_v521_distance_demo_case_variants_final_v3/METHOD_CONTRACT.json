@@ -1,0 +1,92 @@
+{
+  "schema_version": 7,
+  "analysis_unit": "one user-selected complete Site1/Site2 bundle trajectory",
+  "variants": {
+    "compact_no_xy": {
+      "panels": "Full cell, Site1 pixels, Site2 pixels, joint trajectory with time bar",
+      "xy_time_traces": "omitted",
+      "joint_trajectory_axis": "case-specific equal x/y scale for legibility"
+    },
+    "shared_joint_origin_xy": {
+      "panels": "Full cell, Site1 pixels, Site2 pixels, X position, Y position, joint trajectory with time bar",
+      "position_transform": "one translation shared by Site1 and Site2: coordinate minus joint minimum plus 50 nm; no site-wise median centering",
+      "shared_xy_position_limits_nm": [
+        0.0,
+        2400.0
+      ],
+      "shared_joint_trajectory_limits_nm": [
+        0.0,
+        2400.0
+      ],
+      "scale_scope": "identical X, Y and joint-trajectory axes across both cases"
+    }
+  },
+  "channel_mapping": {
+    "red": {
+      "identity": "Site1",
+      "display_color": "#F4B400"
+    },
+    "purple": {
+      "identity": "Site2",
+      "display_color": "#7A3DB8"
+    },
+    "green": {
+      "identity": "53BP1 context only",
+      "display_color": "#00B050"
+    }
+  },
+  "green_channel_role": "visual nuclear context only; never selection, filter or outcome",
+  "track_coordinate_formula": "image_px = automatic_nm/pixel_size_nm - 1",
+  "interpolation_or_refit": "none",
+  "background_frame": "middle acquisition frame",
+  "pixel_scale_bars": {
+    "full_cell": "1 \u00b5m",
+    "site1": "0.5 \u00b5m",
+    "site2": "0.5 \u00b5m",
+    "labels_and_high_contrast_halo": true
+  },
+  "video": {
+    "all_visible_panels_update_synchronously": true,
+    "track_history": "revealed through current frame",
+    "future_coordinates": "not shown",
+    "full_cell_dynamic_label": "exact relative acquisition time and frame i/N",
+    "playback_fps": 8.0,
+    "playback_time_is_not_acquisition_time": true
+  },
+  "display": {
+    "raw_minimum_crop_px": 72,
+    "raw_padding_px": 12,
+    "site1_color": "#F4B400",
+    "site2_color": "#7A3DB8",
+    "bp1_color": "#00B050",
+    "site1_weight": 0.85,
+    "site2_weight": 0.85,
+    "bp1_weight": 0.6,
+    "site_gamma": 0.85,
+    "bp1_gamma": 0.85,
+    "site_percentiles": [
+      50.0,
+      99.75
+    ],
+    "bp1_percentiles": [
+      5.0,
+      99.5
+    ],
+    "track_linewidth": 2.4,
+    "track_halo_linewidth": 4.8,
+    "pixel_scale_bar_linewidth": 5.0,
+    "pixel_scale_bar_halo_linewidth": 8.5,
+    "pixel_scale_bar_fontsize": 18.0,
+    "pixel_label_halo_linewidth": 3.2,
+    "full_cell_time_fontsize": 18.0,
+    "time_colormap": "jet",
+    "playback_fps": 8.0,
+    "video_crf": 20,
+    "figure_size_inches": [
+      15.8,
+      7.6
+    ],
+    "png_dpi": 220,
+    "shared_trace_axis_limit_nm": 1000.0
+  }
+}

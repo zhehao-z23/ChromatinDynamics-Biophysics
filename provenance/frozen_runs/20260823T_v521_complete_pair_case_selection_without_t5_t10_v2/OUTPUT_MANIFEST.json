@@ -1,0 +1,71 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_index.parquet",
+      "bytes": 78140,
+      "sha256": "254bc650a4d1f92c39de316574365de8cb3bdf656a10bae16a99e33233b42460"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\26_select_v521_complete_pair_cases_without_t5_t10.py",
+      "bytes": 3014,
+      "sha256": "c5deaf4f47fae28898057e75765734ae228ced5767f08835410c35fc6c6a73fd"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_selection.py",
+      "bytes": 12333,
+      "sha256": "d1a8f9a0900fa2ce01735ac42b848b2a785c6212eae772692fec2f02775040fa"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_selection_frame_exclusion.py",
+      "bytes": 8854,
+      "sha256": "7dd418958e5553f1088c0d7c2b6871ab8144afe163bb204a6e14041787e75c4a"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tables\\eligible_complete_pair_trajectory_summary.csv",
+      "bytes": 37953,
+      "sha256": "8f6985ee9f5fff9a828337bf627698c634e9d77a845b891a193b23d8d15347c6"
+    },
+    {
+      "path": "tables\\eligible_complete_pair_trajectory_summary.parquet",
+      "bytes": 31507,
+      "sha256": "d301ed11b93db403593a60d725607cbeded2975541b08ec3c8a4d73df052a3a0"
+    },
+    {
+      "path": "tables\\excluded_t5_t10_complete_pair_trajectories.csv",
+      "bytes": 31228,
+      "sha256": "a695ed4b287d56cc739b85e11cbf9976a32cae4dd22cd170eaddf44c5bf78b27"
+    },
+    {
+      "path": "tables\\complete_pair_hour_census_after_t5_t10_exclusion.csv",
+      "bytes": 537,
+      "sha256": "c95bf1aad55e156a1189c2f3590169472278b6992a4bcd3ff8fe32ac70650cca"
+    },
+    {
+      "path": "tables\\extreme_candidates_after_t5_t10_exclusion.csv",
+      "bytes": 3797,
+      "sha256": "0b431e36b08ffdc6f61c32868ed50acadf6e6fb67b9a3853aeef4f178fd45824"
+    },
+    {
+      "path": "SELECTION_CONTRACT.json",
+      "bytes": 894,
+      "sha256": "3af685975632b47512aa03e96ca64485ba6950bc31bc26e38367e41b9ae398bf"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 541,
+      "sha256": "8cba505f5d242c6ebecd4835fb5af510f56b9ebcba1a82fc5706423ba12d488b"
+    }
+  ]
+}

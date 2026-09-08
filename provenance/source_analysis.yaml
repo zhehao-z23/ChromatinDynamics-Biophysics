@@ -1,0 +1,226 @@
+# Active configuration. Keep path changes here or in DSB_V51_ROOT, never scattered in code.
+project:
+  run_id: null
+  random_seed: 20260811
+  results_root: results
+  snapshot_root: data_snapshot
+
+documentation:
+  authoritative: ../DSB_trajectory_analysis_master_plan.md
+  frozen_context:
+    - ../prompt_0811_coreagent.md
+    - ../prompt_0811_current_result_assess.md
+    - ../prompt_0811_data.md
+    - ../prompt_0811_DL_model.md
+
+data:
+  active_trajectory_intake: v5_2_1_formal_70909c2e6326
+  v521_intake_root: data_snapshot/v5_2_1_formal_70909c2e6326
+  v521_source_root: E:/DSB_v51/dsb_v521_fullrun_20260819T084304Z
+  archive_root_env: DSB_V51_ROOT
+  archive_root_default: E:/DSB_v51/dsb_v51_current_formal_20260811T053950Z_with_review
+  fullrun_inventory: E:/DSB_v51/fullrun_inventory.tsv
+  bundle_inventory: E:/DSB_v51/bundle_level_metrics.tsv
+  nd2_inventory: D:/UGVR/Stanley/Genomic DNA Dynamics Predict Chromatin Density/code/2026-08-11_dsb_nd2_inventory/outputs/nd2_inventory_deduplicated.tsv
+  formal_usable_only: true
+  review_data_policy: exclude
+  use_exact_timestamps: true
+
+hierarchy:
+  m0_metadata_path: config/m0_acquisition_metadata.csv
+  # The user confirmed that no independent experiment/day/replicate identifier
+  # exists for this cohort.  Never relabel acquisitions as biological replicates.
+  biological_experiment_id_source: unavailable_by_design
+  analysis_group_id_source: acquisition_id
+  independent_biological_replicates_available: false
+  biological_population_inference: prohibited
+  acquisition_id_source: nd2_id
+  fov_id_source: cell_index.fov
+  cell_id_source: crop_id
+  bundle_id_source: nd2_id|crop_id|allele_index
+
+time_axes:
+  macro_time_mapping_source: m0_metadata.hour_post_delivery
+  allowed_hours: [1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 9.5, 10, 10.5]
+  macro_time_semantics: hours_after_cas9_delivery_not_cut_onset
+  micro_time_source: exact_crop_metadata.relative_time_s
+  production_extraction_timing: uniform_override_median_of_exact_intervals
+
+coordinates:
+  units: nm
+  drift_correction_evidence: run_manifest_corrected_channels_and_drift_alignment
+  bp1_dna_same_coordinate_system: true
+  bp1_dna_coordinate_evidence: production_operational_guide_fixed_corrected_coordinate_system
+  frame_indexing: one_based_in_trajectory_csv
+
+channels:
+  genomic_mapping_path: config/genomic_mapping.yaml
+  bp1_site_id: 53bp1
+  site1_site_id: site1
+  site2_site_id: site2
+  flank_mapping_status: verified
+  site_left_source: site1
+  site_right_source: site2
+  site1_probe_to_cut_bp: 50243
+  site2_probe_to_cut_bp: 233770
+
+qc:
+  min_site1_valid_frames: 20
+  min_site2_valid_frames: 20
+  min_paired_valid_frames: 20
+  min_longest_paired_run: 10
+  min_paired_coverage: 0.50
+  coverage_sensitivity: [0.40, 0.60, 0.80]
+  paired_frames_sensitivity: [10, 20, 30]
+  contiguous_run_sensitivity: [5, 10, 20]
+  max_jump_nm_flag: 2000.0
+  # Predeclared technical missingness screen; values are not selected from outcomes.
+  motion_missingness_high_quantile: 0.75
+  motion_missingness_min_valid_steps_per_bundle: 3
+  motion_missingness_min_cells_per_acquisition: 5
+
+physical_metrics:
+  max_lag_frames_cap: 50
+  max_lag_nominal_fraction: 0.25
+  min_pairs_per_lag: 8
+  velocity_delta_frames: [1, 2, 4, 8]
+  dcd_coarse_graining_frames: [1, 2, 4, 8]
+  primary_auc_lag_frames: [1, 2, 4, 8, 16]
+  no_interpolation_primary: true
+  # Neutral-label meeting analysis: match acquisitions near a common physical interval.
+  neutral_matched_target_seconds: 10.0
+
+time_resolved_physics:
+  # Frozen from the user's 2026-08-23 confirmation.  This is a pooling
+  # assumption, not a claim that acquisition cadence or movie length is equal.
+  same_experimental_batch: true
+  batch_effect_model: none
+  acquisition_role: provenance_and_support_diagnostic_only
+  macro_time_group: hour_post_delivery
+  within_hour_weighting: equal_trajectory_or_bundle
+  coordinate_interpolation: prohibited
+  min_pairs_per_unit_lag: 8
+  max_lag_frames_cap: 50
+  max_lag_nominal_fraction: 0.25
+  physical_lag_bin_centers_s: [1, 1.5, 2, 3, 5, 7.5, 10, 15, 20, 30, 40, 50, 75, 100, 150, 200, 300, 500]
+  common_descriptive_fit_window_s: [10, 50]
+  minimum_fit_lag_points: 5
+  minimum_fit_time_span_fold: 4.0
+  primary_velocity_delta_target_s: 10.0
+  primary_velocity_delta_allowed_s: [7.5, 12.5]
+  oligo_livefish_delta_frames: [1, 2, 4, 8]
+  bootstrap_iterations: 500
+  bootstrap_seed: 20260823
+
+oligo_vac:
+  target_delta_s: [10, 20, 40]
+  delta_relative_tolerance: 0.25
+  maximum_scaled_lag: 2.5
+  minimum_velocity_pairs: 8
+  minimum_hour_bin_units_for_display: 8
+  raw_lag_bin_centers_s: [0, 5, 10, 15, 20, 30, 40, 50, 60, 80, 100]
+  scaled_lag_bin_centers: [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2, 2.5]
+  alpha_bounds: [0.25, 1.0]
+  bootstrap_iterations: 300
+  bootstrap_seed: 20260824
+  raw_lag_plot_limit_s: 100
+
+oligo_vcc:
+  target_delta_s: [10, 20, 40]
+  delta_relative_tolerance: 0.25
+  maximum_scaled_lag: 2.5
+  minimum_velocity_pairs: 8
+  minimum_hour_bin_units_for_fit: 8
+  scaled_lag_bin_centers: [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5]
+  # The supplied corrected WLS reference fixes the viscoelastic Rouse exponent
+  # at 0.9.  Keeping it fixed makes communication-time comparisons across
+  # folder-hours interpretable; other alpha values are sensitivity analyses.
+  rouse_alpha_fixed: 0.9
+  rouse_alpha_sensitivity: [0.7, 0.8, 0.9, 1.0]
+  communication_time_bounds_s: [1, 1000]
+  bootstrap_iterations: 200
+  bootstrap_seed: 20260824
+
+bp1:
+  point_colocalization_radius_nm: 600.0
+  component_quantification: gated_image_derived
+  component_threshold_k: 0.5
+  component_local_radius_px: 12
+
+states:
+  window_lengths_frames: [5, 10, 20]
+  candidate_k: [2, 3, 4, 5, 6]
+  minimum_state_occupancy: 0.05
+  discovery_inputs_exclude: [hour_post_delivery, bp1, qpcr, ngs]
+
+deepspt:
+  frozen_package_root: D:/UGVR/Stanley/Genomic DNA Dynamics Predict Chromatin Density/code/2026-08-05_overnight_published_models_deepspt_dsb
+  frozen_representations: D:/UGVR/Stanley/Genomic DNA Dynamics Predict Chromatin Density/code/2026-08-05_overnight_published_models_deepspt_dsb/outputs/deepspt_frozen/representations.npz
+  frozen_representations_sha256: 3c8df4b95af536d0c0cf0a5a7ecaa3594c4b91849898d451ce7bb042473ee8d9
+  frozen_asset_scope: historical_reusable_contract_not_DSB_results
+  vendor_root: E:/codex_vendor/DeepSPT_20260805
+  vendor_commit: 76b2b9c72e351fc0973641abd772540c5f154f69
+  model_root: E:/codex_models/DeepSPT_2D_official_20260805
+  fingerprint_environment: E:/codex_envs/DeepSPT_fingerprint_win_20260805
+  inference_environment: external_verified_torch_environment
+  temperature: 3.8537957365297553
+  minimum_positions: 5
+  padded_positions: 601
+  state_order: [normal, directed, confined, subdiffusive]
+  checkpoint_sha256:
+    9d413: 3a9bd63cc84a9b14f704b523037f1e2853ed782e9cc7276eb0f91cfc6fec77b7
+    c1969: fb628a8881d2ea0284456fca7e922e19a48343a8cd2244d4d7e1b5980c725caa
+    cf0eec: 04e7cce3bf7dd9c099e10902cd6b84cf8592e31b3bd21d15661427cca510f5c9
+
+published_manual:
+  source_root: D:/UGVR/Stanley/Genomic DNA Dynamics Predict Chromatin Density/code/raw data/published_trajectories
+  primary_coordinate_branch: All_csv_files/3-color_2types/after correction drift
+  primary_classes:
+    canonical: typeI canonical
+    variant: typeII variant
+  label_provenance: manually_curated_source_directory
+  label_use_during_agnostic_fit: prohibited_until_posthoc_reveal
+  review_workbook: All_csv_files/Count doublet_new_8-6-24.xlsx
+
+prediction:
+  minimum_group: acquisition_id
+  outer_folds_if_acquisitions_ge_10: 5
+  inner_folds: 3
+  grouped_bootstrap_iterations: 2000
+
+# Future-data interfaces. Null means that no external values/evidence were supplied;
+# setting a gate true without every required path keeps that module fail-closed.
+external_data:
+  qpcr:
+    observations_path: null
+    sample_mapping_path: null
+    assay_definitions_path: null
+  ngs:
+    sample_summary_path: null
+    class_detail_path: null
+    sample_mapping_path: null
+    bundle_linkage_path: null
+    qc_evidence_path: null
+    class_definitions_path: null
+  weak_supervision:
+    bags_path: null
+    label_sources_path: null
+    membership_path: null
+    protocol_path: null
+    major_hours: null
+    minimum_bag_size: null
+  perturbation:
+    design_path: null
+    control_observations_path: null
+    linkage_path: null
+  bp1_component:
+    contract_path: null
+
+gates:
+  require_flank_mapping_for_left_right_language: true
+  require_probe_distances_for_broken_end_language: true
+  bp1_component: false
+  qpcr: false
+  ngs: false
+  weak_supervision: false
+  perturbation: false

@@ -1,0 +1,111 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\hour_curves.parquet",
+      "bytes": 74342,
+      "sha256": "dd0a890f22c15478de115d56c3279cdeb3404012c8639af8a1d5eea75275ebed"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\fits.csv",
+      "bytes": 39582,
+      "sha256": "0a3ad1612f4033e11567285b6f6051908b344dfab4f49f41319e1d010bf3694f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\predicted_curves.parquet",
+      "bytes": 100249,
+      "sha256": "6d5c5ae14c209c6011dfc52ccc0cdf42c7db0f3e619596649c3c3cb685083ee8"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\unit_curves.parquet",
+      "bytes": 24617339,
+      "sha256": "649cb7f0f334225bddd2b91899d14a3ee1ffd58b8215ec5100275325af14b46f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\primary_unit_lag_bins.parquet",
+      "bytes": 3647497,
+      "sha256": "5e611a9696530e271ad9c6235f03a7a6dee8969e2676a5d00c1a84985426b71d"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_without_t5_t10_v2\\tables\\eligible_complete_pair_trajectory_summary.csv",
+      "bytes": 37953,
+      "sha256": "8f6985ee9f5fff9a828337bf627698c634e9d77a845b891a193b23d8d15347c6"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_final_msd_visualization.json",
+      "bytes": 1030,
+      "sha256": "620f0f8c7facfecc2d502b963effb27d6f165097a8670e17236338d6f996c76b"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\FORMULAS_AND_METHODS.md",
+      "bytes": 3492,
+      "sha256": "8e93dee99ff9e1e921c0fd92b827fecc4d72992e6a6f5fd4136645c1c8ed1d05"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\37_build_v521_final_msd_visualization.py",
+      "bytes": 10755,
+      "sha256": "e578a02ab15d9aa373f9b251ea4dbc511be78d532d391d9a3e8260fec7cc4a5e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_msd_final_visualization.py",
+      "bytes": 20292,
+      "sha256": "571f6cf73fd3ce0c03c6823db5990e1714d235db6145b06e86aec309e7e0d649"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "config/selected_alpha_case_review.json",
+      "bytes": 1061,
+      "sha256": "70e7170c2f2be5bc76efdb8ab02ef48e9217a0793833dd87ea1cf2d4cdec7551"
+    },
+    {
+      "path": "figures/fig_final_msd_representative_fits_and_hour_trend.pdf",
+      "bytes": 71370,
+      "sha256": "9a842a0e23d6d25f4eca250f565f10c64ce2e79b0613c65b99523685f2d8583c"
+    },
+    {
+      "path": "figures/fig_final_msd_representative_fits_and_hour_trend.png",
+      "bytes": 475783,
+      "sha256": "a7f7eaad77e657835dfae9b8bdd08742e55c1736b0b230959c1964a8c91543ff"
+    },
+    {
+      "path": "figures/fig_final_msd_representative_fits_and_hour_trend.svg",
+      "bytes": 91880,
+      "sha256": "9c43d950653146964188208f700df83d8841cb7b16ce4b94af53928746084e43"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 1352,
+      "sha256": "939f47a96fb886941f5f9a73f5d39b07e0366feb01cffa78d863b0adfd1678e0"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 990,
+      "sha256": "fadeb34d292426297d6637c5c0c6610e28c1d0447703b91c39ff718a4b50254a"
+    },
+    {
+      "path": "tables/complete_coverage_trajectory_alpha.csv",
+      "bytes": 30051,
+      "sha256": "bf76e620401e88b1d76077074546f0651912bda445196a76c9be6af4c749543f"
+    },
+    {
+      "path": "tables/complete_coverage_trajectory_alpha.parquet",
+      "bytes": 21322,
+      "sha256": "7841c8b3f383faf05ef6cff94ee34f457cb7c721aeb63d6c4c969f891cff0853"
+    },
+    {
+      "path": "tables/fitted_window_mean_msd_by_hour.csv",
+      "bytes": 2730,
+      "sha256": "0df457311a63cc65ca99f467aa69b476a7f49c85ed033b83e4f6a9ecfa5df9de"
+    },
+    {
+      "path": "tables/selected_alpha_case_fits.csv",
+      "bytes": 1154,
+      "sha256": "deb77c301a50cb3757ec2fc4129f58a8ea9e0a7dcdc910173c4b1b59d83544f7"
+    },
+    {
+      "path": "tables/selected_alpha_cases_for_review.csv",
+      "bytes": 1428,
+      "sha256": "e31884f56a12a692ef2dc332b6ef4fccb8cf75199b4be66e999641824a1f43b2"
+    }
+  ]
+}

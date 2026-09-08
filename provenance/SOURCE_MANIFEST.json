@@ -1,0 +1,1340 @@
+[
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\__init__.py",
+    "repository_path": "src/dsb_states/__init__.py",
+    "source_bytes": 66,
+    "source_sha256": "6ad6002832df623c6136b114bac1e4a6ef65fec445f71d07719b3d5c40d4bc0f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\config.py",
+    "repository_path": "src/dsb_states/config.py",
+    "source_bytes": 1549,
+    "source_sha256": "a93ec16144c8c91730f122505f3d98252a3cf40b0cb7ce8207ee88fdbd50e9d5"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\io.py",
+    "repository_path": "src/dsb_states/io.py",
+    "source_bytes": 7361,
+    "source_sha256": "99a051a0f93c5a384cab28b33a2916fc3ed13347042a8ad1eb20fc4ec395e51e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\provenance.py",
+    "repository_path": "src/dsb_states/provenance.py",
+    "source_bytes": 1368,
+    "source_sha256": "036b237cf309642ce793fdc6932a98502c508489db900b5b0eb097f5fe93e248"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\audit.py",
+    "repository_path": "src/dsb_states/audit.py",
+    "source_bytes": 40153,
+    "source_sha256": "fd1ff655453777e287d6a60eca1cd56b803a912126fbc81fce97e0eb56b67645"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\snapshot.py",
+    "repository_path": "src/dsb_states/snapshot.py",
+    "source_bytes": 38948,
+    "source_sha256": "15c66ff0c9e63c8db94c9dd8ce338ebb155264d81be5b46e52d9265ed07fd852"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\tables.py",
+    "repository_path": "src/dsb_states/tables.py",
+    "source_bytes": 19666,
+    "source_sha256": "351f278be629074e2feba79f64ae12fbedd3647a565e842b9a261c6c67076ada"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\schema.py",
+    "repository_path": "src/dsb_states/schema.py",
+    "source_bytes": 59135,
+    "source_sha256": "6df9ae04d86662876b142a6e1f37ab261be5597344b01f437d7d9d2a97903d9f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\qc.py",
+    "repository_path": "src/dsb_states/qc.py",
+    "source_bytes": 76223,
+    "source_sha256": "1b38882f53e8b48c636317fc99583dafdc629f8d31224e02ae1397dced799748"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\tiered_qc.py",
+    "repository_path": "src/dsb_states/tiered_qc.py",
+    "source_bytes": 32175,
+    "source_sha256": "5d6176ba1df4b2a29a4e538486996c052ee1a5a6625a6b2ac37f98d969f0d6c4"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\plots.py",
+    "repository_path": "src/dsb_states/plots.py",
+    "source_bytes": 33509,
+    "source_sha256": "def3005bab2db39068c4e02870faeb9741d3edc5c9e0d7ef6b491d0589020e23"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\physical_metrics.py",
+    "repository_path": "src/dsb_states/physical_metrics.py",
+    "source_bytes": 78440,
+    "source_sha256": "0bc4924e26eb267d9cfb2ca6cef5d1764a46758697764d7012cd2d0b4905754e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\pair_modes.py",
+    "repository_path": "src/dsb_states/pair_modes.py",
+    "source_bytes": 6235,
+    "source_sha256": "143a6275d7cc4dae1610ba3f356ad9b7511a5078c275a5666d3cd3645196fc72"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\missingness.py",
+    "repository_path": "src/dsb_states/missingness.py",
+    "source_bytes": 4859,
+    "source_sha256": "6d4da6f850853c179fcd415bd2df192c22ec3dcce2f519862c4a7fb4d1754e3e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\mixed_models.py",
+    "repository_path": "src/dsb_states/mixed_models.py",
+    "source_bytes": 3623,
+    "source_sha256": "70021d0452252a6d31b236ea8b0379be44cd0c5cd6c309ac996c80db8cd9dec2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\bp1.py",
+    "repository_path": "src/dsb_states/bp1.py",
+    "source_bytes": 25975,
+    "source_sha256": "f2a2616d1ce3c942fa9e8ac6204f0e0ae7008020f67d1d9ae1671afc8b3152d8"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\unfiltered_cache.py",
+    "repository_path": "src/dsb_states/unfiltered_cache.py",
+    "source_bytes": 16312,
+    "source_sha256": "4def86b39f75608c5e16f22b4f981ccf7cdf8c0a6944b90a3140532e58d016ca"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_intake.py",
+    "repository_path": "src/dsb_states/v521_intake.py",
+    "source_bytes": 41538,
+    "source_sha256": "615c3693b74a7b55123b73f7067419beecca5440e64d6577efab2c7a99306a43"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\time_resolved_physics.py",
+    "repository_path": "src/dsb_states/time_resolved_physics.py",
+    "source_bytes": 27821,
+    "source_sha256": "6762db7ab9747885f902f51f752f6f3c9b0502dce8a02fd6e5c59a3ed32d2c9b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\time_resolved_physics_summary.py",
+    "repository_path": "src/dsb_states/time_resolved_physics_summary.py",
+    "source_bytes": 35874,
+    "source_sha256": "d4031b74824cc843a6843f9ee075ef2859eb1f2650782675df2adce8359fdf1e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\time_resolved_physics_plots.py",
+    "repository_path": "src/dsb_states/time_resolved_physics_plots.py",
+    "source_bytes": 24093,
+    "source_sha256": "7e0757eefdb2087770218f827cd5432bd26b51b7e3afb762515b109d6d2be0b6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\oligo_vac.py",
+    "repository_path": "src/dsb_states/oligo_vac.py",
+    "source_bytes": 30976,
+    "source_sha256": "208851b5ae259fb7ed5b718855e17da661634cd49a66cdd54cf050ce3c36bea3"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\oligo_vcc.py",
+    "repository_path": "src/dsb_states/oligo_vcc.py",
+    "source_bytes": 40295,
+    "source_sha256": "227ca846a411510fb55bdfea5768f7a68da0ddf0f3cdc91aca1ce6df8a0a6747"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_pair_galleries.py",
+    "repository_path": "src/dsb_states/v521_pair_galleries.py",
+    "source_bytes": 23071,
+    "source_sha256": "774b7633998a5f826e908f529b0e2fc693f17108abe2ae6f98bb989f41848a88"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_shared_frame_separation.py",
+    "repository_path": "src/dsb_states/v521_shared_frame_separation.py",
+    "source_bytes": 41955,
+    "source_sha256": "94e3689876af9d5326f5faebf7a95bcff96021e95f5b844162bbd9d100c398d0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_selection.py",
+    "repository_path": "src/dsb_states/v521_case_selection.py",
+    "source_bytes": 12333,
+    "source_sha256": "d1a8f9a0900fa2ce01735ac42b848b2a785c6212eae772692fec2f02775040fa"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_selection_frame_exclusion.py",
+    "repository_path": "src/dsb_states/v521_case_selection_frame_exclusion.py",
+    "source_bytes": 8854,
+    "source_sha256": "7dd418958e5553f1088c0d7c2b6871ab8144afe163bb204a6e14041787e75c4a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_case_study_multichannel_review.py",
+    "repository_path": "src/dsb_states/v521_case_study_multichannel_review.py",
+    "source_bytes": 71893,
+    "source_sha256": "d915f66c3011b8c77e08e249dfa6cb47a3ee7e77a223ebfa579a9f34fa9c7b8d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_msd_final_visualization.py",
+    "repository_path": "src/dsb_states/v521_msd_final_visualization.py",
+    "source_bytes": 21994,
+    "source_sha256": "daf28eb88ce4fc41bfacbb3df62a52305e6ae3eae619602630f173fd2abf3563"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_separation_final_ppt.py",
+    "repository_path": "src/dsb_states/v521_separation_final_ppt.py",
+    "source_bytes": 20863,
+    "source_sha256": "9fc2eaa2276962b752447e1e56ea9b1d516f232dddb037666d208434ebe72706"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\20_build_v521_intake.py",
+    "repository_path": "scripts/20_build_v521_intake.py",
+    "source_bytes": 97,
+    "source_sha256": "375f0d28d864b77e0ecad890a635be666176035d6eb83f144199c2244ab7fc4b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\21_build_v521_unfiltered_cache.py",
+    "repository_path": "scripts/21_build_v521_unfiltered_cache.py",
+    "source_bytes": 1180,
+    "source_sha256": "d7b6caa26d364c7c99e2ea331beec2c0bc2b101bb7b5ed281abe747af5c34077"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\22_build_v521_pair_galleries.py",
+    "repository_path": "scripts/22_build_v521_pair_galleries.py",
+    "source_bytes": 1472,
+    "source_sha256": "4b2e9187cf70200a9ec03df16019bbb04914680f73d981f68550d7a861cd043a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\23_build_v521_time_resolved_physics.py",
+    "repository_path": "scripts/23_build_v521_time_resolved_physics.py",
+    "source_bytes": 17610,
+    "source_sha256": "3f65fe0e66c88b050bf7cfc16bee3d5af7a0c76bd573db1d74b5a385637005a6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\24_build_v521_shared_frame_separation_500nm.py",
+    "repository_path": "scripts/24_build_v521_shared_frame_separation_500nm.py",
+    "source_bytes": 2560,
+    "source_sha256": "f07db9b29a1f803178fbec28bf523226868d0491eb7fd6ffb888529c9db2f8eb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\25_select_v521_complete_pair_cases.py",
+    "repository_path": "scripts/25_select_v521_complete_pair_cases.py",
+    "source_bytes": 2785,
+    "source_sha256": "d6e937198bff671ce41fc09e93477bf9ac4c6cc5c137cb97f4e7be6f574cb4dc"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\26_select_v521_complete_pair_cases_without_t5_t10.py",
+    "repository_path": "scripts/26_select_v521_complete_pair_cases_without_t5_t10.py",
+    "source_bytes": 3014,
+    "source_sha256": "c5deaf4f47fae28898057e75765734ae228ced5767f08835410c35fc6c6a73fd"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\28_build_v521_case_study_multichannel_review.py",
+    "repository_path": "scripts/28_build_v521_case_study_multichannel_review.py",
+    "source_bytes": 2318,
+    "source_sha256": "f1e0ee6b2e8a4ae3364947fbdf84f8fb8ebf579e202cfc09d4f6c4105263fa1d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\29_rank_v521_t4_msd_extremes.py",
+    "repository_path": "scripts/29_rank_v521_t4_msd_extremes.py",
+    "source_bytes": 11518,
+    "source_sha256": "47fcd69e4c899e5b6ce964cd51a34292cda122dbf07088c4c4449cdc037327ac"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\37_build_v521_final_msd_visualization.py",
+    "repository_path": "scripts/37_build_v521_final_msd_visualization.py",
+    "source_bytes": 10755,
+    "source_sha256": "e578a02ab15d9aa373f9b251ea4dbc511be78d532d391d9a3e8260fec7cc4a5e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\38_build_v521_oligo_vac.py",
+    "repository_path": "scripts/38_build_v521_oligo_vac.py",
+    "source_bytes": 21210,
+    "source_sha256": "84a7824a636e67831dd4a2cd7a958ccff1c8f49992d2a3bd0e241c29c198326f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\39_build_v521_oligo_vcc.py",
+    "repository_path": "scripts/39_build_v521_oligo_vcc.py",
+    "source_bytes": 19035,
+    "source_sha256": "bc1ea5917d1c5293d9923acb57e30577f93100cf4505bbc614c8c147142abb1e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\40_build_v521_vac_vcc_visual_candidates.py",
+    "repository_path": "scripts/40_build_v521_vac_vcc_visual_candidates.py",
+    "source_bytes": 21464,
+    "source_sha256": "f0f5489a4a2d49845594edebacb0f88364cb67f0f21120bd26a844b7e676f271"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\41_archive_v521_trajectory_csvs.py",
+    "repository_path": "scripts/41_archive_v521_trajectory_csvs.py",
+    "source_bytes": 15440,
+    "source_sha256": "bd931d1e1694082d8badf6607ded1997beec7872b653ea1b5977bde5815310b0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\42_build_v521_separation_final_ppt.py",
+    "repository_path": "scripts/42_build_v521_separation_final_ppt.py",
+    "source_bytes": 2439,
+    "source_sha256": "34d76d2fcb706d5b070c3315a60161bfdfdcd950fc6930caa69c8941f412060d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\43_build_v521_msd_3h_alpha_top_cases.py",
+    "repository_path": "scripts/43_build_v521_msd_3h_alpha_top_cases.py",
+    "source_bytes": 7924,
+    "source_sha256": "a22f3124bce68fcb581136cc297b63b250a3b73617840c99778f83df8d38f532"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\44_build_v521_msd_3h_alpha_bottom_cases_and_clean_hour_plot.py",
+    "repository_path": "scripts/44_build_v521_msd_3h_alpha_bottom_cases_and_clean_hour_plot.py",
+    "source_bytes": 12538,
+    "source_sha256": "142dc2584b0a9c2cb896468ef924a19c8a592c0557c7f0583899a2c349750c94"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\45_build_v521_mscd10_top4_cases.py",
+    "repository_path": "scripts/45_build_v521_mscd10_top4_cases.py",
+    "source_bytes": 9989,
+    "source_sha256": "fea6e9303849676babaede222202b90895ced0af03a8869d9a1fe747ea34ed7d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\46_build_v521_mscd10_macro_time_clean.py",
+    "repository_path": "scripts/46_build_v521_mscd10_macro_time_clean.py",
+    "source_bytes": 6620,
+    "source_sha256": "2668b325fb3384f241ec9747f324514c477399f6b4e37130f01d53251d6e122e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\47_build_v521_vac_fbm_best_worst_panel.py",
+    "repository_path": "scripts/47_build_v521_vac_fbm_best_worst_panel.py",
+    "source_bytes": 11319,
+    "source_sha256": "27b6d66137b4f7f4837091203a0ff19ff53ac7eb7a278b2acd2ffe26a5a18b92"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\genomic_mapping.yaml",
+    "repository_path": "config/genomic_mapping.yaml",
+    "source_bytes": 3037,
+    "source_sha256": "a220904e413556f50a97a52d63685672230582599f4a853c43526c0bf84f423b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\m0_acquisition_metadata.csv",
+    "repository_path": "config/m0_acquisition_metadata.csv",
+    "source_bytes": 5375,
+    "source_sha256": "ddc7292a0707a78db8b4b0dda9c67b36f70933be5eb3920378042e3d02855bdf"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\m0_acquisition_metadata_v521.csv",
+    "repository_path": "config/m0_acquisition_metadata_v521.csv",
+    "source_bytes": 7086,
+    "source_sha256": "18c51f6822f0b1a48b753e544a881e703976f15415fba83537aec1abb22472e0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\nominal_genomic_geometry.yaml",
+    "repository_path": "config/nominal_genomic_geometry.yaml",
+    "source_bytes": 2958,
+    "source_sha256": "51a5c3653df736666325c41a954501d7b639fea7e304dff03265f077d6b2cf81"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\site_nominal_offsets.yaml",
+    "repository_path": "config/site_nominal_offsets.yaml",
+    "source_bytes": 1631,
+    "source_sha256": "0f3589856bce8111d0997ad654399e244fdfa0a4bd610dcbd0a89eec000b3d53"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\tiered_qc.yaml",
+    "repository_path": "config/tiered_qc.yaml",
+    "source_bytes": 1679,
+    "source_sha256": "72a0b6f991c3091e947c1da2fe7c6916bdb5a5613696a33407d284ac55a30416"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_case_study_multichannel_review.json",
+    "repository_path": "config/v521_case_study_multichannel_review.json",
+    "source_bytes": 1139,
+    "source_sha256": "f9fd89852c96172bbaedcb9f100f40981f32acf9441f512d3cc384eb7d5e7fbc"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_final_msd_visualization.json",
+    "repository_path": "config/v521_final_msd_visualization.json",
+    "source_bytes": 1143,
+    "source_sha256": "bc5b2a866ba6a2b923c3a436f158771a75d5fcc6e263156cd072b0d1f55fa011"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_intake.yaml",
+    "repository_path": "config/v521_intake.yaml",
+    "source_bytes": 877,
+    "source_sha256": "66417bc7842b77295dfe581a6ccba5fadde8655ee08bc9aa47e3f3d682b92a78"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_mscd10_top4_complete_coverage.json",
+    "repository_path": "config/v521_mscd10_top4_complete_coverage.json",
+    "source_bytes": 1769,
+    "source_sha256": "a09f66efb4d8aa4a190f7cf6a02e1083716fca1e76a6566e9971348e1b8092ae"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_msd_3h_site1_alpha_bottom3.json",
+    "repository_path": "config/v521_msd_3h_site1_alpha_bottom3.json",
+    "source_bytes": 1553,
+    "source_sha256": "57a07f35bfeb0bbb5e616fec8deb3424e6d7c9a14a503e947d66b84ebcf48565"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\v521_msd_3h_site1_alpha_top5.json",
+    "repository_path": "config/v521_msd_3h_site1_alpha_top5.json",
+    "source_bytes": 1858,
+    "source_sha256": "e8e0899aba2b37c8c5fe36ee3c925e22ceee4e72323f35e6a8959e122424a8da"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\config\\analysis.yaml",
+    "repository_path": "provenance/source_analysis.yaml",
+    "source_bytes": 8559,
+    "source_sha256": "61c9354f2a833decae3e74b58ba6bea57e71a3fe53bee62ef06856dca858b1b6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\requirements.lock",
+    "repository_path": "provenance/source_requirements.lock",
+    "source_bytes": 1046,
+    "source_sha256": "4ded1f50deb4b00c45aa7fd2969067ceb61d501b381242f39ad09734dd776d53"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\README.md",
+    "repository_path": "provenance/source_README.md",
+    "source_bytes": 6541,
+    "source_sha256": "9eeee5e5512931caaff5b71a85693a72aef06bcdbf3d1611ef5fda6ec0fdd4c7"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_audit.py",
+    "repository_path": "tests/test_audit.py",
+    "source_bytes": 10287,
+    "source_sha256": "589e5304911deceaa78928ccc5cab6a8e56aa9db13777cb0e92f2b887044c781"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_bp1.py",
+    "repository_path": "tests/test_bp1.py",
+    "source_bytes": 1976,
+    "source_sha256": "b78b53a478b0079bc9eead7566cf2ca738c99f396354a167820df5a023024841"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_bp1_contracts.py",
+    "repository_path": "tests/test_bp1_contracts.py",
+    "source_bytes": 10072,
+    "source_sha256": "a93553fe69c957e4382924ae686ad39c52e4eb8e482024ad1f78b5fda17a69d5"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_io.py",
+    "repository_path": "tests/test_io.py",
+    "source_bytes": 991,
+    "source_sha256": "c67745c3c9a15ad977447817c0033371b480aeda6e97e11d85bb4aed180f2a22"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_missingness.py",
+    "repository_path": "tests/test_missingness.py",
+    "source_bytes": 1558,
+    "source_sha256": "440702e6b49cf7a56f011196909a5f92dbace24c8c36c9ff813e6eb4049df322"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_mixed_models.py",
+    "repository_path": "tests/test_mixed_models.py",
+    "source_bytes": 1143,
+    "source_sha256": "6c6a6dcc3c726ce91aa8668e105fcea3a548d1ca6e580896bef390e9904b1285"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_oligo_vac.py",
+    "repository_path": "tests/test_oligo_vac.py",
+    "source_bytes": 2700,
+    "source_sha256": "a664491273cbe1055c131fea4b992bd238b79e780204856488bfb965b6ad76bb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_oligo_vcc.py",
+    "repository_path": "tests/test_oligo_vcc.py",
+    "source_bytes": 3913,
+    "source_sha256": "c8003cac8419ff20b9703f268e28175324c38b3860c8009adec86d7451163f1b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_pair_modes.py",
+    "repository_path": "tests/test_pair_modes.py",
+    "source_bytes": 2729,
+    "source_sha256": "c39dd78198f01e7f7c9f95024d98f3fb01e54b13a9f6e0ea446542f525bcab5a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_physical_metrics.py",
+    "repository_path": "tests/test_physical_metrics.py",
+    "source_bytes": 25733,
+    "source_sha256": "0390f265118bf604989bbde4ce39619332ad86f66bc4a32394ee2e48fa463847"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_plots.py",
+    "repository_path": "tests/test_plots.py",
+    "source_bytes": 1475,
+    "source_sha256": "8a25596b0ffcb90ffad1f197dc9c28d2e6bc2511e43b0738acff853502c579d6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_qc.py",
+    "repository_path": "tests/test_qc.py",
+    "source_bytes": 14948,
+    "source_sha256": "221589e694e9e51f58edfb7098de56c19be87001558d29da0f1b2e81a1750cac"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_schema.py",
+    "repository_path": "tests/test_schema.py",
+    "source_bytes": 13905,
+    "source_sha256": "9dc3deba13c634a00521f0e8841e97d4d5b720be0586c3ac4d5d44357786632f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_snapshot_provenance.py",
+    "repository_path": "tests/test_snapshot_provenance.py",
+    "source_bytes": 12754,
+    "source_sha256": "f3c71420180e0059e33c31bb5e8eb3669240a0c7d261db343224ab7fc1933991"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_tables.py",
+    "repository_path": "tests/test_tables.py",
+    "source_bytes": 10997,
+    "source_sha256": "4a4393ac66a2bee95b4e64b056b940aecd3f3a0c5d9b204e8b329765a1c57db8"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_tiered_qc.py",
+    "repository_path": "tests/test_tiered_qc.py",
+    "source_bytes": 8335,
+    "source_sha256": "ee27af715f5be59ebfa0594d87da53f449cb386481b52b318b925fd5416db717"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_time_resolved_physics.py",
+    "repository_path": "tests/test_time_resolved_physics.py",
+    "source_bytes": 6699,
+    "source_sha256": "bc9747bf894e312f042ea384081dc701d58bec1a6c7c34966464e10719bc5ea9"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_time_resolved_physics_plots.py",
+    "repository_path": "tests/test_time_resolved_physics_plots.py",
+    "source_bytes": 8609,
+    "source_sha256": "4008e3c39a05bc5d676767245c451deb26d1dd1e862fff11242926dfba31029e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_time_resolved_physics_summary.py",
+    "repository_path": "tests/test_time_resolved_physics_summary.py",
+    "source_bytes": 6105,
+    "source_sha256": "d154b589ed0d551c5e011ab180ac7010620d4a19262683f8437a565a6757f6c2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_unfiltered_cache.py",
+    "repository_path": "tests/test_unfiltered_cache.py",
+    "source_bytes": 2627,
+    "source_sha256": "2be413f27677c34b1c1d78a6e69e0373264c3cac4e153c090212f44e661ba1d6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_case_selection.py",
+    "repository_path": "tests/test_v521_case_selection.py",
+    "source_bytes": 1960,
+    "source_sha256": "828a857dea4ddbe340ac22bed4894c58eca71675b3546ff14d9eeea9e8cb7d76"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_case_selection_frame_exclusion.py",
+    "repository_path": "tests/test_v521_case_selection_frame_exclusion.py",
+    "source_bytes": 1466,
+    "source_sha256": "0be37c463b6667e65b6cf1f0179533d13915c9905a857e00fe8e1fadabf0d666"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_case_study_multichannel_review.py",
+    "repository_path": "tests/test_v521_case_study_multichannel_review.py",
+    "source_bytes": 4617,
+    "source_sha256": "75880fa03fd500866240b9f50fab99f21d64758a26eb9abb4a093139497f18db"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_intake.py",
+    "repository_path": "tests/test_v521_intake.py",
+    "source_bytes": 1475,
+    "source_sha256": "0f162b08dfd1d590c1056e68f8121797b1dab6bd9e218ecb1a3d84e672c1f02d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_msd_final_visualization.py",
+    "repository_path": "tests/test_v521_msd_final_visualization.py",
+    "source_bytes": 2068,
+    "source_sha256": "dc3759646490d24e7d2cbe457591f85d5952b78e3a239fc7ab2e343dde80147f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_pair_galleries.py",
+    "repository_path": "tests/test_v521_pair_galleries.py",
+    "source_bytes": 1859,
+    "source_sha256": "506d6d149918cb126af4503196491cce742c2fe39d58f3ab236efc3cce106b7e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\tests\\test_v521_shared_frame_separation.py",
+    "repository_path": "tests/test_v521_shared_frame_separation.py",
+    "source_bytes": 6133,
+    "source_sha256": "4b0e14f30fa3a7f29f260fa5e7b553da0332439ab527cddb0a17c364145fbbdc"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\calc_vel_corr_new.m",
+    "repository_path": "references/rouse/calc_vel_corr_new.m",
+    "source_bytes": 4887,
+    "source_sha256": "7f1c0fbf0a005eabb4fa3b9056ac3016e0ebe9b868f7d51a6621bcb27621fe82"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\calc_vel_corr_old.m",
+    "repository_path": "references/rouse/calc_vel_corr_old.m",
+    "source_bytes": 4663,
+    "source_sha256": "a2e5fdc9d09ec3481833b78da3fdd7af5fa702d6be667d5259b23f20d7cf1660"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\exp_corr.m",
+    "repository_path": "references/rouse/exp_corr.m",
+    "source_bytes": 676,
+    "source_sha256": "ce87a4b8af2781234b4469e05e384dde7a89984696cfa1aee50da6ddc402a76c"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\plot_vel_corr.m",
+    "repository_path": "references/rouse/plot_vel_corr.m",
+    "source_bytes": 2667,
+    "source_sha256": "34d433c9ed22ecfdc96dd37d1fafb8b653f2bed6d66f06893dac6c02d92e897f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\plot_vel_corr_movie.m",
+    "repository_path": "references/rouse/plot_vel_corr_movie.m",
+    "source_bytes": 3207,
+    "source_sha256": "ceaec350a9dde1e4afe50dd90953d6a114b9a6394037e6663569810eefc79113"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\WLS_vel_corr.m",
+    "repository_path": "references/rouse/WLS_vel_corr.m",
+    "source_bytes": 1117,
+    "source_sha256": "ff750cf369f534120fe24c2f9ce49c8c2903604bfd2561a54907dac9871fb636"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\WLS_vel_corr_new.m",
+    "repository_path": "references/rouse/WLS_vel_corr_new.m",
+    "source_bytes": 1544,
+    "source_sha256": "20c0a090654431cde05226e2e6b1eaa6f14dadc1f8927fb6513ffc7573dee85b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\WLS_vel_corr_new_bugcode.m",
+    "repository_path": "references/rouse/WLS_vel_corr_new_bugcode.m",
+    "source_bytes": 1389,
+    "source_sha256": "0a5a7d4ce8adee1206e14daac779b4d13138f5e028ae51b2738abd9556c74bfe"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\WLS_vel_corr_new_traj.m",
+    "repository_path": "references/rouse/WLS_vel_corr_new_traj.m",
+    "source_bytes": 1503,
+    "source_sha256": "9fe8f4c6be620d62b017d8f0191b06f649c756deb7d92d8f0b9bf1bcd95b44d5"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0250.mat",
+    "repository_path": "references/rouse/tables/table0250.mat",
+    "source_bytes": 94396,
+    "source_sha256": "a4b6e8b589bdc2689b8336dee37e55481d4aee017bd42cabdbff246aa23ff4eb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0275.mat",
+    "repository_path": "references/rouse/tables/table0275.mat",
+    "source_bytes": 94469,
+    "source_sha256": "16185a25862533e1a82a78989f6b9d891f9226e3bfcd8df54f462f7b45e12836"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0300.mat",
+    "repository_path": "references/rouse/tables/table0300.mat",
+    "source_bytes": 94549,
+    "source_sha256": "719308c09a919240bbe84e72fa5a4de1d2a3e58debe3f3e1a0152ec2ad7db1df"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0325.mat",
+    "repository_path": "references/rouse/tables/table0325.mat",
+    "source_bytes": 94522,
+    "source_sha256": "92d4f9ffab55919cb4f979752a41232c7c6cb8493ec11c75e9e5c97a241d50d9"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0350.mat",
+    "repository_path": "references/rouse/tables/table0350.mat",
+    "source_bytes": 94570,
+    "source_sha256": "9db502a415a39fa5698e21c3094d33d8fe06557f4147149e64056e7f5fa74ee2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0375.mat",
+    "repository_path": "references/rouse/tables/table0375.mat",
+    "source_bytes": 94585,
+    "source_sha256": "6ac577b569344fe1f3f23f00113d5aab6faedcd10519040d65469a599898b2d8"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0400.mat",
+    "repository_path": "references/rouse/tables/table0400.mat",
+    "source_bytes": 94576,
+    "source_sha256": "c65b694c82c4b07de1494c2abb5641dff1f1e934b163d31d946bfcc08d7712ec"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0425.mat",
+    "repository_path": "references/rouse/tables/table0425.mat",
+    "source_bytes": 94634,
+    "source_sha256": "6f58063a797e767ccad77ccc7167c10348038047af004ab431211fccdc66ffe6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0450.mat",
+    "repository_path": "references/rouse/tables/table0450.mat",
+    "source_bytes": 94604,
+    "source_sha256": "2b787b825c704e0601699e96a9178f92857d1a4145b38225cccb082c74ea24e0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0475.mat",
+    "repository_path": "references/rouse/tables/table0475.mat",
+    "source_bytes": 94663,
+    "source_sha256": "4929cad20406ce691187d7c777e45af3daa8a060648a9cf41a2eac364f75b803"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0500.mat",
+    "repository_path": "references/rouse/tables/table0500.mat",
+    "source_bytes": 94676,
+    "source_sha256": "c91f190010686590155580cbc36e650eb3e085eb53306a2f2de57a64ae6a6ce6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0525.mat",
+    "repository_path": "references/rouse/tables/table0525.mat",
+    "source_bytes": 94738,
+    "source_sha256": "66e0a01a866f2161217f6a3dbf6669948fd677a751c298790f2ea18ae6a4f41e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0550.mat",
+    "repository_path": "references/rouse/tables/table0550.mat",
+    "source_bytes": 94881,
+    "source_sha256": "f11b6deb149ea17666b28c3f8bd87b115ff4df1ec983d39239a5a894a04ba505"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0575.mat",
+    "repository_path": "references/rouse/tables/table0575.mat",
+    "source_bytes": 94988,
+    "source_sha256": "1633699f4f00059717377e1d318a44e9c06ad71bd0428d8ea711fd6b57ff2df4"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0600.mat",
+    "repository_path": "references/rouse/tables/table0600.mat",
+    "source_bytes": 95106,
+    "source_sha256": "1dc2e904cba4f2d10617065f905fa1cf5c6e576f130635670da9458addb46d17"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0625.mat",
+    "repository_path": "references/rouse/tables/table0625.mat",
+    "source_bytes": 95196,
+    "source_sha256": "b59038f4500234e17d8b879d8ae75b654a79d1a6bf48ec13f5631457fc1fbec1"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0650.mat",
+    "repository_path": "references/rouse/tables/table0650.mat",
+    "source_bytes": 95262,
+    "source_sha256": "6e5582eaf19dda9b5ac51b0c595321869dd60a6fc9d11d0b2c1e2c710d96ccde"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0675.mat",
+    "repository_path": "references/rouse/tables/table0675.mat",
+    "source_bytes": 95295,
+    "source_sha256": "6a704afb12850cb2caa4c37a4c6730bdd21af3374bfc69dfb72b747c5f11b19e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0700.mat",
+    "repository_path": "references/rouse/tables/table0700.mat",
+    "source_bytes": 95340,
+    "source_sha256": "7ac03ac5925b761b397f6674f0470458b269b9d8901bf3836bb73b08ef8f3058"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0725.mat",
+    "repository_path": "references/rouse/tables/table0725.mat",
+    "source_bytes": 95391,
+    "source_sha256": "f6326061c2e599e645491eade0943951822eabcbb6bc331a0deed589fab83469"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0750.mat",
+    "repository_path": "references/rouse/tables/table0750.mat",
+    "source_bytes": 95463,
+    "source_sha256": "0ded3d43d82164545927ddefa964c69b99aa04c368339e040fa91dedb296851f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0775.mat",
+    "repository_path": "references/rouse/tables/table0775.mat",
+    "source_bytes": 95581,
+    "source_sha256": "10c9813cb259211bff2da247bcb8c11b3bd0af9dbd30ab49babb71a9576dd4b8"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0800.mat",
+    "repository_path": "references/rouse/tables/table0800.mat",
+    "source_bytes": 95718,
+    "source_sha256": "5604491f5983fe439298f62e4beca11b1cc280c3b17e1439d52f714c1c277cb6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0825.mat",
+    "repository_path": "references/rouse/tables/table0825.mat",
+    "source_bytes": 95764,
+    "source_sha256": "55ebc85492320670dea2c82b65bda228adc59989cfaa3e39d66d82b2b11f50b3"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0850.mat",
+    "repository_path": "references/rouse/tables/table0850.mat",
+    "source_bytes": 95746,
+    "source_sha256": "4812ca7a8b47849fcb91fc53462a8018db0441eebed6183efcddfede272d3f21"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0875.mat",
+    "repository_path": "references/rouse/tables/table0875.mat",
+    "source_bytes": 95771,
+    "source_sha256": "ceca5d8bb5b4aea2268b4d6def310b304ce93d1c858cd7be59f64ff3aac158d3"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0900.mat",
+    "repository_path": "references/rouse/tables/table0900.mat",
+    "source_bytes": 95610,
+    "source_sha256": "deea25b1b1084c282b0077d911f882fa4324831a154a62e4c07c9c715e5d7b1f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0925.mat",
+    "repository_path": "references/rouse/tables/table0925.mat",
+    "source_bytes": 95779,
+    "source_sha256": "500e3d2d96599be076c04f869e5fbd4bb618381555e4b4e662c36af2c184419f"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0950.mat",
+    "repository_path": "references/rouse/tables/table0950.mat",
+    "source_bytes": 95589,
+    "source_sha256": "e82c9616e98525b88f8053a89ce4cd6665f72b4deb876721becce3c2e41eeca6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table0975.mat",
+    "repository_path": "references/rouse/tables/table0975.mat",
+    "source_bytes": 95744,
+    "source_sha256": "f30ac8b70bafaff7b076d6539fcb844416b690c6e1218cf79c56e05b62321936"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\tables\\table1000.mat",
+    "repository_path": "references/rouse/tables/table1000.mat",
+    "source_bytes": 95341,
+    "source_sha256": "17c7216f046f2ca87febc6593812ca3c7c3140aebbbafd33b0d4c68ab8407150"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\VVCF\\site_1and2_canonical_group_280kb_vcctheory.eps",
+    "repository_path": "references/rouse/site_1and2_canonical_group_280kb_vcctheory.eps",
+    "source_bytes": 19060,
+    "source_sha256": "ec504816b3e17bb3a0cf74aa7b67ba8d76c721061864c8a4ecc515e77769fd85"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\VVCF\\Read_Me.pdf",
+    "repository_path": "references/Read_Me.pdf",
+    "source_bytes": 95985,
+    "source_sha256": "35f832feea5368c106afdc6c51e82c794ef11bf563e853d1957f0f8a8573f918"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\reorganize.m",
+    "repository_path": "references/empirical/reorganize.m",
+    "source_bytes": 687,
+    "source_sha256": "2c4bee048fefd61bf82672657ddaeb523d5c33b202d85710ff2ab5fd98fa7f1d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\reorganize_new.m",
+    "repository_path": "references/empirical/reorganize_new.m",
+    "source_bytes": 924,
+    "source_sha256": "6fc1bfbad7e7b57c17ea7a7f4865bbb47ada2b625f2f0334a6b879a822e204a6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_autocorrelation.m",
+    "repository_path": "references/empirical/v_autocorrelation.m",
+    "source_bytes": 6736,
+    "source_sha256": "458832d929b2df686df93f380555416eee6e1c07b6fe17da4353d1c3063de856"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_autocorrelation_3D.m",
+    "repository_path": "references/empirical/v_autocorrelation_3D.m",
+    "source_bytes": 5495,
+    "source_sha256": "70be887d176beadb09d9cb412bec0490e74ab73c2e920ffeb92569580770693d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_autocorrelation_var.m",
+    "repository_path": "references/empirical/v_autocorrelation_var.m",
+    "source_bytes": 2843,
+    "source_sha256": "026cd7714c4933c82b1a28b6327679c3598e1caecea27ba0493fbf5acf8923e2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_auto_3D_st.m",
+    "repository_path": "references/empirical/v_auto_3D_st.m",
+    "source_bytes": 5946,
+    "source_sha256": "73c86d3b311877eaa4c96bfdbe27fab1fed3f649181f0fb37edd7aa113f8c24e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_correlation.m",
+    "repository_path": "references/empirical/v_cross_correlation.m",
+    "source_bytes": 9368,
+    "source_sha256": "9349d8f7740cb9073b2f8afec5506d36ffc68181fc9036ccc780666250da0264"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_correlation_GPR.m",
+    "repository_path": "references/empirical/v_cross_correlation_GPR.m",
+    "source_bytes": 10211,
+    "source_sha256": "fd922633eeddd33724ccd86c847e18d012f550a8d5db32644e630a3b8f70a2c2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_cor_3D_st.m",
+    "repository_path": "references/empirical/v_cross_cor_3D_st.m",
+    "source_bytes": 9662,
+    "source_sha256": "6c3043ae8b4128d218cff1a2a47c31f1d0d87dde01955fd3b56e7b769aa9ab2e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_cor_3D_st_2mean.m",
+    "repository_path": "references/empirical/v_cross_cor_3D_st_2mean.m",
+    "source_bytes": 13227,
+    "source_sha256": "10f056793068250564e318ca3ef8756b66523c9b6ec1b4f0bc718be4afaadbaf"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\Image code_ZYY\\Image code\\v_autocorrelation-20260824T083631Z-1-001\\v_autocorrelation\\v_cross_cor_3D_st_pertraj.m",
+    "repository_path": "references/empirical/v_cross_cor_3D_st_pertraj.m",
+    "source_bytes": 11978,
+    "source_sha256": "3d946cca8d9aaa9f082acc13353632ab4eab03b9275021e4a1bb6200479bdf3c"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\README.md",
+    "repository_path": "references/animation/README.md",
+    "source_bytes": 2670,
+    "source_sha256": "69106bab947986613ecb40ef10b7451183bf77e258566c685e80cfee22bae672"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\animation_core.py",
+    "repository_path": "references/animation/animation_core.py",
+    "source_bytes": 13658,
+    "source_sha256": "87ac73de3fd342106348191d447eaae736c9438ea6ef403705cba140f646b0fa"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code\\trajectory_visualization_scripts\\build_demo_videos.py",
+    "repository_path": "references/animation/build_demo_videos.py",
+    "source_bytes": 26627,
+    "source_sha256": "82ccc2aad64d5b7db62afdd9a55b7e7eb23f108e2a7d9ae5bf531bd38e501428"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260822T_v521_pair_qc_review_galleries_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260822T_v521_pair_qc_review_galleries_v2/METHOD_CONTRACT.json",
+    "source_bytes": 987,
+    "source_sha256": "25f11b36a4548a910632ff3b5fe4149efc6924b952fb635182a70c242e7cb625"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260822T_v521_pair_qc_review_galleries_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260822T_v521_pair_qc_review_galleries_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 6953,
+    "source_sha256": "27b40b7ca9d4756f9a6ec2c88e8277572d4cac6b236ce723d1e6c4986dcd05f6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260822T_v521_pair_qc_review_galleries_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260822T_v521_pair_qc_review_galleries_v2/REPORT.md",
+    "source_bytes": 709,
+    "source_sha256": "a4cf171436835054317d1f2eb7dc2899efcdabd3dd4fd91347bdc05e924c7411"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_complete_pair_case_selection_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 2875,
+    "source_sha256": "5a8431d0dd1f099376369c93013d8f54d11c39326ccedbfb78a4ae97b4f7526d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_complete_pair_case_selection_v1/REPORT.md",
+    "source_bytes": 573,
+    "source_sha256": "2c3d4c9c2b4675a40be3540ed8c1e26897375b46195ae67230c9253649eb562e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_without_t5_t10_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_complete_pair_case_selection_without_t5_t10_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 3264,
+    "source_sha256": "699380beb9d59b8fab21b704786299d099697ca3b200005fc92c08e7bbad73d4"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_complete_pair_case_selection_without_t5_t10_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_complete_pair_case_selection_without_t5_t10_v2/REPORT.md",
+    "source_bytes": 541,
+    "source_sha256": "8cba505f5d242c6ebecd4835fb5af510f56b9ebcba1a82fc5706423ba12d488b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_distance_demo_cases_final\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_distance_demo_cases_final/METHOD_CONTRACT.json",
+    "source_bytes": 3144,
+    "source_sha256": "a63ffdfce94422e81ceb7f30564cffad6e722972fd06d9df054f31b696e5bb5c"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_distance_demo_cases_final\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_distance_demo_cases_final/OUTPUT_MANIFEST.json",
+    "source_bytes": 13647,
+    "source_sha256": "d5ad5307c09c0a224b2310b9273495d371d39430e49df193e4d74d6978471747"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_distance_demo_cases_final\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_distance_demo_cases_final/REPORT.md",
+    "source_bytes": 708,
+    "source_sha256": "0aebbeab9bc07268952cc0e501a264406f7b69bbdfa6d04c0edbd659e6c11452"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_final_msd_visualization_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_final_msd_visualization_v2/METHOD_CONTRACT.json",
+    "source_bytes": 1352,
+    "source_sha256": "939f47a96fb886941f5f9a73f5d39b07e0366feb01cffa78d863b0adfd1678e0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_final_msd_visualization_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_final_msd_visualization_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 5328,
+    "source_sha256": "a8857b50907c7bc82d458c4ae37a483e43dc31789d6c891da5c3c1ec6089ebac"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_final_msd_visualization_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_final_msd_visualization_v2/REPORT.md",
+    "source_bytes": 990,
+    "source_sha256": "fadeb34d292426297d6637c5c0c6610e28c1d0447703b91c39ff718a4b50254a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_shared_frame_separation_550nm_final_v9\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_shared_frame_separation_550nm_final_v9/METHOD_CONTRACT.json",
+    "source_bytes": 1089,
+    "source_sha256": "dbf747cf3995c4463bc4b79a56891cfd33120a8cfa48be47ae316291e378e70e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_shared_frame_separation_550nm_final_v9\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_shared_frame_separation_550nm_final_v9/OUTPUT_MANIFEST.json",
+    "source_bytes": 6078,
+    "source_sha256": "8f30c26d0c6b9dd1297a8606dcc48bc37ab21c744863c2d06c0fee0e33b78850"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_shared_frame_separation_550nm_final_v9\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_shared_frame_separation_550nm_final_v9/REPORT.md",
+    "source_bytes": 1256,
+    "source_sha256": "71a3807937decebb91eb204679c09fc23ae419780a018aeac16bcb32802c0ab2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_t4_msd_extremes_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_t4_msd_extremes_v1/METHOD_CONTRACT.json",
+    "source_bytes": 1587,
+    "source_sha256": "fbb29bdf4de4661a5bc282690928c0fa498301bc272045a46484c969b6333cf6"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_t4_msd_extremes_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_t4_msd_extremes_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 2201,
+    "source_sha256": "7b258d315bab97e89dec709239d2068d154c1c8af87af485fe76b032552e3cfb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_t4_msd_extremes_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_t4_msd_extremes_v1/REPORT.md",
+    "source_bytes": 697,
+    "source_sha256": "5d6062e7a1d37233035e96f88cb39094a8af0f25d6df91cd42800cd4ecbfaab0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_time_resolved_physics_v1/METHOD_CONTRACT.json",
+    "source_bytes": 2738,
+    "source_sha256": "4eacc76e4393ee861bdaec1d1fe5a462df3b23277749480e55af7ff38e7db186"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_time_resolved_physics_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 8786,
+    "source_sha256": "d23f974ae126cbcdd9e006d7dfba238953b01b6c6e934d475fc298a63093f601"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_time_resolved_physics_v1/REPORT.md",
+    "source_bytes": 2496,
+    "source_sha256": "f03363fddb817f4234ce95683ceee7db006e53e6568b488a426322ad5843584c"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_time_resolved_physics_v2/METHOD_CONTRACT.json",
+    "source_bytes": 2738,
+    "source_sha256": "4eacc76e4393ee861bdaec1d1fe5a462df3b23277749480e55af7ff38e7db186"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_time_resolved_physics_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 9807,
+    "source_sha256": "8c42526024dac1fd4d231c4bc0e2418c6558aa304b5bd6aa4f8cacb6cb25d6f2"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260823T_v521_time_resolved_physics_v2/REPORT.md",
+    "source_bytes": 2520,
+    "source_sha256": "57fa65f7b7121b273e4d46fdaf8db326e5f52b005933a7729a4eaec7be8025eb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vac_v2/METHOD_CONTRACT.json",
+    "source_bytes": 1667,
+    "source_sha256": "a1a95f7b2ec3e510ab9eef80d3933c834da9b244538b7d739c9f0ff9d1451b9e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\IMPLEMENTATION_AUDIT.md",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vac_v2/IMPLEMENTATION_AUDIT.md",
+    "source_bytes": 3197,
+    "source_sha256": "1c815fc7946db548fbc7643a4ac365b7a59f3ebde33ff23634a7fdcefa4cfa43"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vac_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 14868,
+    "source_sha256": "78f2ee3b5af768062203e7258d93379339b8d8fb773815692e3b8541038eb09c"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vac_v2/REPORT.md",
+    "source_bytes": 2681,
+    "source_sha256": "9b103decf20cab7fd9c01449cdbe776c1482e02a565d5a473666fc1a881e1245"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vcc_v4/METHOD_CONTRACT.json",
+    "source_bytes": 1601,
+    "source_sha256": "7cba34f219ffcd2eb360fcd8c41ce63d21ea813f7ab724e3daa41d0d9d949535"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\IMPLEMENTATION_AUDIT.md",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vcc_v4/IMPLEMENTATION_AUDIT.md",
+    "source_bytes": 2670,
+    "source_sha256": "f514dde519c7e9f0d566749d3505ccda17171faed5da6ad5488722ad47c581da"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vcc_v4/OUTPUT_MANIFEST.json",
+    "source_bytes": 25950,
+    "source_sha256": "af8a001419b157d68ebcfaeb75213c7839752818775bc9879e2cb5383a0d3962"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_oligo_vcc_v4/REPORT.md",
+    "source_bytes": 2706,
+    "source_sha256": "5e9453d566c834e96b4b5c5b3aadf609c8c2affaa3f048baa02b5e777a8bd7e7"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_vac_vcc_visual_candidates_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_vac_vcc_visual_candidates_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 7468,
+    "source_sha256": "ad2df14ccc1b00fc8e6c2516d9da87bf4ddaf5b942d7faf1a6d6139ee8953cc8"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_vac_vcc_visual_candidates_v4\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260824T_v521_vac_vcc_visual_candidates_v4/OUTPUT_MANIFEST.json",
+    "source_bytes": 7049,
+    "source_sha256": "9837447a9b4789621abb60b0803ac4d19962f22e317d2e7ac47fab5048f9ada3"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_distance_demo_case_variants_final_v2/METHOD_CONTRACT.json",
+    "source_bytes": 2405,
+    "source_sha256": "17c5d2470d88ba19509fc20e0df92ab2c5d6effcb3106eef7081cc137f1a461b"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_distance_demo_case_variants_final_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 18878,
+    "source_sha256": "5ed0b214745e08939e09e3d938e8dcead489a393dbe7cee6a1b2bb68b43c62c0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_distance_demo_case_variants_final_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_distance_demo_case_variants_final_v2/REPORT.md",
+    "source_bytes": 518,
+    "source_sha256": "2e85ff4abcb91a8c83a7a9a919f31779ac305bb310f1b3d4cc37753a7b293a8a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_bonferroni_cluster_sem_final_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_bonferroni_cluster_sem_final_v1/METHOD_CONTRACT.json",
+    "source_bytes": 1826,
+    "source_sha256": "b79040471fe42c6afaebbd2a6a98649dcff909ead14573193814c1c6c0d46ae0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_bonferroni_cluster_sem_final_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_bonferroni_cluster_sem_final_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 3138,
+    "source_sha256": "0e16cccaf6e17483990da3eee20bb0280b26a729aad9a495dace0861712e144e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_bonferroni_cluster_sem_final_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_bonferroni_cluster_sem_final_v1/REPORT.md",
+    "source_bytes": 1061,
+    "source_sha256": "2b66040918cb6f499fe237214919826ac7e8a660f7773175a2ef2bcda794ed7a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_bonferroni_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_bonferroni_v1/METHOD_CONTRACT.json",
+    "source_bytes": 1783,
+    "source_sha256": "8c879b9c525aa6a0908f7eeb2d2ea76d93bdeeabd25259b2418aa2431beb2ecd"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_bonferroni_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_bonferroni_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 3138,
+    "source_sha256": "30d3bc4a83c4bb51109c02c92485cd3682ba597024b3b9970c2cd94972514637"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_bonferroni_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_bonferroni_v1/REPORT.md",
+    "source_bytes": 1051,
+    "source_sha256": "d2ee11585dc312558393fbac72b8f1a4d2bfedbb0e60ac5a833ae996a7e0daa4"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_final_ppt_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_final_ppt_v1/METHOD_CONTRACT.json",
+    "source_bytes": 1777,
+    "source_sha256": "298fff53099f3620c27a8a843fe8fa6853223de20ea014e79c2b99e386efdfdb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_final_ppt_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_final_ppt_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 3138,
+    "source_sha256": "9017e2dfc6a1dc69b36e20f78b3c338951de7b9549dc32b55cd04bf10bcfe925"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_final_ppt_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_final_ppt_v1/REPORT.md",
+    "source_bytes": 1064,
+    "source_sha256": "6fd93b8e185216bffeadf15ec6e4517655c560db15b09e2feed6ef5f12932399"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_uncorrected_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_uncorrected_v1/METHOD_CONTRACT.json",
+    "source_bytes": 1758,
+    "source_sha256": "c8dab3f17a8665d3a5a1258480f0daca020609f4337d7902bffd41f6eb88d2aa"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_uncorrected_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_uncorrected_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 3138,
+    "source_sha256": "38fcef16d36513fca02afd4926880ab1d5f99892d49ea83ccf0161120bf32e1e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_500nm_uncorrected_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_500nm_uncorrected_v1/REPORT.md",
+    "source_bytes": 1054,
+    "source_sha256": "4be02d04a8dd331f82e6df7d3dd621f39d257052aea8e120a43dc89433d28ade"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_final_ppt_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_final_ppt_v2/METHOD_CONTRACT.json",
+    "source_bytes": 1777,
+    "source_sha256": "78b1fac5810caca1957efd52ce169ed8ba1fc249953a6112b20f466dcf79d013"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_final_ppt_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_final_ppt_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 3138,
+    "source_sha256": "2fb70c0d8eec77835cc784b047db5d561aabb80407987cd42db3e7e8b4510dfb"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260825T_v521_shared_frame_separation_final_ppt_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260825T_v521_shared_frame_separation_final_ppt_v2/REPORT.md",
+    "source_bytes": 1064,
+    "source_sha256": "6fd93b8e185216bffeadf15ec6e4517655c560db15b09e2feed6ef5f12932399"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_distance_demo_case_variants_final_v3\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_distance_demo_case_variants_final_v3/METHOD_CONTRACT.json",
+    "source_bytes": 2849,
+    "source_sha256": "b19ff56db35c1e55b9eed1a6603b45de5315e77b9cc31e5221950d4fcfd6d2f0"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_distance_demo_case_variants_final_v3\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_distance_demo_case_variants_final_v3/OUTPUT_MANIFEST.json",
+    "source_bytes": 18879,
+    "source_sha256": "0a14511611c0e4021652a5a04f54ec21186aa7d027aaba008709a1505d611325"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_distance_demo_case_variants_final_v3\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_distance_demo_case_variants_final_v3/REPORT.md",
+    "source_bytes": 655,
+    "source_sha256": "8c17c46d3d01f82fd859d382667524b1693d0e2a8b69732a448b9f98fb5c204d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_macro_time_clean_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_mscd10_macro_time_clean_v1/METHOD_CONTRACT.json",
+    "source_bytes": 520,
+    "source_sha256": "5616b0558863e5ae33a2208a5ebbf8423453fbfe08728bf416f8653f698b0b9e"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_macro_time_clean_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_mscd10_macro_time_clean_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 2727,
+    "source_sha256": "189d10e7b8c336b3acaba28df40a01663937b92208f25855462f1e696157ed8d"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_macro_time_clean_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_mscd10_macro_time_clean_v1/REPORT.md",
+    "source_bytes": 306,
+    "source_sha256": "c4afc637259366d044915401d672b247e61d58b383c3fdc58d6d7934dfb2f692"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_mscd10_top4_complete_coverage_v1/METHOD_CONTRACT.json",
+    "source_bytes": 949,
+    "source_sha256": "08ec30c62710e8d593f2c3f22e8ddeffcf4fe7570f5405f72b7254edc98c1523"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_mscd10_top4_complete_coverage_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 12343,
+    "source_sha256": "ca0e2ef176ceddbf1ed8e328a06eb2e44ea0399383da6f2cb5f95e9296e232f4"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_top4_complete_coverage_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_mscd10_top4_complete_coverage_v1/REPORT.md",
+    "source_bytes": 985,
+    "source_sha256": "9a08527b5012ca5f4fbe8c07401cf710f95025704e371392932902a8d33d0f04"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_msd_3h_site1_alpha_bottom3_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_msd_3h_site1_alpha_bottom3_v1/METHOD_CONTRACT.json",
+    "source_bytes": 797,
+    "source_sha256": "4b45c7d2c64c82fa9c59ac239633e537acd09505f4f5b6ef11bc5f23bbee576a"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_msd_3h_site1_alpha_bottom3_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_msd_3h_site1_alpha_bottom3_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 12161,
+    "source_sha256": "d3c9db30add5699baa441c0a9177ef8b3e2bcd34f15176e5ef5a3e1f3b689d56"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_msd_3h_site1_alpha_bottom3_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_msd_3h_site1_alpha_bottom3_v1/REPORT.md",
+    "source_bytes": 596,
+    "source_sha256": "d1708eae53f8e31448cd60b9e1b62cd04675bb21466962b16c57aba4650aae25"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_msd_3h_site1_alpha_top5_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_msd_3h_site1_alpha_top5_v1/METHOD_CONTRACT.json",
+    "source_bytes": 691,
+    "source_sha256": "c8a3fdc3e38eec55e05fa26f18cd0f6ea9d3384c673493c41d28b35ef00ad344"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_msd_3h_site1_alpha_top5_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_msd_3h_site1_alpha_top5_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 14611,
+    "source_sha256": "14e89c97b24885ef854933bb405a4637986a9d71818f34812231110964535f3c"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_msd_3h_site1_alpha_top5_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_msd_3h_site1_alpha_top5_v1/REPORT.md",
+    "source_bytes": 980,
+    "source_sha256": "5dc89143de1ef5e7757ad52f39cd271cda564e6859fb77cce0aa8f1b2fb8fdb3"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v1\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_vac_fbm_best_worst_panel_v1/METHOD_CONTRACT.json",
+    "source_bytes": 582,
+    "source_sha256": "2ef02a1530740051dc2f6d66acb5fe3bfe6d3781ac01462f9f5b93a7598faff7"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v1\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_vac_fbm_best_worst_panel_v1/OUTPUT_MANIFEST.json",
+    "source_bytes": 3230,
+    "source_sha256": "8f878e0539d2f2ccf48076d336b49328aaa0323b75276159e92a0ca3fa68b8f7"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v1\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_vac_fbm_best_worst_panel_v1/REPORT.md",
+    "source_bytes": 307,
+    "source_sha256": "609d598a83c347efb89b5d6deb5e146503e563c48b9dad4c32b65e1164e81a47"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v2\\METHOD_CONTRACT.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_vac_fbm_best_worst_panel_v2/METHOD_CONTRACT.json",
+    "source_bytes": 725,
+    "source_sha256": "07333cd64623f32a6781b29263c04f4e2c554914134559e96b140a4846b580f1"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v2\\OUTPUT_MANIFEST.json",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_vac_fbm_best_worst_panel_v2/OUTPUT_MANIFEST.json",
+    "source_bytes": 3229,
+    "source_sha256": "9740277227664bfb7d13f1ad01b569be113cde64f2e9a5c0e1f9b85aff666ae4"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v2\\REPORT.md",
+    "repository_path": "provenance/frozen_runs/20260826T_v521_vac_fbm_best_worst_panel_v2/REPORT.md",
+    "source_bytes": 371,
+    "source_sha256": "d2e41b778c14996cd57910da533d21024b9f4fc262294202b40fed8f4a5ac524"
+  },
+  {
+    "source_path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_formal_70909c2e6326\\DATA_DICTIONARY.md",
+    "repository_path": "docs/INTAKE_DATA_DICTIONARY.md",
+    "source_bytes": 7129,
+    "source_sha256": "7e9d4446a28bfc20ae153b0b8de0a04316d9d6e916f423ebf80da0f3734802fe"
+  }
+]

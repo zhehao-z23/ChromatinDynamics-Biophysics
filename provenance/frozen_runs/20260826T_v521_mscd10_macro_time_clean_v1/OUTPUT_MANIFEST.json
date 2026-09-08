@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\fits.csv",
+      "bytes": 39582,
+      "sha256": "0a3ad1612f4033e11567285b6f6051908b344dfab4f49f41319e1d010bf3694f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\46_build_v521_mscd10_macro_time_clean.py",
+      "bytes": 6620,
+      "sha256": "2668b325fb3384f241ec9747f324514c477399f6b4e37130f01d53251d6e122e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\plots.py",
+      "bytes": 33509,
+      "sha256": "def3005bab2db39068c4e02870faeb9741d3edc5c9e0d7ef6b491d0589020e23"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "figures/fig_mscd10_by_delivery_hour_no5_clean.pdf",
+      "bytes": 30593,
+      "sha256": "ea8d13804348a2886aaa227fa951e78e244a8c746bfbb8b0e74a15e4d2a05d0e"
+    },
+    {
+      "path": "figures/fig_mscd10_by_delivery_hour_no5_clean.png",
+      "bytes": 101179,
+      "sha256": "40bb9015c92d8992afc09c61a527860175fb10055301bb09b55fdb71ddcfe951"
+    },
+    {
+      "path": "figures/fig_mscd10_by_delivery_hour_no5_clean.svg",
+      "bytes": 34319,
+      "sha256": "6fdb08b3460a0d328a93645cd579e06d2d005f412bece4d131bf4d8da4cbf688"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 520,
+      "sha256": "5616b0558863e5ae33a2208a5ebbf8423453fbfe08728bf416f8653f698b0b9e"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 306,
+      "sha256": "c4afc637259366d044915401d672b247e61d58b383c3fdc58d6d7934dfb2f692"
+    },
+    {
+      "path": "tables/fig_mscd10_by_delivery_hour_no5_clean_source.csv",
+      "bytes": 2021,
+      "sha256": "0a5da1fa9d1f927b751244a7af037d07288ff9d53535d0311a8fd71bfbb9532e"
+    }
+  ],
+  "figure_paths": [
+    "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_macro_time_clean_v1\\figures\\fig_mscd10_by_delivery_hour_no5_clean.png",
+    "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_macro_time_clean_v1\\figures\\fig_mscd10_by_delivery_hour_no5_clean.pdf",
+    "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_mscd10_macro_time_clean_v1\\figures\\fig_mscd10_by_delivery_hour_no5_clean.svg"
+  ]
+}

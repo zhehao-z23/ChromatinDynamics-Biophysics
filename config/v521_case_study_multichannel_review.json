@@ -1,0 +1,42 @@
+{
+  "schema_version": 5,
+  "cases": [
+    {
+      "case_id": "shortest_06",
+      "display_label": "Shortest 6",
+      "bundle_id": "LiveFISH DSB006|LiveFISH DSB006_candidate_5|a002"
+    },
+    {
+      "case_id": "longest_03",
+      "display_label": "Longest 3",
+      "bundle_id": "LiveFISH DSB091|LiveFISH DSB091_candidate_43|a002"
+    }
+  ],
+  "display": {
+    "raw_minimum_crop_px": 72,
+    "raw_padding_px": 12,
+    "site1_color": "#F4B400",
+    "site2_color": "#7A3DB8",
+    "bp1_color": "#00B050",
+    "site1_weight": 0.85,
+    "site2_weight": 0.85,
+    "bp1_weight": 0.60,
+    "site_gamma": 0.85,
+    "bp1_gamma": 0.85,
+    "site_percentiles": [50.0, 99.75],
+    "bp1_percentiles": [5.0, 99.5],
+    "track_linewidth": 2.4,
+    "track_halo_linewidth": 4.8,
+    "pixel_scale_bar_linewidth": 5.0,
+    "pixel_scale_bar_halo_linewidth": 8.5,
+    "pixel_scale_bar_fontsize": 18.0,
+    "pixel_label_halo_linewidth": 3.2,
+    "full_cell_time_fontsize": 18.0,
+    "time_colormap": "jet",
+    "playback_fps": 8.0,
+    "video_crf": 20,
+    "figure_size_inches": [15.8, 7.6],
+    "png_dpi": 220,
+    "shared_trace_axis_limit_nm": 1000.0
+  }
+}

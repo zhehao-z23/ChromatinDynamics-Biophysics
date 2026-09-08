@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260822T_v521_pair_qc_review_galleries_v2\\tables\\qc_membership.parquet",
+      "bytes": 105249,
+      "sha256": "bcc82da926d634e68407b935341b3fbdf37e8d1e5c50c6cf698d68d6917a9f2e"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\primary_unit_lag_bins.parquet",
+      "bytes": 3647497,
+      "sha256": "5e611a9696530e271ad9c6235f03a7a6dee8969e2676a5d00c1a84985426b71d"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\29_rank_v521_t4_msd_extremes.py",
+      "bytes": 11518,
+      "sha256": "47fcd69e4c899e5b6ce964cd51a34292cda122dbf07088c4c4449cdc037327ac"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tables\\t4_matched_10s_msd_ranking_census.csv",
+      "bytes": 340200,
+      "sha256": "c8d0b6e00fd6ed93fa2dc5bbbef3851794967a01a1d2fd44cb87350377277d47"
+    },
+    {
+      "path": "tables\\eligible_t4_matched_10s_msd_scores.csv",
+      "bytes": 301311,
+      "sha256": "63a65a94cd963c53427d6329ddd0e2fd778c5b5fd0ae46a084aa059b2a78cb60"
+    },
+    {
+      "path": "tables\\site_specific_matched_10s_msd_top_bottom10.csv",
+      "bytes": 12023,
+      "sha256": "b2c6f763ab3e9fb9654f099a289bff6b33f8a4113fc47f6663f05683a1caab6a"
+    },
+    {
+      "path": "tables\\ranking_support_by_hour.csv",
+      "bytes": 592,
+      "sha256": "fa9a2a56e47b7f591c8ca0966e36e858d68431c736b3a376ca10741a1e0392dd"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 1587,
+      "sha256": "fbb29bdf4de4661a5bc282690928c0fa498301bc272045a46484c969b6333cf6"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 697,
+      "sha256": "5d6062e7a1d37233035e96f88cb39094a8af0f25d6df91cd42800cd4ecbfaab0"
+    }
+  ],
+  "counts": {
+    "t4_bundles": 629,
+    "eligible_site1": 532,
+    "eligible_site2": 532,
+    "extreme_rows": 40
+  }
+}

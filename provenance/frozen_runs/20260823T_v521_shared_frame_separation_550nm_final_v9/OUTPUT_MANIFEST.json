@@ -1,0 +1,151 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\tables\\bundle_frame_master.parquet",
+      "bytes": 50752121,
+      "sha256": "f13f8952625aeddd609f1cd2fab7c483e8c4e81e3dca908358821b27ba1a0e33"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\data_snapshot\\v5_2_1_unfiltered_cache_70909c2e6326\\CACHE_CONTRACT.json",
+      "bytes": 1155,
+      "sha256": "19ad8edb7b1210e51ccef239ff85b6629286c76c262f88504aec58eafd7c00ec"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\24_build_v521_shared_frame_separation_500nm.py",
+      "bytes": 2560,
+      "sha256": "f07db9b29a1f803178fbec28bf523226868d0491eb7fd6ffb888529c9db2f8eb"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\v521_shared_frame_separation.py",
+      "bytes": 41955,
+      "sha256": "94e3689876af9d5326f5faebf7a95bcff96021e95f5b844162bbd9d100c398d0"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\plots.py",
+      "bytes": 33509,
+      "sha256": "def3005bab2db39068c4e02870faeb9741d3edc5c9e0d7ef6b491d0589020e23"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_550nm.pdf",
+      "bytes": 46487,
+      "sha256": "6e912aa7d4f6b5ee7f039b196593b861404814bda1c092d425b4c934a0b638fc"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_550nm.png",
+      "bytes": 84315,
+      "sha256": "25c482e537bcb0f6de5029282256d39e571cd0e92dd986ef5ae2145440a85fd1"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_550nm.svg",
+      "bytes": 78556,
+      "sha256": "213a4688d19d1ecafa7122be100456dcbb26f71af15c9dd898417eb0efeaa526"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_550nm_ppt.pdf",
+      "bytes": 53433,
+      "sha256": "c57367c4277bf43eb4e45ec91d4313c175e44e325611ddc493ae73c409acd456"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_550nm_ppt.png",
+      "bytes": 483180,
+      "sha256": "496f853f8f1565a112646232b49304fb772cf3ce4aad6131e9887cb001c68b51"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_550nm_ppt.svg",
+      "bytes": 93990,
+      "sha256": "e1c36622f84dbcbce955a110da9c2d7737dd2f4e27de55ec2d71e75fde1dcd6a"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_by_hour_550nm.pdf",
+      "bytes": 69793,
+      "sha256": "aba264625ca0d2fabb690cb50fc5c1c061e942c711c777759315a398cb5c48e7"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_by_hour_550nm.png",
+      "bytes": 183061,
+      "sha256": "b7acb5a3c85cef75632bf942fcfe43077497271baa497f9fa80c85b2d3d2504d"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_separation_by_hour_550nm.svg",
+      "bytes": 283527,
+      "sha256": "ab00de8c190265fc2a16bf9389e4eb10463c137e18fc101fa54255338f1a4762"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_threshold_sensitivity.pdf",
+      "bytes": 53359,
+      "sha256": "d96b4d6392869129557fede80389804e6f2fdf175d9f063d2ad79fa1439b5149"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_threshold_sensitivity.png",
+      "bytes": 179219,
+      "sha256": "9595b5a6cc378dfe3ab9fa3a8e075f16f131ad746649d25cac867c8a3fc00685"
+    },
+    {
+      "path": "figures/fig_shared_frame_site1_site2_threshold_sensitivity.svg",
+      "bytes": 98758,
+      "sha256": "99df4a2ea6ff79760ef3690db7c400778392a25fa2d9d36d1d83fa6e5acfd287"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 1089,
+      "sha256": "dbf747cf3995c4463bc4b79a56891cfd33120a8cfa48be47ae316291e378e70e"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 1256,
+      "sha256": "71a3807937decebb91eb204679c09fc23ae419780a018aeac16bcb32802c0ab2"
+    },
+    {
+      "path": "tables/farthest_shared_frame_by_hour.csv",
+      "bytes": 1667,
+      "sha256": "0e8df943dfc4519df81af85163b382268c7978aa06baabee6ba250f8fcd01a68"
+    },
+    {
+      "path": "tables/histogram_bins.csv",
+      "bytes": 6743,
+      "sha256": "5732b5d5451fd457f8faf17203ce9969c6577039c5ef5debdb0853e7600a6871"
+    },
+    {
+      "path": "tables/hour_histogram_bins.csv",
+      "bytes": 54379,
+      "sha256": "8ce9e9ee38a7768ce340065eeaa07f81faa7f1b092e45c7edec380536f82d6ba"
+    },
+    {
+      "path": "tables/hour_threshold_summary.csv",
+      "bytes": 1190,
+      "sha256": "b5341a50fe08dd604cdd402c89f3be10e50e7fe4101ca7b8a20c53ee405eecbc"
+    },
+    {
+      "path": "tables/ppt_panel_summary.csv",
+      "bytes": 733,
+      "sha256": "3542a000d825b3916631dd5c5df7d4cb4874b42aba4b2231cbda71b05326863c"
+    },
+    {
+      "path": "tables/separation_above_2500nm_by_hour.csv",
+      "bytes": 531,
+      "sha256": "2265f5975590c2eda5417578c66b5cbf4f9e441c363fe686e6f01a6ba8ef997e"
+    },
+    {
+      "path": "tables/shared_frame_distances.parquet",
+      "bytes": 3360318,
+      "sha256": "63aed6106797f5057ea3d988d1ccb5b26563aaf6ebeb0edda2724f9661b6d969"
+    },
+    {
+      "path": "tables/threshold_selection.csv",
+      "bytes": 491,
+      "sha256": "a07a2ba5582a87f8e09c31e4f20ff93273b902533aa2a8fe660573a847dfab54"
+    },
+    {
+      "path": "tables/threshold_sensitivity.csv",
+      "bytes": 8776,
+      "sha256": "1b17558445ca540013bfdb3b77019e42dc472a31b8f70bf6ab9cd3d48502ece3"
+    },
+    {
+      "path": "tables/threshold_summary.csv",
+      "bytes": 373,
+      "sha256": "5a3cfae28c75e64ec0205b8536677e3afe84c3f4972e085ac2e3c56b191d3deb"
+    }
+  ]
+}

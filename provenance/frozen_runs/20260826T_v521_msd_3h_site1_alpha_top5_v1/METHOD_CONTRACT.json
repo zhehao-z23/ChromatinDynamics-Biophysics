@@ -1,0 +1,21 @@
+{
+  "analysis_unit": "one Site1 trajectory with its paired Site2 shown for context",
+  "source_cohort": "previously frozen 100%-coverage Site1/Site2 cohort after excluding acquisitions with only 5 or 10 movie frames",
+  "hour_post_delivery": 3.0,
+  "ranking_site": "site1",
+  "ranking": "descending fitted raw-MSD alpha",
+  "top_n": 5,
+  "minimum_r2": 0.9,
+  "fit_window_s": [
+    10.0,
+    50.0
+  ],
+  "excluded_selection_variables": [
+    "appearance",
+    "distance",
+    "motion amplitude",
+    "53BP1"
+  ],
+  "paired_site2_role": "display and audit only; did not define rank",
+  "physical_interpretation": "descriptive case screen, not validated discrete states"
+}

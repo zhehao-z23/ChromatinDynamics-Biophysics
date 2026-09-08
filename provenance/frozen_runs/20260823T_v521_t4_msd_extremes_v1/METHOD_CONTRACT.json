@@ -1,0 +1,37 @@
+{
+  "analysis": "v5.2.1_T4_site_specific_matched_10s_raw_MSD_extreme_selection",
+  "source_cohort": "T4 strict paired trajectories from the prior full-field QC gallery",
+  "t4_rule": {
+    "site1_frames_min": 20,
+    "site2_frames_min": 20,
+    "paired_frames_min": 20,
+    "longest_paired_run_min": 10,
+    "paired_coverage_min": 0.5
+  },
+  "msd_definition": "mean of squared 2D endpoint displacement at the matched lag, in um^2",
+  "metric_support_inherited": {
+    "observed_finite_endpoints_only": true,
+    "coordinate_interpolation": false,
+    "missing_frames_compressed": false,
+    "minimum_endpoint_pairs_per_unit_lag": 8,
+    "maximum_lag_frames": "min(50, floor(movie_frames/4))"
+  },
+  "ranking": {
+    "performed_separately_for": [
+      "site1",
+      "site2"
+    ],
+    "target_lag_bin_s": 10.0,
+    "score": "trajectory-time-averaged raw MSD in the nominal 10-s physical-time bin",
+    "actual_lag_stored_per_trajectory": true,
+    "role": "case selection only; not a new biological endpoint",
+    "why_not_full_10_50s_curve": "requiring complete 10-50 s support retained only 1/131 T4 bundles at 2 h and 2/20 at 3.5 h, creating acquisition-duration/cadence selection bias"
+  },
+  "oligo_livefish_alignment": {
+    "equation_4_msd_definition": "matched",
+    "within_trajectory_then_equal_trajectory_average": "matched in population summaries",
+    "equation_5_error_aware_fbm_fit": "not reproduced",
+    "reason": "exposure-time, localization-error and motion-blur calibration are unavailable"
+  },
+  "visualization_created": false
+}

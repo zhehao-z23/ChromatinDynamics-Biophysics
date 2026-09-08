@@ -1,0 +1,61 @@
+schema_version: "2.0"
+status: nominal_verified_user_and_sequence_anchored_mapping
+assembly: hg38
+chromosome: chr3
+precision_policy: nominal_approximate_probe_tiling_spans_with_sequence_anchored_cut_boundary
+evidence:
+  production_site_order:
+    evidence_id: user_confirmation_2026-08-12
+    statement: production Site1 = Oligo Site2 / ACAP2-rep; production Site2 = Oligo Site3
+  nominal_coordinates:
+    evidence_id: user_sequence_2026-08-15_and_probe_design_spans
+    statement: interval midpoints and nominal cleavage boundary provide quantitative annotations
+  assembly_and_interprobe_spacing:
+    evidence_id: zhu_et_al_cell_2025_table_s1_probe_design
+    doi: 10.1016/j.cell.2025.03.032
+    statement: hg38 Oligo Site2–Oligo Site3 midpoint separation is 284.013 kb
+  probe_spans:
+    evidence_id: zhu_et_al_cell_2025_table_s1_probe_design
+    citation: Zhu et al. High-resolution dynamic imaging of chromatin DNA communication using Oligo-LiveFISH. Cell 2025.
+    doi: 10.1016/j.cell.2025.03.032
+    statement: hg38 tiling spans and probe identities
+  cut_sequence:
+    evidence_id: user_sequence_2026-08-15_and_ucsc_hg38_crispr_track
+    guide_sequence_5to3: AGCTGAGGTGAGCGCTGGGA
+    pam_5to3: GGG
+    guide_strand: minus
+cut:
+  label: sequence_anchored_nominal_spcas9_cleavage_boundary
+  nominal_coordinate_mb: 195.542894
+  genomic_coordinate_1based_right_base: 195542894
+  cleavage_boundary_1based: chr3:195542893^195542894
+production_sites:
+  - production_site_id: site1
+    oligo_site_label: Oligo Site2 / ACAP2-rep
+    genomic_span_1based_closed: chr3:195478317-195506985
+    nominal_coordinate_mb: 195.492651
+    approximate_distance_to_cut_kb: 50.243
+    interval_midpoint_1based: 195492651
+    midpoint_distance_to_cut_bp: 50243
+    edge_distance_range_to_cut_bp: [35909, 64577]
+    coordinate_side_of_cut: lower_coordinate
+  - production_site_id: site2
+    oligo_site_label: Oligo Site3
+    genomic_span_1based_closed: chr3:195775389-195777939
+    nominal_coordinate_mb: 195.776664
+    approximate_distance_to_cut_kb: 233.770
+    interval_midpoint_1based: 195776664
+    midpoint_distance_to_cut_bp: 233770
+    edge_distance_range_to_cut_bp: [232495, 235045]
+    coordinate_side_of_cut: higher_coordinate
+literature_probe_spacing:
+  oligo_pair: Oligo Site2–Oligo Site3
+  nominal_distance_kb: 284.013
+  midpoint_distance_bp: 284013
+  source_scope: zhu_et_al_cell_2025_probe_design_spans
+interpretation_limits:
+  - Probe coordinates are tiling spans; midpoint distances are quantitative nominal genomic offsets, not single-base probe positions.
+  - The cut is a sequence-anchored nominal SpCas9 cleavage boundary, not a tracked image object.
+  - No cut-site trajectory is constructed or analyzed.
+  - With only two sites, a distance slope is algebraically a Site1-versus-Site2 contrast and cannot identify a continuous distance law.
+  - Imaging separation is 2D projected locus geometry, not broken-end distance or chromatin contour length.

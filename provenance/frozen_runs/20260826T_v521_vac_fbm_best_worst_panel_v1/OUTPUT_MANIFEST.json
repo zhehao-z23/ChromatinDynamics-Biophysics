@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_vac_vcc_visual_candidates_v4\\tables\\vac_fine_display_means.csv",
+      "bytes": 209465,
+      "sha256": "09d0bd7e86495051e973d0f830ae4b7a0ed2b2aa59518fd9f985b1da517c6e63"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\tables\\vac_msd_consistency.csv",
+      "bytes": 3627,
+      "sha256": "c8d3ced8207aa4a3536e2470b1592e0e26ddd79598e8995f2c66591e2b806f45"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\47_build_v521_vac_fbm_best_worst_panel.py",
+      "bytes": 11205,
+      "sha256": "3238bacfcaf8f0663642bde1d545ceca3449af019ea3facf97fa4c75eebc8e4f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\src\\dsb_states\\time_resolved_physics_summary.py",
+      "bytes": 35874,
+      "sha256": "d4031b74824cc843a6843f9ee075ef2859eb1f2650782675df2adce8359fdf1e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "figures/fig_vac_fbm_best_4h_vs_worst_2h.pdf",
+      "bytes": 71449,
+      "sha256": "f09ffaeff9d99a811dbef1f940e0a8bf395a4b36fc5ae2a49eaa32344bd5106a"
+    },
+    {
+      "path": "figures/fig_vac_fbm_best_4h_vs_worst_2h.png",
+      "bytes": 526622,
+      "sha256": "ef496fd0769a678ba6b7e8ab9f853618ba2b9bafc82e773aa3fc512aa63c7203"
+    },
+    {
+      "path": "figures/fig_vac_fbm_best_4h_vs_worst_2h.svg",
+      "bytes": 158785,
+      "sha256": "f3be3cae977e7ff3a48f1cfe885ba41a819382fb4a5607506e2ce7b0cc96f4e2"
+    },
+    {
+      "path": "METHOD_CONTRACT.json",
+      "bytes": 582,
+      "sha256": "2ef02a1530740051dc2f6d66acb5fe3bfe6d3781ac01462f9f5b93a7598faff7"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 307,
+      "sha256": "609d598a83c347efb89b5d6deb5e146503e563c48b9dad4c32b65e1164e81a47"
+    },
+    {
+      "path": "tables/vac_fbm_best_worst_site_parameters.csv",
+      "bytes": 951,
+      "sha256": "3b7c19ef82c2e1b5c5f72c5fe3de3fb20dc85c167518f059c91405f7c3b80fa6"
+    },
+    {
+      "path": "tables/vac_fbm_hour_fit_ranking.csv",
+      "bytes": 268,
+      "sha256": "b15290a64bb06d74a71a9701d41580f0cec9e5178a8fb1e31c541258fe91b07b"
+    }
+  ],
+  "figure_paths": [
+    "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v1\\figures\\fig_vac_fbm_best_4h_vs_worst_2h.png",
+    "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v1\\figures\\fig_vac_fbm_best_4h_vs_worst_2h.pdf",
+    "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260826T_v521_vac_fbm_best_worst_panel_v1\\figures\\fig_vac_fbm_best_4h_vs_worst_2h.svg"
+  ]
+}

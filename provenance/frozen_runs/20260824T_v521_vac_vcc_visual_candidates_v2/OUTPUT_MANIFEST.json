@@ -1,0 +1,183 @@
+{
+  "sources": [
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vac_v2\\tables\\scaled_delta_hour_curves.parquet",
+      "bytes": 34388,
+      "sha256": "2691c63fcefce5ff62c3bcee2277895994c02ea0c85d59051fe95eb0faffa6a0"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\tables\\binned_unit_curves.parquet",
+      "bytes": 996213,
+      "sha256": "d7c59a820fe1bf226e4f2403fef455f02105d43031f1cb8f1d4808a25d6b07da"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\tables\\fit_predictions.csv",
+      "bytes": 27076,
+      "sha256": "fec2ca7ed2fa1a3c5b30622e08ac105aa25c627561b2b59fc0e66fb7b33b3772"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260824T_v521_oligo_vcc_v4\\tables\\communication_time_fits.csv",
+      "bytes": 1691,
+      "sha256": "273f91d5bffa94d9c7f0b6c8ffe081f10406839dbaaad0f300387c579087448f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\results\\20260823T_v521_time_resolved_physics_v2\\tables\\fits.csv",
+      "bytes": 39582,
+      "sha256": "0a3ad1612f4033e11567285b6f6051908b344dfab4f49f41319e1d010bf3694f"
+    },
+    {
+      "path": "D:\\UGVR\\Stanley\\Genomic DNA Dynamics Predict Chromatin Density\\code_phase2_DSB\\analysis_dsb_physical_states\\scripts\\40_build_v521_vac_vcc_visual_candidates.py",
+      "bytes": 22252,
+      "sha256": "b4571bc216990ff2de0edd6807cbe94731dd4f8f1db8c844f8997364af43804f"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "FIGURE_INDEX.md",
+      "bytes": 1028,
+      "sha256": "c500f0d56cf07fb79ddb2eb036bcc5f5937585e37c1d371a571df7fb80e2ab97"
+    },
+    {
+      "path": "figures/option_a_vcc_hour_mean_scatter.pdf",
+      "bytes": 69325,
+      "sha256": "e99871a7af7beec7e5bfe81c77c55c2d8b735d585b441366c0c44af04b6f292c"
+    },
+    {
+      "path": "figures/option_a_vcc_hour_mean_scatter.png",
+      "bytes": 751777,
+      "sha256": "505c726afbce5a6ffb59351e8acda983f50369d09614b745814e469913faf0b6"
+    },
+    {
+      "path": "figures/option_a_vcc_hour_mean_scatter.svg",
+      "bytes": 168023,
+      "sha256": "260e78c1ba2fc1cf85ed203f47c63ee5e349c73b06ecf0c6d0e61b6f93172582"
+    },
+    {
+      "path": "figures/option_b_vcc_bundle_cloud_selected_hours.pdf",
+      "bytes": 371457,
+      "sha256": "957d391e5cc34a3bf2f9423b68e86d8bf9fab097bac314352f260a89722d3aff"
+    },
+    {
+      "path": "figures/option_b_vcc_bundle_cloud_selected_hours.png",
+      "bytes": 1626173,
+      "sha256": "9493fc70ed19d2949b4a9e06517e3f591b32cd3944590b942d8295c90a582e1e"
+    },
+    {
+      "path": "figures/option_b_vcc_bundle_cloud_selected_hours.svg",
+      "bytes": 536620,
+      "sha256": "5295582cfffaed04c5bad8ab8417bcf05dcf6a361b0ba01669eee23114cbf52b"
+    },
+    {
+      "path": "figures/option_c_vcc_residual_atlas.pdf",
+      "bytes": 60071,
+      "sha256": "8108a8ab95ca0e592dc3edb6385cc336bd3b9e343c7e1547a3bde99614e96e30"
+    },
+    {
+      "path": "figures/option_c_vcc_residual_atlas.png",
+      "bytes": 541102,
+      "sha256": "f751e8b7540df9daf47e50680eb4d0cd5eacf889180796aeda4c198f30ae9227"
+    },
+    {
+      "path": "figures/option_c_vcc_residual_atlas.svg",
+      "bytes": 145940,
+      "sha256": "af271687c6667690d9011aa0afd9e5aa0e0a85b71ac20b309e45f87c76b8eaa4"
+    },
+    {
+      "path": "figures/option_d_vcc_residual_heatmap.pdf",
+      "bytes": 49183,
+      "sha256": "4c9ad9f07891c6041f8146b7424ba34c0971dd8e7061c33ea8833f56a2d1dc1d"
+    },
+    {
+      "path": "figures/option_d_vcc_residual_heatmap.png",
+      "bytes": 203192,
+      "sha256": "77c4fff496ed36a442e19b97ca8d564009f4cd9498ec3ac5cf9c8b5cb2614df8"
+    },
+    {
+      "path": "figures/option_d_vcc_residual_heatmap.svg",
+      "bytes": 69877,
+      "sha256": "b843bd61c5698df6ebb2009d399115c338a75d57505c20513ecda358c7a63ace"
+    },
+    {
+      "path": "figures/option_e1_vac_site1_fixed_fbm_scatter.pdf",
+      "bytes": 70551,
+      "sha256": "a8e4bc15bacb9bb42d51acd354bfbe68de0d085dc001b9592107d81e54dba9d5"
+    },
+    {
+      "path": "figures/option_e1_vac_site1_fixed_fbm_scatter.png",
+      "bytes": 674695,
+      "sha256": "b3ff9b83965ef8229a61d1fb67b9e305cb89cefb0947de0a26749f613dc7e733"
+    },
+    {
+      "path": "figures/option_e1_vac_site1_fixed_fbm_scatter.svg",
+      "bytes": 160873,
+      "sha256": "f28a0562f37421b81ebf3e7c4ac87268a82820b4ece48d88cb4382bd1b2828b5"
+    },
+    {
+      "path": "figures/option_e2_vac_site2_fixed_fbm_scatter.pdf",
+      "bytes": 72512,
+      "sha256": "0ba7cd9466b38b9e3220ca56169c8a36aad010c956e114554b39d35c44122893"
+    },
+    {
+      "path": "figures/option_e2_vac_site2_fixed_fbm_scatter.png",
+      "bytes": 680140,
+      "sha256": "e125cc7e44a4e7edaa8e77fa0205fb209e241dbf8eed0ecaa72367266a2b8226"
+    },
+    {
+      "path": "figures/option_e2_vac_site2_fixed_fbm_scatter.svg",
+      "bytes": 164043,
+      "sha256": "8250aefaf64265953560ddab30e3b5ed7b0e9cf52ec0ca5fcc78e6f2f8109ce0"
+    },
+    {
+      "path": "METHOD_NOTES.json",
+      "bytes": 456,
+      "sha256": "2dd5a82483a2fca502c276716930df8db52403b93008dd1a2d0ad76c9e87e9b9"
+    },
+    {
+      "path": "tables/msd_alpha_reference.csv",
+      "bytes": 4286,
+      "sha256": "a5cf27d5790a5ba15ae8a7c7e8bec0b22752d58d5c909df55c1c6cf84f584a55"
+    },
+    {
+      "path": "tables/vac_display_points.parquet",
+      "bytes": 37061,
+      "sha256": "24b0bad1a36243f92c74df47e889ea9fa6a2e84dc2cc68b4d7d62ec6a8affc8c"
+    },
+    {
+      "path": "tables/vcc_display_points.csv",
+      "bytes": 31595,
+      "sha256": "798b6538f94faaa36cfc292cc9b2019f32e13e8e55b159bd91f9ff32fc968102"
+    }
+  ],
+  "figure_sets": {
+    "A_vcc_hour_mean_scatter": [
+      "figures\\option_a_vcc_hour_mean_scatter.png",
+      "figures\\option_a_vcc_hour_mean_scatter.pdf",
+      "figures\\option_a_vcc_hour_mean_scatter.svg"
+    ],
+    "B_vcc_bundle_cloud": [
+      "figures\\option_b_vcc_bundle_cloud_selected_hours.png",
+      "figures\\option_b_vcc_bundle_cloud_selected_hours.pdf",
+      "figures\\option_b_vcc_bundle_cloud_selected_hours.svg"
+    ],
+    "C_vcc_residual_atlas": [
+      "figures\\option_c_vcc_residual_atlas.png",
+      "figures\\option_c_vcc_residual_atlas.pdf",
+      "figures\\option_c_vcc_residual_atlas.svg"
+    ],
+    "D_vcc_residual_heatmap": [
+      "figures\\option_d_vcc_residual_heatmap.png",
+      "figures\\option_d_vcc_residual_heatmap.pdf",
+      "figures\\option_d_vcc_residual_heatmap.svg"
+    ],
+    "E1_vac_site1_fixed_fbm": [
+      "figures\\option_e1_vac_site1_fixed_fbm_scatter.png",
+      "figures\\option_e1_vac_site1_fixed_fbm_scatter.pdf",
+      "figures\\option_e1_vac_site1_fixed_fbm_scatter.svg"
+    ],
+    "E2_vac_site2_fixed_fbm": [
+      "figures\\option_e2_vac_site2_fixed_fbm_scatter.png",
+      "figures\\option_e2_vac_site2_fixed_fbm_scatter.pdf",
+      "figures\\option_e2_vac_site2_fixed_fbm_scatter.svg"
+    ]
+  }
+}

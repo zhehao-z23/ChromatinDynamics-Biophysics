@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chromatin-dynamics-biophysics"
+version = "0.1.0"
+description = "Observed-endpoint chromatin trajectory physics, QC and multichannel review"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0", "pandas>=2.2", "pyarrow>=18", "scipy>=1.14",
+  "matplotlib>=3.9", "statsmodels>=0.14", "PyYAML>=6.0",
+  "pydantic>=2.10", "tifffile>=2025.1"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "ruff>=0.9"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

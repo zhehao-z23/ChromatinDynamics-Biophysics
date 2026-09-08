@@ -1,0 +1,90 @@
+{
+  "experimental_batch_assumption": {
+    "same_batch": true,
+    "batch_effect_model": null,
+    "evidence": "user confirmation 2026-08-23",
+    "acquisition_role": "provenance and cadence/support diagnostics only"
+  },
+  "pooling": {
+    "macro_time": "folder hour after Cas9 delivery; not cut onset",
+    "primary_unit": {
+      "msd_vac": "trajectory",
+      "mscd_vcc": "Site1/Site2 bundle"
+    },
+    "within_hour_weight": "equal unit after within-unit time averaging",
+    "uncertainty": "between-unit sample SD; crop-cluster bootstrap 95% CI for model fits"
+  },
+  "support_only_filter": {
+    "coordinates": "finite observed endpoints on exact acquisition schedule",
+    "minimum_pairs_per_unit_lag": 8,
+    "coordinate_interpolation": false,
+    "excluded_filters": [
+      "T3/T4 global paired QC",
+      "motion magnitude",
+      "separation",
+      "53BP1 detection or recruitment",
+      "hour",
+      "acquisition identity",
+      "learned state or cluster"
+    ]
+  },
+  "physical_time_harmonization": {
+    "coordinate_interpolation": false,
+    "lag_binning_only": true,
+    "lag_bin_centers_s": [
+      1.0,
+      1.5,
+      2.0,
+      3.0,
+      5.0,
+      7.5,
+      10.0,
+      15.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      75.0,
+      100.0,
+      150.0,
+      200.0,
+      300.0,
+      500.0
+    ],
+    "representative_per_unit_bin": "supported curve point nearest bin center"
+  },
+  "models": {
+    "msd": {
+      "formula": "MSD(tau)=A*tau^alpha",
+      "fit_window_s": [
+        10.0,
+        50.0
+      ],
+      "status": "descriptive raw MSD; localization/motion-blur correction unavailable"
+    },
+    "mscd": {
+      "formula": "MSCD(tau)=A*tau^beta",
+      "fit_window_s": [
+        10.0,
+        50.0
+      ],
+      "status": "descriptive relative-vector change"
+    },
+    "vac": {
+      "formula": "(|x-1|^alpha+|x+1|^alpha-2|x|^alpha)/2; x=tau/delta",
+      "source": "Oligo-LiveFISH Eq. 9",
+      "primary_delta": "acquisition-specific integer frame offset nearest 10 s, constrained to 7.5-12.5 s"
+    },
+    "vcc": {
+      "primary_object": "lag-indexed normalized 2x2 matrix in source table",
+      "headline": "mean of bidirectional rotation-invariant traces",
+      "fit": "GCV smoothing spline for display only; no Rouse communication-time claim"
+    }
+  },
+  "warnings": [
+    "10-50 s spans only five-fold, so power-law exponents are weakly identified.",
+    "5 h has only about 10 Site1 trajectories and 9 paired bundles.",
+    "Acquisitions are pooled biologically but retain unequal cadence and movie length.",
+    "Tracking missingness can remain outcome-dependent at long lags."
+  ]
+}
