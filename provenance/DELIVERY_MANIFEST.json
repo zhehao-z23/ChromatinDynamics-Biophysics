@@ -558,8 +558,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12404,
-      "sha256": "91b38f541f27394683275fff53be4f9ea4314c1385bf0b89e00d43080e9ee455"
+      "bytes": 14162,
+      "sha256": "d0c27af8035e0f147020665f1d4ddae46ea67c6c0b3a31d7078a8da3f59a2745"
     },
     {
       "path": "references/animation/animation_core.py",

@@ -1,24 +1,24 @@
 # ChromatinDynamics-Biophysics
 
-从 **CrisprTrack2 已提取的轨迹及精确时间信息**开始，完成染色质运动的物理量、统计支持度、质控图和多通道动态复核。当前默认是 v5.2.1 正式输入（提取 commit `9f4e28a7bdaa6847e876fa9e3de059de197d0441`）及 2026-08-26 前完成的物理分析工作树。
+Compute physical observables, statistical support, QC figures, and multichannel dynamic reviews of chromatin motion from **trajectories and exact timing produced by CrisprTrack2**. Defaults follow the formal v5.2.1 inputs (extraction commit `9f4e28a7bdaa6847e876fa9e3de059de197d0441`) and the final physics analysis working tree completed by August 26, 2026.
 
-本仓库不做图像分割和轨迹提取，也不训练 fingerprint/聚类/监督模型。后两者由 `ChromatinDynamics-ML` 负责；ML 可安装本仓库后导入 `dsb_states.physical_metrics` 等物理内核，或直接读取这里产生的表。
+Image segmentation and trajectory extraction belong to CrisprTrack2. Fingerprinting, clustering, and supervised learning belong to `ChromatinDynamics-ML`, which can consume the tables generated here or install this package to import physical kernels such as `dsb_states.physical_metrics`.
 
-| 仓库 | 起点 → 终点 | 共享接口 |
+| Repository | Start → finish | Shared interface |
 |---|---|---|
-| [CrisprTrack2](https://github.com/zhehao-z23/CrisprTrack2) | ND2/TIFF → nucleus segmentation → corrected trajectories | 正式 runroot、`frame,x_nm,y_nm`、精确时间与来源 metadata |
-| ChromatinDynamics-Biophysics | 正式轨迹 → intake/cache → MSD/MSCD/VAC/VCC、QC、图像/视频复核 | Parquet/CSV 物理表、bundle/crop/acquisition 标识 |
-| [ChromatinDynamics-ML](https://github.com/zhehao-z23/ChromatinDynamics-ML) | 相同冻结 intake / 物理表 → fingerprint → 无监督与监督 | 通过标识 join；不复制图像提取或物理内核 |
+| [CrisprTrack2](https://github.com/zhehao-z23/CrisprTrack2) | ND2/TIFF → nucleus segmentation → corrected trajectories | Formal run root, `frame,x_nm,y_nm`, exact timing, and provenance metadata |
+| ChromatinDynamics-Biophysics | Formal trajectories → intake/cache → MSD/MSCD/VAC/VCC, QC, image/video review | Parquet/CSV physics tables and bundle/crop/acquisition identifiers |
+| [ChromatinDynamics-ML](https://github.com/zhehao-z23/ChromatinDynamics-ML) | Shared frozen intake/physics tables → fingerprints → unsupervised and supervised learning | Join by identifiers; extraction and physics kernels are not duplicated |
 
-## 版本和最终分析定位
+## Version and final analysis scope
 
-原分析仓库 Git HEAD 仍为旧 `d3bd4ab`，最终 v5.2.1 文件是尚未提交的工作树内容。本次保留的是**工作树及文件 SHA256**，不是仅复制旧 Git HEAD。见 [来源记录](provenance/SOURCE_MANIFEST.json)、[打包变更](docs/PACKAGING.md) 和 [历史运行索引](docs/FROZEN_RESULTS.md)。
+At packaging time, the original analysis repository's Git HEAD was still the older `d3bd4ab`; final v5.2.1 files were present as uncommitted working-tree changes. This repository preserves **that working tree with per-file SHA256 records**. See [source provenance](provenance/SOURCE_MANIFEST.json), [packaging changes](docs/PACKAGING.md), and the [frozen-run index](docs/FROZEN_RESULTS.md).
 
-主要保留：逐小时 MSD/MSCD v2；多速度窗口 VAC v2；完整双向 VCC 张量与 Rouse communication-time v4；最终 MSD/分离距离图；完整覆盖 case selection；多通道动态复核；3 h 高/低 alpha、最高 MSCD 个案和最终清爽展示图。旧 `provenance/frozen_runs` 是可追溯的运行证据，里面的绝对路径不会自动转为本机数据路径。
+Included workflows cover per-hour MSD/MSCD v2, VAC v2 at multiple velocity windows, the full bidirectional VCC tensor and Rouse communication-time v4, final MSD/separation figures, complete-coverage case selection, multichannel dynamic review, 3 h high/low-alpha and highest-MSCD cases, and final presentation figures. `provenance/frozen_runs` contains historical evidence; its absolute paths must be mapped to your local data explicitly.
 
-## 安装
+## Installation
 
-需要 Python 3.11+。新环境请使用本仓库最小依赖，而不是旧分析项目包含全部 ML 方法的环境清单。
+Python 3.11+ is required. Use this repository's minimal dependencies for a new environment; the original analysis environment also included unrelated ML methods.
 
 ```powershell
 python -m venv .venv
@@ -26,88 +26,88 @@ python -m venv .venv
 $py = (Resolve-Path .\.venv\Scripts\python.exe).Path
 ```
 
-Linux/macOS 对应使用 `.venv/bin/python`。数值 Rouse 参考表已包含在 `references/rouse/tables`；动态视频还需要可用的 FFmpeg。参考代码权利归属见 [NOTICE](NOTICE.md)。
+On Linux/macOS, use `.venv/bin/python`. Numerical Rouse reference tables are included in `references/rouse/tables`; videos additionally require FFmpeg. See [NOTICE](NOTICE.md) for reference-code attribution.
 
-## 输入必须是什么
+## Required inputs
 
-三种起点不能混用：
+The three supported starting points have distinct requirements:
 
-1. **完整正式 runroot**：提取输出、精确逐帧时间、crop metadata、轨迹清单及 53BP1 sidecars，可从中构建完整 intake；动态图额外需要修正 TIFF 和 nucleus mask。
-2. **冻结 intake**：包含 `table_registry.json` 和注册的 Parquet 数据集。当前冻结标识为 `v5_2_1_formal_70909c2e6326`，可直接构建 cache。
-3. **冻结 flat cache**：包含 `CACHE_CONTRACT.json`、`tables/bundle_frame_master.parquet`、`tables/bundle_index.parquet` 等文件，可直接运行物理分析。
+1. **Complete formal run root:** extraction outputs, exact per-frame timing, crop metadata, trajectory manifests, and 53BP1 sidecars, from which the full intake can be built. Dynamic visualization also requires corrected TIFFs and nucleus masks.
+2. **Frozen intake:** `table_registry.json` and its registered Parquet datasets. The frozen identifier is `v5_2_1_formal_70909c2e6326`; this input can be used directly to build a cache.
+3. **Frozen flat cache:** `CACHE_CONTRACT.json`, `tables/bundle_frame_master.parquet`, `tables/bundle_index.parquet`, and associated tables. This input can be used directly for physics analysis.
 
-仅有 `frame,x_nm,y_nm` 的纯 CSV 归档可以复用轨迹，但不能独立恢复精确时间、科学 asset 状态、53BP1 指标或图像视频。不要给 CSV 人为补一个时间间隔来冒充当前正式输入。完整列合同见 [数据字典](docs/INTAKE_DATA_DICTIONARY.md)。
+A CSV archive containing only `frame,x_nm,y_nm` allows trajectory reuse but cannot independently recover exact timing, scientific asset status, 53BP1 measurements, or image/video content. Assigning an arbitrary frame interval does not reproduce the formal input contract. See the [data dictionary](docs/INTAKE_DATA_DICTIONARY.md) for column definitions.
 
-所有分析写入**新的输出目录**。原始 runroot 和冻结 intake/cache 只读，重复运行更换输出名。典型配置：
+Write every analysis to a **new output directory**. Treat the source run root and frozen intake/cache as read-only. Choose a new output name for a new run. Example paths:
 
 ```powershell
 $cache = 'F:\DSB_v51\path_to_frozen_cache'
 $run = 'C:\analysis_results\physics_20260908'
 ```
 
-上述是示例路径，需要替换为实际归档位置。原项目当前来源路径列在 [数据保留与路径迁移](docs/DATA_AND_STORAGE.md)。
-驱动器要求 `output-root`、`cache`、可选 `snapshot` 互不重叠，避免将新输出写进冻结数据。
+Replace these example paths with your actual archive locations. Original source locations are documented in [data retention and path migration](docs/DATA_AND_STORAGE.md).
+The driver requires `output-root`, `cache`, and optional `snapshot` paths to be mutually non-overlapping, preventing outputs from being written inside frozen data.
 
-## 从正式 runroot 构建 intake 和 cache
+## Build intake and cache from a formal run root
 
-复制 `config/v521_intake.yaml` 为 `config/v521_intake.local.yaml`，修改 `source.root`、`output.parent` 与必要 metadata 路径；提取版本、commit、精确时间要求及字段 schema 保持原值，除非明确创建新的数据版本。
+Copy `config/v521_intake.yaml` to `config/v521_intake.local.yaml` and edit `source.root`, `output.parent`, and required metadata paths. Keep the extraction version, commit, exact-timing requirements, and field schema unchanged unless deliberately defining a new data version.
 
 ```powershell
 & $py scripts/20_build_v521_intake.py --config config/v521_intake.local.yaml
-# 上一命令会打印实际生成的 content-addressed snapshot 路径。
+# The preceding command prints the generated content-addressed snapshot path.
 & $py scripts/21_build_v521_unfiltered_cache.py `
   --snapshot 'C:\analysis_data\v5_2_1_formal_70909c2e6326' `
   --output-dir 'C:\analysis_data\v5_2_1_unfiltered_cache_70909c2e6326'
 ```
 
-Cache 不应用 T1–T4 或 53BP1 阳性筛选，也不填补缺失位置。Global 53BP1 对象是独立一对多表，不能直接展开并重复 bundle-frame 行。
+The cache applies neither T1–T4 nor 53BP1-positive filtering and does not fill missing positions. Global 53BP1 objects are stored in a separate one-to-many table; expanding that table directly would duplicate bundle-frame rows.
 
-## 完整运行与分阶段运行
+## Full and staged execution
 
-先查看命令清单（不读大表、不写结果）：
+Preview the command list without reading large tables or writing results:
 
 ```powershell
 & $py scripts/run_pipeline.py --cache $cache --output-root $run --dry-run
 ```
 
-执行完整静态物理与 QC 工作流：
+Run the full static physics and QC workflow:
 
 ```powershell
 & $py scripts/run_pipeline.py --cache $cache --output-root $run
 ```
 
-顺序为 `qc → physics → selection → msd → vac → vcc → display → separation → mscd-clean → vac-best-worst`。后续阶段读取前序结果。分阶段只选择尚未运行的阶段，或用下表脚本传入已有运行目录；驱动器不会重建已经存在的阶段结果。
+Stage order: `qc → physics → selection → msd → vac → vcc → display → separation → mscd-clean → vac-best-worst`. Later stages read earlier outputs. Select only stages not yet run, or invoke individual scripts below with an existing run directory. The driver does not rebuild existing stage outputs.
 
 ```powershell
 & $py scripts/run_pipeline.py --cache $cache --output-root $run --stages qc physics
 & $py scripts/run_pipeline.py --cache $cache --output-root $run --stages selection msd vac vcc display separation mscd-clean vac-best-worst
 ```
 
-这里的“完整”是物理统计与静态 QC；视频需要原始图像及所选 case，因此单独执行下一节。没有 image asset 时，CSV/Parquet 物理流程仍可运行。
-默认十阶段流程对应当前冻结cohort；`mscd-clean` 的汇报脚本要求8个非5 h估计值。
-分析其他hour设计时，使用 `--stages` 省略该特定汇报阶段，或明确建立新的汇报合同，不能把其固定数量检查当作通用数据清洗。
+The full workflow covers physics statistics and static QC. Videos require image assets and selected cases and are run separately below. CSV/Parquet physics analysis can still run without image assets.
+The default ten-stage workflow targets the frozen cohort; the `mscd-clean` reporting script expects eight estimates outside the 5 h group.
+For other hour-group designs, omit this reporting stage with `--stages` or explicitly define a new reporting contract. Its fixed-count check is not a general-purpose data-cleaning rule.
 
-| 脚本 | 输入 | 主要输出 / 目的 |
+| Script | Input | Main outputs / purpose |
 |---|---|---|
-| `20_build_v521_intake.py` | 正式 runroot + YAML | 内容寻址 intake、asset/status audit、数据字典 |
-| `21_build_v521_unfiltered_cache.py` | intake | 无科学 QC 的 bundle-frame cache |
-| `22_build_v521_pair_galleries.py` | cache | T3/T4 membership、剔除原因、固定比例轨迹画廊 |
-| `23_build_v521_time_resolved_physics.py` | cache + `physics.yaml` | unit curves、支持度、hour curves、fits、bootstrap 区间 |
-| `26_select_v521_complete_pair_cases_without_t5_t10.py` | cache | 100% 覆盖且去掉 5/10-frame movie 的候选个案 |
-| `37_build_v521_final_msd_visualization.py` | physics + selection | 最终 MSD 图、逐轨迹 alpha、候选 case |
-| `38_build_v521_oligo_vac.py` | cache + MSD fits + references | delta=10/20/40 s VAC、MSD-alpha 一致性诊断 |
-| `39_build_v521_oligo_vcc.py` | cache + references | 双向 2×2 张量、对称 trace、Rouse 时间与 adequacy |
-| `40_build_v521_vac_vcc_visual_candidates.py` | VAC/VCC + MSD fits | MATLAB 风格 clean/cloud 面板；真实观测细网格展示 |
-| `42_build_v521_separation_final_ppt.py` | cache | 500 nm 分离阈值描述、crop-level 比较、最终静态图 |
-| `43/44/45` | 冻结 alpha/MSCD 表 + selection + fullrun | 高/低 alpha 与高 MSCD 个案 PNG/PDF/MP4 |
-| `46/47` | 冻结 fit/display 表 | MSCD macro-time 与 VAC 最佳/最差一致性面板 |
-| `41_archive_v521_trajectory_csvs.py` | 正式 runroot | 精简轨迹 CSV 归档与 hash manifest；不替代完整 runroot |
+| `20_build_v521_intake.py` | Formal run root + YAML | Content-addressed intake, asset/status audit, data dictionary |
+| `21_build_v521_unfiltered_cache.py` | Intake | Bundle-frame cache before scientific QC |
+| `22_build_v521_pair_galleries.py` | Cache | T3/T4 membership, exclusion reasons, fixed-scale trajectory galleries |
+| `23_build_v521_time_resolved_physics.py` | Cache + `physics.yaml` | Unit curves, support counts, hourly curves, fits, bootstrap intervals |
+| `26_select_v521_complete_pair_cases_without_t5_t10.py` | Cache | Cases with 100% coverage, excluding 5/10-frame movies |
+| `37_build_v521_final_msd_visualization.py` | Physics + selection | Final MSD figures, per-trajectory alpha, candidate cases |
+| `38_build_v521_oligo_vac.py` | Cache + MSD fits + references | VAC at delta=10/20/40 s; consistency diagnostics against MSD alpha |
+| `39_build_v521_oligo_vcc.py` | Cache + references | Bidirectional 2×2 tensor, symmetric trace, Rouse time and adequacy |
+| `40_build_v521_vac_vcc_visual_candidates.py` | VAC/VCC + MSD fits | MATLAB-style clean/cloud panels; fine-grid displays of actual observations |
+| `42_build_v521_separation_final_ppt.py` | Cache | Descriptive 500 nm separation threshold, crop-level comparisons, final static figures |
+| `43/44/45` | Frozen alpha/MSCD tables + selection + full run | High/low-alpha and high-MSCD case PNG/PDF/MP4 files |
+| `46/47` | Frozen fit/display tables | MSCD macro-time and best/worst VAC consistency panels |
+| `41_archive_v521_trajectory_csvs.py` | Formal run root | Compact trajectory CSV archive and hash manifest; does not replace the full run |
 
-其余 `24/25/28/29` 保留专门的分离距离、完整覆盖、距离动画和 T4 ranking 入口。全部命令行参数与默认值见 [CLI 参数表](docs/CLI_PARAMETERS.md)，也可运行任一脚本 `--help`。
+Scripts `24/25/28/29` provide additional entry points for separation, complete coverage, distance animations, and T4 ranking. See the [CLI parameter table](docs/CLI_PARAMETERS.md) or each script's `--help` for all options and defaults.
 
-## 动态可视化和图像质控
+## Dynamic visualization and image QC
 
-以最终 3 h 最低 Site1 alpha 三个 case 为例：
+Example: review the three cases with the lowest Site1 alpha at 3 h:
 
 ```powershell
 & $py scripts/44_build_v521_msd_3h_alpha_bottom_cases_and_clean_hour_plot.py `
@@ -122,41 +122,43 @@ Cache 不应用 T1–T4 或 53BP1 阳性筛选，也不填补缺失位置。Glob
   --original-matlab ../CrisprTrack2/trajectory_extraction/pipeline/plot_longest_trajectories.m
 ```
 
-图像必须和当前 runroot 的精确标识、轨迹、时间轴一致。显示含 full-cell context、核边缘、两位点 crop、比例尺、轨迹和 X/Y traces。配置控制亮度百分位、gamma、channel weight、字体、线宽和视频编码，不改变轨迹坐标。`playback_fps=8` 是播放速度；视频注释使用精确实验时间。绘图连线可以跨缺失帧，**计算不插值、也不压缩缺失帧**。
+Images must match the exact identifiers, trajectories, and time axis of the current run root. Displays include full-cell context, nuclear boundaries, two-locus crops, scale bars, trajectories, and X/Y traces. Configuration controls brightness percentiles, gamma, channel weights, fonts, line widths, and video encoding without changing trajectory coordinates. `playback_fps=8` controls playback speed; annotations use exact experimental times. Display lines may cross missing frames, but **calculations neither interpolate nor compress missing frames**.
 
-## 公式和统计口径
+## Equations and statistical conventions
 
-令二维记录坐标为 \(\mathbf r_1(t),\mathbf r_2(t)\)，由 nm 转为 µm；计算只使用所需端点真实存在的帧。
+Let the observed two-dimensional coordinates be $\mathbf r_1(t),\mathbf r_2(t)$, converted from nm to µm. Calculations use only frames where all required endpoints are observed.
 
-| 量 | 定义 | 输出 / 解释 |
+| Observable | Definition | Output / interpretation |
 |---|---|---|
-| Separation | \(d(t)=\|\mathbf r_2(t)-\mathbf r_1(t)\|\) | nm；双探针几何距离 |
-| MSD | \(\langle\|\mathbf r(t+\tau)-\mathbf r(t)\|^2\rangle_t\) | µm²；Site1/Site2 独立进入 |
-| MSCD | \(\langle\|\Delta\mathbf R(t+\tau)-\Delta\mathbf R(t)\|^2\rangle_t\), \(\Delta\mathbf R=\mathbf r_2-\mathbf r_1\) | µm²；相对**向量**变化，不是标量距离变化 |
-| Velocity | \(\mathbf v_\delta(t)=[\mathbf r(t+\delta)-\mathbf r(t)]/\delta_t\) | 每个速度使用自己的精确 elapsed time |
-| VAC | \(\langle\mathbf v_\delta(t+\tau)\cdot\mathbf v_\delta(t)\rangle/\langle\|\mathbf v_\delta(t)\|^2\rangle\) | 无量纲；零时滞归一化 |
-| VCC tensor | \(\langle\mathbf v_{1,\delta}(t+\tau)\mathbf v_{2,\delta}(t)^T\rangle / \sqrt{\langle\|\mathbf v_1\|^2\rangle\langle\|\mathbf v_2\|^2\rangle}\) | 完整双向 delta×tau×2×2；绘图用双向对称 trace |
+| Separation | $d(t)=\lVert\mathbf r_2(t)-\mathbf r_1(t)\rVert$ | nm; geometric distance between the two probes |
+| MSD | $\langle\lVert\mathbf r(t+\tau)-\mathbf r(t)\rVert^2\rangle_t$ | µm²; Site1 and Site2 analyzed separately |
+| MSCD | $\langle\lVert\Delta\mathbf R(t+\tau)-\Delta\mathbf R(t)\rVert^2\rangle_t$, $\Delta\mathbf R=\mathbf r_2-\mathbf r_1$ | µm²; change in the relative **vector**, not in scalar separation |
+| Velocity | $\mathbf v_\delta(t)=[\mathbf r(t+\delta)-\mathbf r(t)]/\delta_t$ | Each velocity uses its own exact elapsed time |
+| VAC | $\langle\mathbf v_\delta(t+\tau)\cdot\mathbf v_\delta(t)\rangle/\langle\lVert\mathbf v_\delta(t)\rVert^2\rangle$ | Dimensionless; normalized at zero lag |
+| VCC tensor | $\langle\mathbf v_{1,\delta}(t+\tau)\mathbf v_{2,\delta}(t)^T\rangle / \sqrt{\langle\lVert\mathbf v_1\rVert^2\rangle\langle\lVert\mathbf v_2\rVert^2\rangle}$ | Full bidirectional delta×tau×2×2; plots use the symmetrized trace |
 
-MSD/MSCD 的 10–50 s 原始曲线作描述性拟合 \(A\tau^\alpha\) / \(A\tau^\beta\)。未提供 localization-error / exposure-time 合同，因此没有擅自减去定位误差或声称 motion-blur correction。
+Raw MSD/MSCD curves over 10–50 s are fitted descriptively as $A\tau^\alpha$ / $A\tau^\beta$. No localization-error or exposure-time contract was supplied; localization-error subtraction and motion-blur correction are therefore not assumed.
 
-VAC 的 fBM 参考为
-\[
+The fBM reference for VAC is
+
+$$
 C(\tau)/C(0)=\frac{|\tau-\delta|^\alpha+|\tau+\delta|^\alpha-2|\tau|^\alpha}{2\delta^\alpha}.
-\]
-主参考的 alpha 来自**同小时同位点独立 MSD 拟合**；VAC-only alpha 是诊断。VCC 用数值 Rouse 表插值，固定 `alpha0=0.9`，搜索 communication time 1–1000 s；评价拟合形状与残差后才解释参数。实现细节、对原 MATLAB 缺失端点与归一化处理的修正见 [VCC audit](provenance/frozen_runs/20260824T_v521_oligo_vcc_v4/IMPLEMENTATION_AUDIT.md)。
+$$
 
-主要物理分析使用**指标自身的支持度**：unit×lag 至少 8 个真实端点/速度对；最大 lag 为 `min(50 frames, floor(movie_frames/4))`。不把 T3/T4、53BP1 阳性、运动幅度或 separation 当作全局入选条件。每条轨迹/bundle 先时间平均，再在小时内等权；曲线带是 unit 间 sample SD；拟合区间使用 crop-cluster bootstrap。
+The primary reference alpha comes from an **independent MSD fit for the same hour and site**; VAC-only alpha is diagnostic. VCC uses interpolated numerical Rouse tables, fixes `alpha0=0.9`, and searches communication times from 1–1000 s. Interpret parameters only after assessing fit shape and residuals. See the [VCC implementation audit](provenance/frozen_runs/20260824T_v521_oligo_vcc_v4/IMPLEMENTATION_AUDIT.md) for endpoint and normalization corrections relative to the original MATLAB implementation.
 
-T3/T4 是不同用途的审查视图：T3=`10/10/10` 位点/配对帧、连续配对≥5；T4=`20/20/20`、连续配对≥10、配对 coverage≥0.5。这些 frozen gallery 常数在代码中明示，不由 `config/tiered_qc.yaml` 动态改写；新阈值必须建立新的分析版本。
+Primary physics analysis uses **observable-specific support**: at least 8 observed endpoint/velocity pairs per unit×lag, with maximum lag `min(50 frames, floor(movie_frames/4))`. T3/T4 membership, 53BP1 positivity, motion amplitude, and separation are not global inclusion gates. Each trajectory/bundle is time-averaged first, then units receive equal weight within each hour. Curve bands show sample SD across units; fit intervals use crop-cluster bootstrap.
 
-全部运行/显示配置解释见 [配置参数表](docs/PARAMETERS.md)。改变支持度、拟合窗口、delta 匹配或 bootstrap 设置会改变估计/区间；颜色、字体、播放速率仅改变展示。驱动器明确传入最终 500 nm 和 Bonferroni 口径；历史脚本 `24` 的默认仍是 550 nm，不能仅凭文件名推断。
+T3/T4 are review views for different purposes: T3 requires `10/10/10` site/paired frames and at least 5 contiguous paired frames; T4 requires `20/20/20`, at least 10 contiguous paired frames, and paired coverage ≥0.5. These frozen gallery constants are explicit in code and are not dynamically overwritten by `config/tiered_qc.yaml`. New thresholds require a new analysis version.
 
-## 当前结论边界与复现检查
+See the [configuration parameter guide](docs/PARAMETERS.md) for run and display settings. Support thresholds, fit windows, delta matching, and bootstrap settings change estimates or intervals; colors, fonts, and playback speed affect display only. The driver explicitly applies the final 500 nm threshold and Bonferroni convention. Historical script `24` still defaults to 550 nm, so filenames alone do not identify the active settings.
 
-这里描述持续的物理差异和 QC/观察效应，不把 UMAP/Leiden 或物理曲线命名为离散修复状态。Hour 是 Cas9 delivery 后时间，非确认的切割起点；acquisition 是技术分组。短窗口负 VAC 及 Rouse communication-time 估计本身不证明 fBM 机制、repair kinetics 或因果关系。
+## Interpretation limits and reproducibility checks
+
+These analyses describe continuous physical differences and QC/observation effects. UMAP/Leiden groups and physical curves are not established discrete repair states. Hour denotes time after Cas9 delivery, not a confirmed cleavage onset; acquisition is a technical grouping. Short-window negative VAC and estimated Rouse communication times alone do not establish an fBM mechanism, repair kinetics, or causality.
 
 ```powershell
 & $py -m pytest tests
 ```
 
-当前打包验证及尚未执行的工作见 [VALIDATION](VALIDATION.md)。本次整理不重跑完整研究、不改变科学参数、不移动或删除原始 D/F 数据。
+See [VALIDATION](VALIDATION.md) for completed packaging checks and outstanding validation. Repository preparation did not rerun the full study or change scientific parameters.
